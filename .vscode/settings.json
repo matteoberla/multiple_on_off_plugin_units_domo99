@@ -1,0 +1,16 @@
+{
+  "python.defaultInterpreterPath": "/Users/matteo/esp/esp-matter/.venv/bin/python3",
+  "idf.customExtraVars": {
+    "_PW_ACTUAL_ENVIRONMENT_ROOT": "/Users/matteo/esp/esp-matter/connectedhomeip/connectedhomeip/.environment",
+    "ESP_MATTER_PATH": "/Users/matteo/esp/esp-matter",
+    "ZAP_INSTALL_PATH": "/Users/matteo/esp/esp-matter/connectedhomeip/connectedhomeip/.environment/cipd/packages/zap",
+    "PATH": "/Users/matteo/esp/esp-matter/connectedhomeip/connectedhomeip/.environment/cipd/packages/pigweed:/Users/matteo/esp/esp-matter/connectedhomeip/connectedhomeip/out/host",
+    "IDF_TARGET": "esp32c6"
+  },
+  "idf.openOcdConfigs": [
+    "board/esp32c6-builtin.cfg"
+  ],
+  "idf.port": "/dev/tty.usbmodem11101",
+  "idf.flashType": "JTAG",
+  "idf.currentSetup": "/Users/matteo/.espressif/v5.5.3/esp-idf"
+}

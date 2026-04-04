@@ -1,0 +1,37 @@
+menu "Plugin manager"
+    config USER_BUTTON
+        bool "Use custom GPIO for factory reset button"
+        default n
+
+    config USER_BUTTON_GPIO
+        int "GPIO pin number for factory reset button"
+        default 0
+        depends on USER_BUTTON
+
+    config USER_BUTTON_LEVEL
+        int "GPIO level when factory reset button is active"
+        default 0
+        depends on USER_BUTTON
+    
+    config NUM_VIRTUAL_PLUGS
+        int "Number of virtual plugs"
+        default 20
+        range 1 50
+        help
+            Set how many plugin units to create. 
+            NOTE: If set > 15, you must increase 'Max dynamic endpoint count' 
+            in menuconfig (Component config -> ESP Matter) to at least 51.
+
+    config SERIAL_UART_TX_PIN
+        int "GPIO pin for UART TX (external)"
+        default 4
+        help
+           GPIO number used for UART1 TX (Default 4)
+
+    config SERIAL_UART_RX_PIN
+        int "GPIO pin for UART RX (external)"
+        default 5
+        help
+           GPIO number used for UART1 RX (Default 5)
+
+endmenu
