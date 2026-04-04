@@ -1,0 +1,16 @@
+key,type,encoding,value
+chip-factory,namespace,,
+discriminator,data,u32,1679
+iteration-count,data,u32,10000
+salt,data,string,ZOSROX1xQaoMNt7cZKUhkGsR6IW1jtzRmk+MINFGGfw=
+vendor-id,data,u32,65521
+vendor-name,data,string,EM
+product-id,data,u32,32768
+product-name,data,string,Domo99
+serial-num,data,string,c3cf34230bf5c4ca6794484ae1eb7a97
+dac-cert,file,binary,/Users/matteo/Desktop/Progetti/matter-domotica/multiple_on_off_plugin_units_domo99/mfg_complete/fff1_8000/d0ce6abb-7281-4b39-9241-44fc7797aca7/internal/DAC_cert.der
+dac-key,file,binary,/Users/matteo/Desktop/Progetti/matter-domotica/multiple_on_off_plugin_units_domo99/mfg_complete/fff1_8000/d0ce6abb-7281-4b39-9241-44fc7797aca7/internal/DAC_private_key.bin
+dac-pub-key,file,binary,/Users/matteo/Desktop/Progetti/matter-domotica/multiple_on_off_plugin_units_domo99/mfg_complete/fff1_8000/d0ce6abb-7281-4b39-9241-44fc7797aca7/internal/DAC_public_key.bin
+pai-cert,file,binary,/Users/matteo/Desktop/Progetti/matter-domotica/multiple_on_off_plugin_units_domo99/mfg_complete/fff1_8000/staging/pai_cert.der
+verifier,data,string,Qzw1JceNtm4ySOK1ezOYj5kTDADdeMtoy7v4Yq2JupEEMQEPmr+PJKWI3ZNoen3lIV3yalWAeANHDSztCHyAL3EDYTm/ksWzjiHIkKaEMkCQhOTaDeU0en5HTQoDyF7lBQ==
+cert-dclrn,file,binary,../../../../esp/esp-matter/examples/light/main/certification_declaration/certification_declaration.der

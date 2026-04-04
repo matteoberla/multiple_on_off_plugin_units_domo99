@@ -168,17 +168,23 @@ extern "C" void app_main() {
   ABORT_APP_ON_FAILURE(node != nullptr,
                        ESP_LOGE(TAG, "Failed to create Matter node"));
 
+  /* Custom product and vendor info will be provided via the factory data partition. 
+   * See the instructions on using mfg_tool.py to generate the 'fctry' partition. */
+
+
   /* Initialize mapping list */
   for (int i = 0; i < 51; i++) {
     plugin_unit_list[i].endpoint_id = 0xFFFF;
     plugin_unit_list[i].index = i;
   }
 
-  /* Create plugs up to 20 */
-  int plugs_count = 50;
+  /* Create plugs 1-20 */
+  int plugs_count = 20;
   for (int i = 0; i < plugs_count; i++) {
     int idx = i + 1;
     plug_configs[idx].index = idx;
+    // Indices 11-20 are monostable
+    plug_configs[idx].is_monostable = (idx > 10);
 
     on_off_plug_in_unit::config_t plugin_unit_config;
     plugin_unit_config.on_off.on_off = false;
@@ -192,14 +198,14 @@ extern "C" void app_main() {
       plugin_unit_list[idx].endpoint_id = endpoint_id;
       plugin_unit_list[idx].index = idx;
       configure_plugs++;
-      ESP_LOGI(TAG, "Plug %d (index %d) created with endpoint_id %d", i + 1,
-               idx, endpoint_id);
+      ESP_LOGI(TAG, "Plug %d (index %d, monostable %d) created with endpoint_id %d", i + 1,
+               idx, plug_configs[idx].is_monostable, endpoint_id);
     } else {
       ESP_LOGE(TAG,
                "Failed to create endpoint for plug %d. Check Matter endpoint "
-               "limits (default=16 in menuconfig).",
+               "limits.",
                idx);
-      break; // Stop creating to avoid further errors
+      break; 
     }
   }
 

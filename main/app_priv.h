@@ -20,6 +20,7 @@
 // Instead of a GPIO pin, it stores the plug index (1-20).
 struct gpio_plug {
   int index;
+  bool is_monostable;
 };
 
 struct plugin_endpoint {

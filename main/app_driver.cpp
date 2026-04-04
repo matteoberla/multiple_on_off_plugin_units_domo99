@@ -101,19 +101,32 @@ static void serial_rx_task(void *arg) {
       char *p = NULL;
       bool new_state = false;
       bool found = false;
+      bool is_monostable_cmd = false;
 
       if ((p = strstr(buf, "on,")) != NULL) {
         new_state = true;
         found = true;
+        is_monostable_cmd = false;
       } else if ((p = strstr(buf, "of,")) != NULL) {
         new_state = false;
         found = true;
+        is_monostable_cmd = false;
+      } else if ((p = strstr(buf, "za,")) != NULL) {
+        new_state = true;
+        found = true;
+        is_monostable_cmd = true;
+      } else if ((p = strstr(buf, "zs,")) != NULL) {
+        new_state = false;
+        found = true;
+        is_monostable_cmd = true;
       }
 
       if (found) {
-        int idx = atoi(p + 3);
-        ESP_LOGI(TAG, "Serial RX Task: Parsed Index %d, New State: %s", idx,
-                 new_state ? "ON" : "OFF");
+        int raw_idx = atoi(p + 3);
+        int idx = is_monostable_cmd ? (raw_idx + 10) : raw_idx;
+
+        ESP_LOGI(TAG, "Serial RX Task: Parsed Raw Index %d, Final Index %d, New State: %s", 
+                 raw_idx, idx, new_state ? "ON" : "OFF");
 
         if (idx >= 1 && idx <= 50) {
           uint16_t ep_id = plugin_unit_list[idx].endpoint_id;
@@ -165,7 +178,7 @@ esp_err_t app_driver_attribute_update(app_driver_handle_t driver_handle,
                                       uint32_t attribute_id,
                                       esp_matter_attr_val_t *val) {
   if (cluster_id == OnOff::Id && attribute_id == OnOff::Attributes::OnOff::Id) {
-    struct gpio_plug *plug = (struct gpio_plug *)driver_handle;
+    gpio_plug *plug = (gpio_plug *)driver_handle;
     if (plug && plug->index >= 1 && plug->index <= 50) {
       int idx = plug->index;
       bool new_value = val->val.b;
@@ -179,11 +192,22 @@ esp_err_t app_driver_attribute_update(app_driver_handle_t driver_handle,
 
       plug_states[idx] = new_value;
 
-      char cmd[16];
-      snprintf(cmd, sizeof(cmd), "acc,%02d@", idx);
-      uart_write_bytes(UART_PORT, cmd, strlen(cmd));
-      ESP_LOGI(TAG, "Serial TX: %s (EP: %d, Index: %d, State: %s)", cmd,
-               endpoint_id, idx, new_value ? "ON" : "OFF");
+      char cmd[32];
+      if (plug->is_monostable) {
+        // For monostable: zcc,XX@ (no terminator)
+        if (new_value) {
+          snprintf(cmd, sizeof(cmd), "zcc,%02d@", idx - 10);
+          uart_write_bytes(UART_PORT, cmd, strlen(cmd));
+          ESP_LOGI(TAG, "Serial TX Monostable: %s (EP: %d, Index: %d)", cmd,
+                   endpoint_id, idx);
+        }
+      } else {
+        // For bistable: acc,XX@ (no terminator)
+        snprintf(cmd, sizeof(cmd), "acc,%02d@", idx);
+        uart_write_bytes(UART_PORT, cmd, strlen(cmd));
+        ESP_LOGI(TAG, "Serial TX Bistable: %s (EP: %d, Index: %d, State: %s)", cmd,
+                 endpoint_id, idx, new_value ? "ON" : "OFF");
+      }
     }
   }
   return ESP_OK;

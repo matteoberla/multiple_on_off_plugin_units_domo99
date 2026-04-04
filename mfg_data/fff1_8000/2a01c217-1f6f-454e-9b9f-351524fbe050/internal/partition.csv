@@ -1,0 +1,13 @@
+key,type,encoding,value
+chip-factory,namespace,,
+discriminator,data,u32,1679
+iteration-count,data,u32,10000
+salt,data,string,AF1RCDohwN5aIoiR4FeDEsk9h+6adshV+CXuFS954Bw=
+vendor-id,data,u32,65521
+vendor-name,data,string,EM
+product-id,data,u32,32768
+product-name,data,string,Domo99
+hardware-ver,data,u32,1
+hw-ver-str,data,string,v1.0
+serial-num,data,string,7d16b257af2c127851bd148de57cc1c2
+verifier,data,string,vll2XqlVn6BaKhABOpWdzia8E/1ZPhDBBg7oPOO2PZQES+jOeUK1ShOqcu6vq8YAuCwOdQfqI3HzWPmj5W7zpwy6cjLyzTSDe3Bgdi6k47K/+IyHA6NR5tzDtekVF8KwYg==

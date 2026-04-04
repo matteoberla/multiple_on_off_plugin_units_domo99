@@ -1,0 +1,12 @@
+chip-factory,namespace,
+discriminator,data,u32
+iteration-count,data,u32
+salt,data,string
+vendor-id,data,u32
+vendor-name,data,string
+product-id,data,u32
+product-name,data,string
+hardware-ver,data,u32
+hw-ver-str,data,string
+serial-num,data,string
+verifier,data,string
