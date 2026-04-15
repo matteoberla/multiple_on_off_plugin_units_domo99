@@ -168,14 +168,36 @@ extern "C" void app_main() {
   ABORT_APP_ON_FAILURE(node != nullptr,
                        ESP_LOGE(TAG, "Failed to create Matter node"));
 
-  /* Custom product and vendor info will be provided via the factory data partition. 
-   * See the instructions on using mfg_tool.py to generate the 'fctry' partition. */
+  /* Impostazione Nome del Bridge (Endpoint 0) */
+  endpoint_t *root_node = endpoint::get(node, 0);
+  cluster_t *basic_info_0 = cluster::get(root_node, BasicInformation::Id);
+  if (basic_info_0) {
+    cluster::basic_information::attribute::create_node_label(
+        basic_info_0, (char *)"Domo99 Bridge", 13);
+  }
 
+  /* Custom product and vendor info will be provided via the factory data
+   * partition. See the instructions on using mfg_tool.py to generate the
+   * 'fctry' partition. */
 
   /* Initialize mapping list */
   for (int i = 0; i < 51; i++) {
     plugin_unit_list[i].endpoint_id = 0xFFFF;
     plugin_unit_list[i].index = i;
+  }
+
+  /* Toggle for Aggregator endpoint structure */
+  bool use_endpoint_aggregator = true;
+  endpoint_t *aggregator = NULL;
+
+  if (use_endpoint_aggregator) {
+    /* Create an Aggregator endpoint (Bridge) to allow unique naming in Apple
+     * Home */
+    endpoint::aggregator::config_t aggregator_config;
+    aggregator = endpoint::aggregator::create(node, &aggregator_config,
+                                              ENDPOINT_FLAG_NONE, NULL);
+    ABORT_APP_ON_FAILURE(aggregator != nullptr,
+                         ESP_LOGE(TAG, "Failed to create Aggregator endpoint"));
   }
 
   /* Create plugs 1-20 */
@@ -195,17 +217,58 @@ extern "C" void app_main() {
 
     if (endpoint) {
       uint16_t endpoint_id = endpoint::get_id(endpoint);
+
+      /* Add unique name (Node Label) and Serial */
+      static char ep_names[51][16];
+      static char ep_serials[51][16];
+
+      if (plug_configs[idx].is_monostable) {
+        snprintf(ep_names[idx], sizeof(ep_names[idx]), "M%02d", idx);
+        snprintf(ep_serials[idx], sizeof(ep_serials[idx]), "D99-M%02d", idx);
+      } else {
+        snprintf(ep_names[idx], sizeof(ep_names[idx]), "B%02d", idx);
+        snprintf(ep_serials[idx], sizeof(ep_serials[idx]), "D99-B%02d", idx);
+      }
+
+      /* 1. Definiamo subito l'endpoint come Bridged Node (0x0013) */
+      if (use_endpoint_aggregator && aggregator) {
+        endpoint::add_device_type(endpoint, 0x0013, 1);
+        endpoint::set_parent_endpoint(endpoint, aggregator);
+      }
+
+      /* 2. Creazione Cluster Metadati con funzioni helper specifiche */
+      cluster_t *bridged_cluster =
+          cluster::bridged_device_basic_information::create(
+              endpoint, NULL, CLUSTER_FLAG_SERVER);
+      if (bridged_cluster) {
+        using namespace cluster::bridged_device_basic_information::attribute;
+
+        create_vendor_name(bridged_cluster, (char *)"ElettronicaMimmo", 6);
+        create_product_name(bridged_cluster, (char *)"Domo99", 8);
+        create_node_label(bridged_cluster, ep_names[idx],
+                          strlen(ep_names[idx]));
+        create_serial_number(bridged_cluster, ep_serials[idx],
+                             strlen(ep_serials[idx]));
+        create_unique_id(bridged_cluster, ep_serials[idx],
+                         strlen(ep_serials[idx]));
+        create_reachable(bridged_cluster, true);
+
+        ESP_LOGI(TAG, "Endpoint %d (Plug %d) configurato come %s (Serial: %s)",
+                 endpoint_id, idx, ep_names[idx], ep_serials[idx]);
+      }
+
       plugin_unit_list[idx].endpoint_id = endpoint_id;
       plugin_unit_list[idx].index = idx;
       configure_plugs++;
-      ESP_LOGI(TAG, "Plug %d (index %d, monostable %d) created with endpoint_id %d", i + 1,
-               idx, plug_configs[idx].is_monostable, endpoint_id);
+      ESP_LOGI(TAG,
+               "Plug %d (index %d, monostable %d) created with endpoint_id %d",
+               i + 1, idx, plug_configs[idx].is_monostable, endpoint_id);
     } else {
       ESP_LOGE(TAG,
                "Failed to create endpoint for plug %d. Check Matter endpoint "
                "limits.",
                idx);
-      break; 
+      break;
     }
   }
 

@@ -1,0 +1,17 @@
+key,type,encoding,value
+chip-factory,namespace,,
+discriminator,data,u32,1679
+iteration-count,data,u32,10000
+salt,data,string,QQgmT09/VJTIixuIFvDKgO+VeuUuXZvekq8NVf+4SZg=
+vendor-id,data,u32,65521
+vendor-name,data,string,Elettronica Mimmo
+product-id,data,u32,32768
+product-name,data,string,Domo99
+serial-num,data,string,231b90053fcf8ed1d3c3360f4f41c4d5
+dac-cert,file,binary,/Users/matteo/Desktop/Progetti/matter-domotica/multiple_on_off_plugin_units_domo99/mfg_output/fff1_8000/bc4745bc-cf76-4b49-8f8c-3340a06103af/internal/DAC_cert.der
+dac-key,file,binary,/Users/matteo/Desktop/Progetti/matter-domotica/multiple_on_off_plugin_units_domo99/mfg_output/fff1_8000/bc4745bc-cf76-4b49-8f8c-3340a06103af/internal/DAC_private_key.bin
+dac-pub-key,file,binary,/Users/matteo/Desktop/Progetti/matter-domotica/multiple_on_off_plugin_units_domo99/mfg_output/fff1_8000/bc4745bc-cf76-4b49-8f8c-3340a06103af/internal/DAC_public_key.bin
+pai-cert,file,binary,/Users/matteo/Desktop/Progetti/matter-domotica/multiple_on_off_plugin_units_domo99/mfg_output/fff1_8000/staging/pai_cert.der
+verifier,data,string,AtxWXftVC1tAut3Ed5BwSri4kxfPdfXK16USVZr5chUEqa+c5jT9+++ROUDkkymZHpYABGVjFz/lF+Y2A1IXwkZeJZRyiZjoBIAvQUTrQe6Ktqd3l7swZyb57N/OhcZeFQ==
+cert-dclrn,file,binary,../../../../esp/esp-matter/examples/light/main/certification_declaration/certification_declaration.der
+product-label,data,string,Domo99

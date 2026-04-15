@@ -44,6 +44,7 @@ Per cambiare il nome che appare nell'app Casa (es: "Elettronica Mimmo" invece di
 I nomi vengono inseriti nel binario factory tramite questi due flag del comando di generazione:
 *   `--vendor-name "Tuo Nome Produttore"`
 *   `--product-name "Tuo Nome Prodotto"`
+*   `--product-label "Versione Prodotto"` (Opzionale)
 
 ### B. Collegamento nel Firmware
 Affinché il firmware non usi i nomi di default, in `sdkconfig` deve essere attivo:
@@ -72,6 +73,7 @@ python3 mfg_tool.py \
   --product-id 0x8000 \
   --vendor-name "Elettronica Mimmo" \
   --product-name "Domo99" \
+  --product-label "Domo99" \
   --discriminator 1679 \
   --passcode 92226036 \
   --outdir mfg_output \
