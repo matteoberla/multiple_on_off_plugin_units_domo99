@@ -28,8 +28,14 @@ struct plugin_endpoint {
   int index;
 };
 
-// Size for index 0 to 20
-extern plugin_endpoint plugin_unit_list[51];
+// Configurazione Manuale
+#define NUM_BISTABLE_PLUGS 50
+#define NUM_MONOSTABLE_PLUGS 50
+#define TOTAL_PLUG_COUNT (NUM_BISTABLE_PLUGS + NUM_MONOSTABLE_PLUGS)
+
+
+// Size for index 0 to TOTAL_PLUG_COUNT
+extern plugin_endpoint plugin_unit_list[TOTAL_PLUG_COUNT + 1];
 extern uint16_t configure_plugs;
 
 typedef void *app_driver_handle_t;

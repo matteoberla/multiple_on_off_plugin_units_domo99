@@ -29,8 +29,8 @@ using namespace esp_matter;
 
 static const char *TAG = "app_driver";
 
-// State array tracking OnOff status locally for 21 plugs (1-20)
-static bool plug_states[51] = {false};
+// State array tracking OnOff status locally for TOTAL_PLUG_COUNT + 1 plugs
+static bool plug_states[TOTAL_PLUG_COUNT + 1] = {false};
 
 // UART used for serial commands - using UART1 to separate from console logs
 #define UART_PORT UART_NUM_1
@@ -123,12 +123,12 @@ static void serial_rx_task(void *arg) {
 
       if (found) {
         int raw_idx = atoi(p + 3);
-        int idx = is_monostable_cmd ? (raw_idx + 10) : raw_idx;
+        int idx = is_monostable_cmd ? (raw_idx + NUM_BISTABLE_PLUGS) : raw_idx;
 
         ESP_LOGI(TAG, "Serial RX Task: Parsed Raw Index %d, Final Index %d, New State: %s", 
                  raw_idx, idx, new_state ? "ON" : "OFF");
 
-        if (idx >= 1 && idx <= 50) {
+        if (idx >= 1 && idx <= TOTAL_PLUG_COUNT) {
           uint16_t ep_id = plugin_unit_list[idx].endpoint_id;
           if (ep_id != 0xFFFF) {
             if (plug_states[idx] != new_state) {
@@ -179,7 +179,7 @@ esp_err_t app_driver_attribute_update(app_driver_handle_t driver_handle,
                                       esp_matter_attr_val_t *val) {
   if (cluster_id == OnOff::Id && attribute_id == OnOff::Attributes::OnOff::Id) {
     gpio_plug *plug = (gpio_plug *)driver_handle;
-    if (plug && plug->index >= 1 && plug->index <= 50) {
+    if (plug && plug->index >= 1 && plug->index <= TOTAL_PLUG_COUNT) {
       int idx = plug->index;
       bool new_value = val->val.b;
 
@@ -196,7 +196,7 @@ esp_err_t app_driver_attribute_update(app_driver_handle_t driver_handle,
       if (plug->is_monostable) {
         // For monostable: zcc,XX@ (no terminator)
         if (new_value) {
-          snprintf(cmd, sizeof(cmd), "zcc,%02d@", idx - 10);
+          snprintf(cmd, sizeof(cmd), "zcc,%02d@", idx - NUM_BISTABLE_PLUGS);
           uart_write_bytes(UART_PORT, cmd, strlen(cmd));
           ESP_LOGI(TAG, "Serial TX Monostable: %s (EP: %d, Index: %d)", cmd,
                    endpoint_id, idx);

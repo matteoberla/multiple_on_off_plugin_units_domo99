@@ -13,15 +13,6 @@ menu "Plugin manager"
         default 0
         depends on USER_BUTTON
     
-    config NUM_VIRTUAL_PLUGS
-        int "Number of virtual plugs"
-        default 20
-        range 1 50
-        help
-            Set how many plugin units to create. 
-            NOTE: If set > 15, you must increase 'Max dynamic endpoint count' 
-            in menuconfig (Component config -> ESP Matter) to at least 51.
-
     config SERIAL_UART_TX_PIN
         int "GPIO pin for UART TX (external)"
         default 4

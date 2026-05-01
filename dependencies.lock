@@ -267,5 +267,5 @@ direct_dependencies:
 - espressif/mdns
 - espressif/mqtt
 manifest_hash: 1ac5e374fa27d81f8773f9b377d5c5b2e5704326df0eb3ca4911e7735aea3112
-target: esp32c6
+target: esp32s3
 version: 2.0.0
