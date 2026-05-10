@@ -251,34 +251,28 @@ extern "C" void app_main() {
         snprintf(ep_serials[idx], sizeof(ep_serials[idx]), "D99-B%02d", idx);
       }
 
-      /* 1. Definiamo subito l'endpoint come Bridged Node (0x0013) */
+      /* 1. Definiamo l'endpoint come Bridged Node (0x0013) solo se l'aggregator è attivo */
       if (use_endpoint_aggregator && aggregator) {
         endpoint::add_device_type(endpoint, 0x0013, 1);
         endpoint::set_parent_endpoint(endpoint, aggregator);
+
+        /* 2. Creazione Cluster Metadati - Solo per nodi bridged */
+        cluster::bridged_device_basic_information::config_t bridged_config;
+        cluster_t *bridged_cluster =
+            cluster::bridged_device_basic_information::create(
+                endpoint, &bridged_config, CLUSTER_FLAG_SERVER);
+        
+        if (bridged_cluster) {
+          cluster::bridged_device_basic_information::attribute::create_node_label(bridged_cluster, ep_names[idx], strlen(ep_names[idx]));
+          cluster::bridged_device_basic_information::attribute::create_vendor_name(bridged_cluster, (char*)"Elettronica Mimmo", 17);
+          cluster::bridged_device_basic_information::attribute::create_product_name(bridged_cluster, (char*)"Domo99", 6);
+          cluster::bridged_device_basic_information::attribute::create_serial_number(bridged_cluster, ep_serials[idx], strlen(ep_serials[idx]));
+          cluster::bridged_device_basic_information::attribute::create_reachable(bridged_cluster, true);
+        }
       }
 
-      /* 2. Creazione Cluster Metadati - Usiamo la config di default che è più stabile */
-      cluster::bridged_device_basic_information::config_t bridged_config;
-      cluster_t *bridged_cluster =
-          cluster::bridged_device_basic_information::create(
-              endpoint, &bridged_config, CLUSTER_FLAG_SERVER);
-      
-      if (bridged_cluster) {
-        // Impostiamo i valori per il cluster Bridged Device Basic Information
-        esp_matter_attr_val_t val_label = esp_matter_char_str(ep_names[idx], strlen(ep_names[idx]));
-        esp_matter_attr_val_t val_serial = esp_matter_char_str(ep_serials[idx], strlen(ep_serials[idx]));
-        esp_matter_attr_val_t val_vendor = esp_matter_char_str((char*)"Elettronica Mimmo", 17);
-        esp_matter_attr_val_t val_product = esp_matter_char_str((char*)"Domo99", 6);
-
-        cluster::bridged_device_basic_information::attribute::create_node_label(bridged_cluster, ep_names[idx], strlen(ep_names[idx]));
-        cluster::bridged_device_basic_information::attribute::create_vendor_name(bridged_cluster, (char*)"Elettronica Mimmo", 17);
-        cluster::bridged_device_basic_information::attribute::create_product_name(bridged_cluster, (char*)"Domo99", 6);
-        cluster::bridged_device_basic_information::attribute::create_serial_number(bridged_cluster, ep_serials[idx], strlen(ep_serials[idx]));
-        cluster::bridged_device_basic_information::attribute::create_reachable(bridged_cluster, true);
-
-        ESP_LOGI(TAG, "Endpoint %d (Plug %d) configurato (Label: %s, Serial: %s)",
-                 endpoint_id, idx, ep_names[idx], ep_serials[idx]);
-      }
+      ESP_LOGI(TAG, "Endpoint %d (Plug %d) configurato (Label: %s, Serial: %s)",
+               endpoint_id, idx, ep_names[idx], ep_serials[idx]);
 
       plugin_unit_list[idx].endpoint_id = endpoint_id;
 
