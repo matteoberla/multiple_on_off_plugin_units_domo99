@@ -1,0 +1,899 @@
+I (18570) chip[DIS]: Updating services using commissioning mode 0
+I (18570) chip[DIS]: CHIP minimal mDNS started advertising.
+I (18570) chip[SVR]: Device completed Rendezvous process
+I (18580) app_main: Commissioning session started
+I (18580) app_main: Commissioning window closed
+I (18590) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (18590) CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+I (18610) chip[EM]: >>> [E:10391r S:2202 M:152027333] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0001:02 (IM:ReadRequest) (B:136)
+E (18620) chip[DMG]: Fail to retrieve data, roll back and encode status on clusterId: 0x0000_0030, attributeId: 0x0000_000Cerr = 586
+I (18640) chip[DL]: NVS set: chip-config/reg-location = 0 (0x0)
+I (18640) chip[EM]: <<< [E:10391r S:2202 M:192975603] (S) Msg TX from 0000000000000000 to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:05 (IM:ReportData) (B:253)
+I (18650) NimBLE: GATT procedure initiated: indicate; 
+I (18650) NimBLE: att_handle=18
+
+I (18710) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (18710) NimBLE: GATT procedure initiated: indicate; 
+I (18710) NimBLE: att_handle=18
+
+I (18770) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (18770) CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+I (18790) chip[EM]: >>> [E:10392r S:2202 M:152027334] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0001:02 (IM:ReadRequest) (B:128)
+E (18800) chip[DMG]: Read request on unknown cluster - no data version available
+E (18800) chip[DMG]: Fail to retrieve data, roll back and encode status on clusterId: 0x0000_0046, attributeId: 0x0000_0002err = 5c3
+E (18820) chip[DMG]: Read request on unknown cluster - no data version available
+E (18820) chip[DMG]: Fail to retrieve data, roll back and encode status on clusterId: 0x0000_0046, attributeId: 0x0000_0001err = 5c3
+E (18830) chip[DMG]: Read request on unknown cluster - no data version available
+E (18840) chip[DMG]: Fail to retrieve data, roll back and encode status on clusterId: 0x0000_0046, attributeId: 0x0000_0000err = 5c3
+E (18860) chip[DMG]: Read request on unknown cluster - no data version available
+E (18860) chip[DMG]: Fail to retrieve data, roll back and encode status on clusterId: 0x0000_0046, attributeId: 0x0000_0007err = 5c3
+E (18870) chip[DMG]: Read request on unknown cluster - no data version available
+E (18880) chip[DMG]: Fail to retrieve data, roll back and encode status on clusterId: 0x0000_0046, attributeId: 0x0000_0006err = 5c3
+I (18900) chip[EM]: <<< [E:10392r S:2202 M:192975604] (S) Msg TX from 0000000000000000 to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:05 (IM:ReportData) (B:396)
+I (18910) NimBLE: GATT procedure initiated: indicate; 
+I (18910) NimBLE: att_handle=18
+
+I (18950) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (18950) NimBLE: GATT procedure initiated: indicate; 
+I (18950) NimBLE: att_handle=18
+
+I (19010) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (19010) CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+I (19030) chip[EM]: >>> [E:10393r S:2202 M:152027335] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0001:02 (IM:ReadRequest) (B:81)
+E (19040) chip[DMG]: Read request on unknown cluster - no data version available
+E (19040) chip[DMG]: Fail to retrieve data, roll back and encode status on clusterId: 0x1349_FC00, attributeId: 0x0000_0001err = 5c3
+I (19060) chip[EM]: <<< [E:10393r S:2202 M:192975605] (S) Msg TX from 0000000000000000 to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:05 (IM:ReportData) (B:279)
+I (19070) NimBLE: GATT procedure initiated: indicate; 
+I (19070) NimBLE: att_handle=18
+
+I (19130) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (19130) NimBLE: GATT procedure initiated: indicate; 
+I (19130) NimBLE: att_handle=18
+
+I (19220) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (19220) CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+I (19230) chip[EM]: >>> [E:10394r S:2202 M:152027336] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0001:08 (IM:InvokeCommandRequest) (B:65)
+I (19250) chip[FS]: GeneralCommissioning: Received ArmFailSafe (60s)
+I (19250) chip[EM]: <<< [E:10394r S:2202 M:192975606] (S) Msg TX from 0000000000000000 to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:09 (IM:InvokeCommandResponse) (B:66)
+I (19270) NimBLE: GATT procedure initiated: indicate; 
+I (19270) NimBLE: att_handle=18
+
+I (19310) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (19310) CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+I (19320) chip[EM]: >>> [E:10395r S:2202 M:152027337] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0001:08 (IM:InvokeCommandRequest) (B:70)
+I (19340) chip[DL]: NVS set: chip-config/reg-location = 0 (0x0)
+I (19350) chip[DL]: NVS set: chip-config/country-code = "IT"
+I (19350) chip[EM]: <<< [E:10395r S:2202 M:192975607] (S) Msg TX from 0000000000000000 to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:09 (IM:InvokeCommandResponse) (B:66)
+I (19360) NimBLE: GATT procedure initiated: indicate; 
+I (19360) NimBLE: att_handle=18
+
+I (19430) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (19430) CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+I (19440) chip[EM]: >>> [E:10396r S:2202 M:152027338] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0001:08 (IM:InvokeCommandRequest) (B:62)
+I (19460) chip[ZCL]: OpCreds: Certificate Chain request received for PAI
+I (19460) chip[EM]: <<< [E:10396r S:2202 M:192975608] (S) Msg TX from 0000000000000000 to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:09 (IM:InvokeCommandResponse) (B:527)
+I (19480) NimBLE: GATT procedure initiated: indicate; 
+I (19480) NimBLE: att_handle=18
+
+I (19520) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (19520) NimBLE: GATT procedure initiated: indicate; 
+I (19520) NimBLE: att_handle=18
+
+I (19580) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (19580) NimBLE: GATT procedure initiated: indicate; 
+I (19580) NimBLE: att_handle=18
+
+I (19640) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (19640) CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+I (19650) chip[EM]: >>> [E:10397r S:2202 M:152027339] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0001:08 (IM:InvokeCommandRequest) (B:62)
+I (19670) chip[ZCL]: OpCreds: Certificate Chain request received for DAC
+I (19680) chip[EM]: <<< [E:10397r S:2202 M:192975609] (S) Msg TX from 0000000000000000 to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:09 (IM:InvokeCommandResponse) (B:557)
+I (19690) NimBLE: GATT procedure initiated: indicate; 
+I (19690) NimBLE: att_handle=18
+
+I (19730) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (19730) NimBLE: GATT procedure initiated: indicate; 
+I (19730) NimBLE: att_handle=18
+
+I (19790) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (19790) NimBLE: GATT procedure initiated: indicate; 
+I (19790) NimBLE: att_handle=18
+
+I (19850) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (19850) CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+I (19870) chip[EM]: >>> [E:10398r S:2202 M:152027340] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0001:08 (IM:InvokeCommandRequest) (B:94)
+I (19880) chip[ZCL]: OpCreds: Received an AttestationRequest command
+I (20050) chip[ZCL]: OpCreds: AttestationRequest successful.
+I (20050) chip[EM]: <<< [E:10398r S:2202 M:192975610] (S) Msg TX from 0000000000000000 to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:09 (IM:InvokeCommandResponse) (B:407)
+I (20060) NimBLE: GATT procedure initiated: indicate; 
+I (20070) NimBLE: att_handle=18
+
+I (20120) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (20120) NimBLE: GATT procedure initiated: indicate; 
+I (20120) NimBLE: att_handle=18
+
+I (20180) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (20180) CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+I (20190) chip[EM]: >>> [E:10399r S:2202 M:152027341] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0001:08 (IM:InvokeCommandRequest) (B:65)
+I (20210) chip[FS]: GeneralCommissioning: Received ArmFailSafe (60s)
+I (20210) chip[EM]: <<< [E:10399r S:2202 M:192975611] (S) Msg TX from 0000000000000000 to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:09 (IM:InvokeCommandResponse) (B:66)
+I (20230) NimBLE: GATT procedure initiated: indicate; 
+I (20230) NimBLE: att_handle=18
+
+I (20300) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (21980) CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+I (21980) chip[EM]: >>> [E:10400r S:2202 M:152027342] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0001:08 (IM:InvokeCommandRequest) (B:94)
+I (22000) chip[ZCL]: OpCreds: Received a CSRRequest command
+I (22320) chip[ZCL]: OpCreds: AllocatePendingOperationalKey succeeded
+I (22480) chip[ZCL]: OpCreds: CSRRequest successful.
+I (22490) chip[EM]: <<< [E:10400r S:2202 M:192975612] (S) Msg TX from 0000000000000000 to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:09 (IM:InvokeCommandResponse) (B:372)
+I (22500) NimBLE: GATT procedure initiated: indicate; 
+I (22500) NimBLE: att_handle=18
+
+I (22550) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (22550) NimBLE: GATT procedure initiated: indicate; 
+I (22550) NimBLE: att_handle=18
+
+I (22610) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (22610) CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+I (22670) CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+I (22670) chip[EM]: >>> [E:10401r S:2202 M:152027343] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0001:08 (IM:InvokeCommandRequest) (B:316)
+I (22690) chip[ZCL]: OpCreds: Received an AddTrustedRootCertificate command
+I (23010) chip[ZCL]: OpCreds: AddTrustedRootCertificate successful.
+I (23020) chip[EM]: <<< [E:10401r S:2202 M:192975613] (S) Msg TX from 0000000000000000 to 0:FFFFFFFB00000000 [0000] [BLE] --- Type 0001:09 (IM:InvokeCommandResponse) (B:63)
+I (23030) NimBLE: GATT procedure initiated: indicate; 
+I (23030) NimBLE: att_handle=18
+
+I (23090) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (23090) CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+I (23150) CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+I (23150) chip[EM]: >>> [E:10402r S:2202 M:152027344] (S) Msg RX from 0:FFFFFFFB00000000 [0000] to 0000000000000000 --- Type 0001:08 (IM:InvokeCommandRequest) (B:352)
+I (23170) chip[ZCL]: OpCreds: Received an AddNOC command
+I (23170) chip[FP]: Validating NOC chain
+I (23500) chip[FP]: NOC chain validation successful
+I (23500) chip[FP]: Added new fabric at index: 0x1
+I (23500) chip[FP]: Assigned compressed fabric ID: 0x7CBC3FECC26E2ED0, node ID: 0x0000000028F450B9
+I (23510) chip[TS]: Last Known Good Time: 2023-10-14T01:16:48
+I (23520) chip[TS]: New proposed Last Known Good Time: 2026-05-23T09:13:11
+I (23530) chip[TS]: Updating pending Last Known Good Time to 2026-05-23T09:13:11
+I (23540) chip[ZCL]: OpCreds: ACL entry created for Fabric index 0x1 CASE Admin Subject 0x000000009C8A83E1
+I (23540) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (23550) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (23560) chip[DIS]: mDNS service published: _matter._tcp
+I (23560) chip[ZCL]: OpCreds: successfully created fabric index 0x1 via AddNOC
+I (23580) chip[EM]: <<< [E:10402r S:2202 M:192975614] (S) Msg TX from 0000000000000000 to 1:FFFFFFFB00000000 [2ED0] [BLE] --- Type 0001:09 (IM:InvokeCommandResponse) (B:66)
+I (23590) NimBLE: GATT procedure initiated: indicate; 
+I (23590) NimBLE: att_handle=18
+
+I (23590) app_main: Fabric is updated
+I (23630) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (23630) CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+I (23650) chip[EM]: >>> [E:10403r S:2202 M:152027345] (S) Msg RX from 1:FFFFFFFB00000000 [2ED0] to 0000000000000000 --- Type 0001:08 (IM:InvokeCommandRequest) (B:62)
+I (26140) NimBLE: GATT procedure initiated: indicate; 
+I (26140) NimBLE: att_handle=18
+
+I (26210) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (28470) chip[DL]: Posting ESPSystemEvent: Wifi Event with eventId : 1
+I (28470) chip[DL]: WIFI_EVENT_SCAN_DONE
+I (28480) chip[EM]: <<< [E:10403r S:2202 M:192975615] (S) Msg TX from 0000000000000000 to 1:FFFFFFFB00000000 [2ED0] [BLE] --- Type 0001:09 (IM:InvokeCommandResponse) (B:623)
+I (28490) NimBLE: GATT procedure initiated: indicate; 
+I (28490) NimBLE: att_handle=18
+
+I (28550) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (28550) NimBLE: GATT procedure initiated: indicate; 
+I (28550) NimBLE: att_handle=18
+
+I (28610) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (28610) NimBLE: GATT procedure initiated: indicate; 
+I (28610) NimBLE: att_handle=18
+
+I (28670) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (28670) CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+I (28730) CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+I (28730) chip[EM]: >>> [E:10404r S:2202 M:152027346] (S) Msg RX from 1:FFFFFFFB00000000 [2ED0] to 0000000000000000 --- Type 0001:08 (IM:InvokeCommandRequest) (B:105)
+I (28750) chip[EM]: <<< [E:10404r S:2202 M:192975616] (S) Msg TX from 0000000000000000 to 1:FFFFFFFB00000000 [2ED0] [BLE] --- Type 0001:09 (IM:InvokeCommandResponse) (B:66)
+I (28760) NimBLE: GATT procedure initiated: indicate; 
+I (28760) NimBLE: att_handle=18
+
+I (28820) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (28820) CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+I (28840) chip[EM]: >>> [E:10405r S:2202 M:152027347] (S) Msg RX from 1:FFFFFFFB00000000 [2ED0] to 0000000000000000 --- Type 0001:08 (IM:InvokeCommandRequest) (B:65)
+I (28850) chip[FS]: GeneralCommissioning: Received ArmFailSafe (117s)
+I (28850) chip[EM]: <<< [E:10405r S:2202 M:192975617] (S) Msg TX from 0000000000000000 to 1:FFFFFFFB00000000 [2ED0] [BLE] --- Type 0001:09 (IM:InvokeCommandResponse) (B:66)
+I (28870) NimBLE: GATT procedure initiated: indicate; 
+I (28870) NimBLE: att_handle=18
+
+I (28910) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (28910) CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+I (28930) chip[EM]: >>> [E:10406r S:2202 M:152027348] (S) Msg RX from 1:FFFFFFFB00000000 [2ED0] to 0000000000000000 --- Type 0001:08 (IM:InvokeCommandRequest) (B:82)
+I (28940) chip[NP]: ESP NetworkCommissioningDelegate: SSID: FRITZ!Box 7530 HE
+W (28940) wifi:Haven't to connect to a suitable AP now!
+I (28940) chip[DL]: WiFi station mode change: Enabled -> Disabled
+W (28950) wifi:Password length matches WPA2 standards, authmode threshold changes from OPEN to WPA2
+I (28980) chip[DL]: WiFi station mode change: Disabled -> Enabled
+W (28980) wifi:Haven't to connect to a suitable AP now!
+I (28980) chip[DL]: Attempting to connect WiFi station interface
+I (29000) chip[DL]: WiFi station state change: NotConnected -> Connecting
+W (29000) wifi:Haven't to connect to a suitable AP now!
+E (29000) chip[DL]: Failed to get configured network when updating network status: Error ESP32:0x0500300F
+I (29010) chip[DL]: Done driving station state, nothing else to do...
+W (29020) wifi:Haven't to connect to a suitable AP now!
+I (29020) chip[DL]: Attempting to connect WiFi station interface
+E (29020) wifi:sta is connecting, return error
+E (29040) chip[DL]: esp_wifi_connect() failed: ESP_ERR_WIFI_CONN
+I (30290) wifi:new:<6,0>, old:<1,0>, ap:<255,255>, sta:<6,0>, prof:1, snd_ch_cfg:0x0
+I (30290) wifi:state: init -> auth (0xb0)
+I (30290) chip[DL]: Posting ESPSystemEvent: Wifi Event with eventId : 43
+I (30300) wifi:state: auth -> assoc (0x0)
+I (30310) wifi:state: assoc -> run (0x10)
+I (30340) wifi:connected with FRITZ!Box 7530 HE, aid = 3, channel 6, BW20, bssid = 74:42:7f:17:37:93
+I (30340) wifi:security: WPA2-PSK, phy: bgn, rssi: -24
+I (30360) wifi:pm start, type: 1
+
+I (30360) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (30360) wifi:set rx beacon pti, rx_bcn_pti: 14, bcn_timeout: 25000, mt_pti: 14, mt_time: 10000
+I (30370) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+I (30380) chip[DL]: Posting ESPSystemEvent: Wifi Event with eventId : 4
+I (30380) wifi:I (30390) chip[DL]: <ba-add>idx:0 (ifx:0, 74:42:7f:17:37:93), tid:6, ssn:2, winSize:64WIFI_EVENT_STA_CONNECTED
+
+I (30400) chip[DL]: WiFi station state change: Connecting -> Connecting_Succeeded
+I (30400) chip[DL]: WiFi station state change: Connecting_Succeeded -> Connected
+I (30410) chip[DL]: WiFi station interface connected
+I (30420) chip[EM]: <<< [E:10406r S:2202 M:192975618] (S) Msg TX from 0000000000000000 to 1:FFFFFFFB00000000 [2ED0] [BLE] --- Type 0001:09 (IM:InvokeCommandResponse) (B:65)
+I (30430) NimBLE: GATT procedure initiated: indicate; 
+I (30430) NimBLE: att_handle=18
+
+I (30440) chip[DL]: Done driving station state, nothing else to do...
+I (30440) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (30460) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (30460) chip[DIS]: mDNS service published: _matter._tcp
+I (30470) chip[SVR]: Operational advertising enabled
+I (30470) chip[DL]: Updating advertising data
+I (30530) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (31450) esp_netif_handlers: sta ip: 192.168.188.144, mask: 255.255.255.0, gw: 192.168.188.1
+I (31450) chip[DL]: Posting ESPSystemEvent: IP Event with eventId : 0
+I (31460) chip[DL]: IP_EVENT_STA_GOT_IP
+I (31460) chip[DL]: IPv4 address changed on WiFi station interface: 192.168.188.144/255.255.255.0 gateway 192.168.188.1
+I (31470) chip[DL]: IPv4 Internet connectivity ESTABLISHED
+I (31470) app_main: Interface IP Address changed
+I (31470) chip[DIS]: Updating services using commissioning mode 0
+I (31490) chip[DIS]: CHIP minimal mDNS started advertising.
+I (31490) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (31490) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (31500) chip[DIS]: mDNS service published: _matter._tcp
+I (32210) chip[DL]: Posting ESPSystemEvent: IP Event with eventId : 3
+I (32210) chip[DL]: IP_EVENT_GOT_IP6
+I (32210) chip[DL]: IPv6 addr available. Ready on WIFI_STA_DEF interface: fe80:0000:0000:0000:9270:69ff:fe09:1ab8
+I (32220) app_main: Interface IP Address changed
+I (32220) chip[DIS]: Updating services using commissioning mode 0
+I (32230) chip[DIS]: CHIP minimal mDNS started advertising.
+I (32240) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (32240) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (32260) chip[DIS]: mDNS service published: _matter._tcp
+I (32260) chip[SVR]: Server initialization complete
+I (32260) chip[DIS]: Updating services using commissioning mode 0
+I (32270) chip[DIS]: CHIP minimal mDNS started advertising.
+I (32280) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (32280) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (32290) chip[DIS]: mDNS service published: _matter._tcp
+I (32290) chip[SWU]: Stopping the watchdog timer
+I (32310) chip[SWU]: Starting the periodic query timer, timeout: 86400 seconds
+I (32310) chip[IM]: No subscriptions to resume
+I (32710) wifi:<ba-add>idx:1 (ifx:0, 74:42:7f:17:37:93), tid:0, ssn:1, winSize:64
+I (32720) chip[EM]: >>> [E:842r S:0 M:238485908] (U) Msg RX from 0:522CD8165ABCCBDB [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)
+I (32730) chip[EM]: <<< [E:842r S:0 M:261098004 (Ack:238485908)] (U) Msg TX from 0000000000000000 to 0:522CD8165ABCCBDB [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (32750) chip[EM]: >>> [E:842r S:0 M:238485908] (U) Msg RX from 0:522CD8165ABCCBDB [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)
+I (32770) chip[EM]: <<< [E:842r S:0 M:261098005 (Ack:238485908)] (U) Msg TX from 0000000000000000 to 0:522CD8165ABCCBDB [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (32780) chip[EM]: >>> [E:842r S:0 M:238485908] (U) Msg RX from 0:522CD8165ABCCBDB [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)
+I (32800) chip[EM]: <<< [E:842r S:0 M:261098006 (Ack:238485908)] (U) Msg TX from 0000000000000000 to 0:522CD8165ABCCBDB [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (32820) chip[EM]: >>> [E:842r S:0 M:238485908] (U) Msg RX from 0:522CD8165ABCCBDB [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)
+I (32840) chip[EM]: <<< [E:842r S:0 M:261098007 (Ack:238485908)] (U) Msg TX from 0000000000000000 to 0:522CD8165ABCCBDB [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (33020) CHIP[DL]: Write request received for CHIPoBLE RX characteristic con 1 16
+I (34250) ROUTE_HOOK: Received RIO
+I (34250) ROUTE_HOOK: prefix FD7A:9F3C:4599:: lifetime 1800
+I (34250) chip[EM]: >>> [E:10407r S:0 M:127982288] (U) Msg RX from 0:C8A96A712E0570ED [0000] to 0000000000000000 --- Type 0000:30 (SecureChannel:CASE_Sigma1) (B:196)
+I (34260) chip[IN]: CASE Server received Sigma1 message . Starting handshake. EC 0x3fcaa550
+I (34270) chip[EM]: <<< [E:10407r S:0 M:261098008 (Ack:127982288)] (U) Msg TX from 0000000000000000 to 0:C8A96A712E0570ED [0000] [UDP:[FE80::18E8:E76A:8990:DD7F%st1]:52049] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (34290) chip[SC]: Received Sigma1 msg
+I (34290) chip[SC]: CASE matched destination ID: fabricIndex 1, NodeID 0x0000000028F450B9
+I (34770) chip[EM]: <<< [E:10407r S:0 M:261098009 (Ack:127982288)] (U) Msg TX from 0000000000000000 to 0:C8A96A712E0570ED [0000] [UDP:[FE80::18E8:E76A:8990:DD7F%st1]:52049] --- Type 0000:31 (SecureChannel:CASE_Sigma2) (B:534)
+I (34790) chip[EM]: ??1 [E:10407r S:0 M:261098009] (U) Msg Retransmission to 0:0000000000000000 scheduled for 2637ms from now [State:Active II:2000 AI:2000 AT:2000]
+I (34800) chip[SC]: Sent Sigma2 msg
+I (34890) chip[EM]: >>> [E:10407r S:0 M:127982289 (Ack:261098009)] (U) Msg RX from 0:C8A96A712E0570ED [0000] to 0000000000000000 --- Type 0000:32 (SecureChannel:CASE_Sigma3) (B:378)
+I (34910) chip[EM]: <<< [E:10407r S:0 M:261098010 (Ack:127982289)] (U) Msg TX from 0000000000000000 to 0:C8A96A712E0570ED [0000] [UDP:[FE80::18E8:E76A:8990:DD7F%st1]:52049] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (34920) chip[SC]: Received Sigma3 msg
+E (34930) chip[SC]: The device does not support GetClock_RealTimeMS() API: 6c.  Falling back to Last Known Good UTC Time
+I (35600) chip[EM]: <<< [E:10407r S:0 M:261098011 (Ack:127982289)] (U) Msg TX from 0000000000000000 to 0:C8A96A712E0570ED [0000] [UDP:[FE80::18E8:E76A:8990:DD7F%st1]:52049] --- Type 0000:40 (SecureChannel:StatusReport) (B:34)
+I (35610) chip[EM]: ??1 [E:10407r S:0 M:261098011] (U) Msg Retransmission to 0:0000000000000000 scheduled for 2407ms from now [State:Active II:2000 AI:2000 AT:2000]
+I (35630) chip[SC]: SecureSession[0x3fca8bc8, LSID:2203]: State change 'kEstablishing' --> 'kActive'
+I (35640) chip[IN]: CASE Session established to peer: <000000009C8A83E1, 1>
+I (35640) NimBLE: GATT procedure initiated: indicate; 
+I (35650) NimBLE: att_handle=18
+
+I (35680) chip[EM]: >>> [E:10408r S:2203 M:12793986] (S) Msg RX from 1:000000009C8A83E1 [2ED0] to 0000000028F450B9 --- Type 0001:08 (IM:InvokeCommandRequest) (B:59)
+I (35700) chip[FS]: GeneralCommissioning: Received CommissioningComplete
+I (35700) chip[FP]: Metadata for Fabric 0x1 persisted to storage.
+I (35710) chip[TS]: Committing Last Known Good Time to storage: 2026-05-23T09:13:11
+I (35710) chip[ZCL]: OpCreds: Fabric index 0x1 was committed to storage. Compressed Fabric Id 0x7CBC3FECC26E2ED0, FabricId 00000000E56C0D34, NodeId 0000000028F450B9, VendorId 0x1384
+I (35720) chip[DL]: Confirm received for CHIPoBLE TX characteristic indication (con 1) status= 14 
+I (35740) chip[FS]: GeneralCommissioning: Successfully committed pending fabric data
+I (35740) chip[FS]: Fail-safe cleanly disarmed
+I (35750) chip[EM]: <<< [E:10408r S:2203 M:258998486 (Ack:12793986)] (S) Msg TX from 0000000028F450B9 to 1:000000009C8A83E1 [2ED0] [UDP:[FE80::18E8:E76A:8990:DD7F%st1]:52049] --- Type 0001:09 (IM:InvokeCommandResponse) (B:70)
+I (35770) chip[EM]: ??1 [E:10408r S:2203 M:258998486] (S) Msg Retransmission to 1:000000009C8A83E1 scheduled for 2542ms from now [State:Active II:2000 AI:2000 AT:2000]
+I (35780) chip[EM]: >>> [E:10407r S:0 M:127982290 (Ack:261098011)] (U) Msg RX from 0:C8A96A712E0570ED [0000] to 0000000000000000 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (35790) app_main: Fabric is committed
+I (35800) chip[SWU]: Device commissioned, schedule a default provider query
+I (35800) chip[SVR]: Commissioning completed successfully
+I (35820) chip[DIS]: Updating services using commissioning mode 0
+I (35820) chip[DIS]: CHIP minimal mDNS started advertising.
+I (35820) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (35830) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (35840) chip[DIS]: mDNS service published: _matter._tcp
+I (35840) chip[SC]: SecureSession[0x3fca8af0, LSID:2202]: State change 'kActive' --> 'kPendingEviction'
+I (35850) chip[BLE]: Releasing end point's BLE connection back to application.
+I (35870) chip[DL]: Closing BLE GATT connection (con 1)
+I (35870) NimBLE: GAP procedure initiated: terminate connection; conn_handle=1 hci_reason=19
+
+I (35840) chip[DL]: Write request/command received for CHIPoBLE TX CCCD characteristic (con 1 ) indicate = 0
+I (35880) chip[DL]: CHIPoBLE unsubscribe received
+I (35890) app_main: Commissioning complete
+I (35890) esp_matter_core: Commissioning Complete
+I (35890) chip[DL]: BLE GAP connection terminated (con 1 reason 0x213)
+I (35890) app_main: Commissioning window closed
+I (35910) NimBLE: GAP procedure initiated: stop advertising.
+
+I (35920) chip[DL]: BLE deinit successful and memory reclaimed
+I (35920) chip[EM]: >>> [E:10408r S:2203 M:12793987 (Ack:258998486)] (S) Msg RX from 1:000000009C8A83E1 [2ED0] to 0000000028F450B9 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)
+I (35940) chip[EM]: >>> [E:10409r S:2203 M:12793988] (S) Msg RX from 1:000000009C8A83E1 [2ED0] to 0000000028F450B9 --- Type 0001:02 (IM:ReadRequest) (B:51)
+I (35950) chip[EM]: >>> [E:10410r S:2203 M:12793989] (S) Msg RX from 1:000000009C8A83E1 [2ED0] to 0000000028F450B9 --- Type 0001:02 (IM:ReadRequest) (B:51)
+I (35960) chip[EM]: >>> [E:10411r S:2203 M:12793990] (S) Msg RX from 1:000000009C8A83E1 [2ED0] to 0000000028F450B9 --- Type 0001:02 (IM:ReadRequest) (B:51)
+I (35980) esp_matter_core: BLE Disconnected
+I (35980) app_main: BLE deinitialized and memory reclaimed
+E (35980) chip[DMG]: Fail to retrieve data, roll back and encode status on clusterId: 0x0000_0028, attributeId: 0x0000_000Ferr = 586
+I (35990) chip[EM]: <<< [E:10409r S:2203 M:258998487 (Ack:12793988)] (S) Msg TX from 0000000028F450B9 to 1:000000009C8A83E1 [2ED0] [UDP:[FE80::18E8:E76A:8990:DD7F%st1]:52049] --- Type 0001:05 (IM:ReportData) (B:67)
+I (36020) chip[EM]: ??1 [E:10409r S:2203 M:258998487] (S) Msg Retransmission to 1:000000009C8A83E1 scheduled for 2489ms from now [State:Active II:2000 AI:2000 AT:2000]
+I (36040) chip[EM]: <<< [E:10410r S:2203 M:258998488 (Ack:12793989)] (S) Msg TX from 0000000028F450B9 to 1:000000009C8A83E1 [2ED0] [UDP:[FE80::18E8:E76A:8990:DD7F%st1]:52049] --- Type 0001:05 (IM:ReportData) (B:162)
+I (36050) chip[EM]: ??1 [E:10410r S:2203 M:258998488] (S) Msg Retransmission to 1:000000009C8A83E1 scheduled for 2727ms from now [State:Active II:2000 AI:2000 AT:2000]
+I (36070) chip[EM]: <<< [E:10411r S:2203 M:258998489 (Ack:12793990)] (S) Msg TX from 0000000028F450B9 to 1:000000009C8A83E1 [2ED0] [UDP:[FE80::18E8:E76A:8990:DD7F%st1]:52049] --- Type 0001:05 (IM:ReportData) (B:76)
+I (36080) chip[EM]: ??1 [E:10411r S:2203 M:258998489] (S) Msg Retransmission to 1:000000009C8A83E1 scheduled for 2491ms from now [State:Active II:2000 AI:2000 AT:2000]
+I (36100) chip[EM]: >>> [E:10409r S:2203 M:12793991 (Ack:258998487)] (S) Msg RX from 1:000000009C8A83E1 [2ED0] to 0000000028F450B9 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)
+I (36110) chip[EM]: >>> [E:10410r S:2203 M:12793992 (Ack:258998488)] (S) Msg RX from 1:000000009C8A83E1 [2ED0] to 0000000028F450B9 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)
+I (36190) chip[EM]: >>> [E:10411r S:2203 M:12793993 (Ack:258998489)] (S) Msg RX from 1:000000009C8A83E1 [2ED0] to 0000000028F450B9 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)
+I (36210) chip[DL]: Posting ESPSystemEvent: IP Event with eventId : 3
+I (36210) chip[EM]: >>> [E:10412r S:2203 M:12793994] (S) Msg RX from 1:000000009C8A83E1 [2ED0] to 0000000028F450B9 --- Type 0001:02 (IM:ReadRequest) (B:51)
+I (36220) chip[DL]: IP_EVENT_GOT_IP6
+I (36220) chip[DL]: IPv6 addr available. Ready on WIFI_STA_DEF interface: fd7a:9f3c:4599:0000:9270:69ff:fe09:1ab8
+I (36230) ROUTE_HOOK: Hook already installed on netif, skip...
+I (36250) chip[EM]: <<< [E:10412r S:2203 M:258998490 (Ack:12793994)] (S) Msg TX from 0000000028F450B9 to 1:000000009C8A83E1 [2ED0] [UDP:[FE80::18E8:E76A:8990:DD7F%st1]:52049] --- Type 0001:05 (IM:ReportData) (B:86)
+I (36260) chip[EM]: ??1 [E:10412r S:2203 M:258998490] (S) Msg Retransmission to 1:000000009C8A83E1 scheduled for 2415ms from now [State:Active II:2000 AI:2000 AT:2000]
+I (36280) app_main: Interface IP Address changed
+I (36280) chip[DIS]: Updating services using commissioning mode 0
+I (36290) chip[DIS]: CHIP minimal mDNS started advertising.
+I (36300) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (36300) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (36310) chip[DIS]: mDNS service published: _matter._tcp
+I (36350) chip[EM]: >>> [E:10412r S:2203 M:12793995 (Ack:258998490)] (S) Msg RX from 1:000000009C8A83E1 [2ED0] to 0000000028F450B9 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)
+I (36360) chip[EM]: >>> [E:10413r S:2203 M:12793996] (S) Msg RX from 1:000000009C8A83E1 [2ED0] to 0000000028F450B9 --- Type 0001:02 (IM:ReadRequest) (B:51)
+I (36380) chip[EM]: <<< [E:10413r S:2203 M:258998491 (Ack:12793996)] (S) Msg TX from 0000000028F450B9 to 1:000000009C8A83E1 [2ED0] [UDP:[FE80::18E8:E76A:8990:DD7F%st1]:52049] --- Type 0001:05 (IM:ReportData) (B:78)
+I (36390) chip[EM]: ??1 [E:10413r S:2203 M:258998491] (S) Msg Retransmission to 1:000000009C8A83E1 scheduled for 2654ms from now [State:Active II:2000 AI:2000 AT:2000]
+I (36410) chip[EM]: >>> [E:10413r S:2203 M:12793997 (Ack:258998491)] (S) Msg RX from 1:000000009C8A83E1 [2ED0] to 0000000028F450B9 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)
+I (36420) chip[EM]: >>> [E:10414r S:2203 M:12793998] (S) Msg RX from 1:000000009C8A83E1 [2ED0] to 0000000028F450B9 --- Type 0001:02 (IM:ReadRequest) (B:51)
+I (36440) chip[EM]: <<< [E:10414r S:2203 M:258998492 (Ack:12793998)] (S) Msg TX from 0000000028F450B9 to 1:000000009C8A83E1 [2ED0] [UDP:[FE80::18E8:E76A:8990:DD7F%st1]:52049] --- Type 0001:05 (IM:ReportData) (B:87)
+I (36450) chip[EM]: ??1 [E:10414r S:2203 M:258998492] (S) Msg Retransmission to 1:000000009C8A83E1 scheduled for 2355ms from now [State:Active II:2000 AI:2000 AT:2000]
+I (36470) chip[EM]: >>> [E:10414r S:2203 M:12793999 (Ack:258998492)] (S) Msg RX from 1:000000009C8A83E1 [2ED0] to 0000000028F450B9 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)
+I (36480) chip[EM]: >>> [E:10415r S:2203 M:12794000] (S) Msg RX from 1:000000009C8A83E1 [2ED0] to 0000000028F450B9 --- Type 0001:02 (IM:ReadRequest) (B:51)
+I (36500) chip[EM]: <<< [E:10415r S:2203 M:258998493 (Ack:12794000)] (S) Msg TX from 0000000028F450B9 to 1:000000009C8A83E1 [2ED0] [UDP:[FE80::18E8:E76A:8990:DD7F%st1]:52049] --- Type 0001:05 (IM:ReportData) (B:87)
+I (36520) chip[EM]: ??1 [E:10415r S:2203 M:258998493] (S) Msg Retransmission to 1:000000009C8A83E1 scheduled for 2469ms from now [State:Active II:2000 AI:2000 AT:2000]
+I (36540) chip[EM]: >>> [E:10415r S:2203 M:12794001 (Ack:258998493)] (S) Msg RX from 1:000000009C8A83E1 [2ED0] to 0000000028F450B9 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)
+I (36910) chip[EM]: >>> [E:10416r S:2203 M:12794002] (S) Msg RX from 1:000000009C8A83E1 [2ED0] to 0000000028F450B9 --- Type 0001:0A (IM:TimedRequest) (B:39)
+I (36920) chip[EM]: <<< [E:10416r S:2203 M:258998494 (Ack:12794002)] (S) Msg TX from 0000000028F450B9 to 1:000000009C8A83E1 [2ED0] [UDP:[FE80::18E8:E76A:8990:DD7F%st1]:52049] --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (36940) chip[EM]: ??1 [E:10416r S:2203 M:258998494] (S) Msg Retransmission to 1:000000009C8A83E1 scheduled for 2392ms from now [State:Active II:2000 AI:2000 AT:2000]
+I (37110) chip[EM]: >>> [E:10416r S:2203 M:12794003 (Ack:258998494)] (S) Msg RX from 1:000000009C8A83E1 [2ED0] to 0000000028F450B9 --- Type 0001:08 (IM:InvokeCommandRequest) (B:63)
+I (37130) chip[ZCL]: Received command to close commissioning window
+E (37130) chip[ZCL]: Commissioning window is currently not open
+E (37140) chip[DMG]: Endpoint=0 Cluster=0x0000_003C Command=0x0000_0002 status 0x01 ClusterSpecificCode=4 (no additional context)
+I (37140) chip[EM]: <<< [E:10416r S:2203 M:258998495 (Ack:12794003)] (S) Msg TX from 0000000028F450B9 to 1:000000009C8A83E1 [2ED0] [UDP:[FE80::18E8:E76A:8990:DD7F%st1]:52049] --- Type 0001:09 (IM:InvokeCommandResponse) (B:70)
+I (37170) chip[EM]: ??1 [E:10416r S:2203 M:258998495] (S) Msg Retransmission to 1:000000009C8A83E1 scheduled for 2615ms from now [State:Active II:2000 AI:2000 AT:2000]
+I (37320) chip[EM]: >>> [E:10416r S:2203 M:12794004 (Ack:258998495)] (S) Msg RX from 1:000000009C8A83E1 [2ED0] to 0000000028F450B9 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)
+I (37330) chip[EM]: >>> [E:10417r S:2203 M:12794005] (S) Msg RX from 1:000000009C8A83E1 [2ED0] to 0000000028F450B9 --- Type 0001:0A (IM:TimedRequest) (B:39)
+I (37350) chip[EM]: <<< [E:10417r S:2203 M:258998496 (Ack:12794005)] (S) Msg TX from 0000000028F450B9 to 1:000000009C8A83E1 [2ED0] [UDP:[FE80::18E8:E76A:8990:DD7F%st1]:52049] --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (37360) chip[EM]: ??1 [E:10417r S:2203 M:258998496] (S) Msg Retransmission to 1:000000009C8A83E1 scheduled for 2319ms from now [State:Active II:2000 AI:2000 AT:2000]
+I (37400) chip[EM]: >>> [E:10417r S:2203 M:12794006 (Ack:258998496)] (S) Msg RX from 1:000000009C8A83E1 [2ED0] to 0000000028F450B9 --- Type 0001:08 (IM:InvokeCommandRequest) (B:210)
+I (37420) chip[ZCL]: Received command to open commissioning window
+I (37420) chip[DIS]: Updating services using commissioning mode 2
+I (37420) chip[DIS]: CHIP minimal mDNS started advertising.
+I (37440) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (37440) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (37450) chip[DIS]: mDNS service published: _matter._tcp
+I (37450) chip[DIS]: Advertise commission parameter vendorID=65521 productID=32768 discriminator=0860/03 cm=2 cp=0 jf=0
+I (37470) chip[DIS]: CHIP minimal mDNS configured as 'Commissionable node device'; instance name: 15D6D96FB8446E54.
+I (37480) chip[DIS]: mDNS service published: _matterc._udp
+I (37490) chip[ZCL]: Commissioning window is now open
+I (37490) chip[EM]: <<< [E:10417r S:2203 M:258998497 (Ack:12794006)] (S) Msg TX from 0000000028F450B9 to 1:000000009C8A83E1 [2ED0] [UDP:[FE80::18E8:E76A:8990:DD7F%st1]:52049] --- Type 0001:09 (IM:InvokeCommandResponse) (B:67)
+I (37510) chip[EM]: ??1 [E:10417r S:2203 M:258998497] (S) Msg Retransmission to 1:000000009C8A83E1 scheduled for 2547ms from now [State:Active II:2000 AI:2000 AT:2000]
+I (37530) app_main: Commissioning window opened
+I (37530) chip[EM]: >>> [E:10417r S:2203 M:12794007 (Ack:258998497)] (S) Msg RX from 1:000000009C8A83E1 [2ED0] to 0000000028F450B9 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)
+I (41110) chip[EM]: >>> [E:843r S:0 M:238485909] (U) Msg RX from 0:C3611BBC7F2B0A9E [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)
+I (41120) chip[EM]: <<< [E:843r S:0 M:261098012 (Ack:238485909)] (U) Msg TX from 0000000000000000 to 0:C3611BBC7F2B0A9E [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (41140) chip[EM]: <<< [E:843r S:0 M:261098013 (Ack:238485909)] (U) Msg TX from 0000000000000000 to 0:C3611BBC7F2B0A9E [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:21 (SecureChannel:PBKDFParamResponse) (B:174)
+I (41160) chip[EM]: ??1 [E:843r S:0 M:261098013] (U) Msg Retransmission to 0:0000000000000000 scheduled for 392ms from now [State:Active II:500 AI:300 AT:4000]
+I (41180) chip[SVR]: Commissioning session establishment step started
+I (41180) chip[EM]: >>> [E:843r S:0 M:238485910 (Ack:261098013)] (U) Msg RX from 0:C3611BBC7F2B0A9E [0000] to 0000000000000000 --- Type 0000:22 (SecureChannel:PASE_Pake1) (B:96)
+I (41190) chip[EM]: <<< [E:843r S:0 M:261098014 (Ack:238485910)] (U) Msg TX from 0000000000000000 to 0:C3611BBC7F2B0A9E [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (42000) chip[EM]: <<< [E:843r S:0 M:261098015 (Ack:238485910)] (U) Msg TX from 0000000000000000 to 0:C3611BBC7F2B0A9E [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:23 (SecureChannel:PASE_Pake2) (B:131)
+I (42010) chip[EM]: ??1 [E:843r S:0 M:261098015] (U) Msg Retransmission to 0:0000000000000000 scheduled for 342ms from now [State:Active II:500 AI:300 AT:4000]
+E (42020) chip[DL]: Long dispatch time: 844 ms, for event type 3
+I (42020) chip[EM]: >>> [E:843r S:0 M:238485911 (Ack:261098015)] (U) Msg RX from 0:C3611BBC7F2B0A9E [0000] to 0000000000000000 --- Type 0000:40 (SecureChannel:StatusReport) (B:34)
+E (42050) chip[SC]: Received error (protocol code 2) during PASE process: 38
+E (42050) chip[SC]: Failed during PASE session setup: 38
+E (42060) chip[SVR]: Commissioning failed (attempt 1): 38
+I (42060) chip[DIS]: Updating services using commissioning mode 2
+I (42060) chip[DIS]: CHIP minimal mDNS started advertising.
+I (42090) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (42090) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (42100) chip[DIS]: mDNS service published: _matter._tcp
+I (42110) chip[DIS]: Advertise commission parameter vendorID=65521 productID=32768 discriminator=0860/03 cm=2 cp=0 jf=0
+I (42120) chip[DIS]: CHIP minimal mDNS configured as 'Commissionable node device'; instance name: 15D6D96FB8446E54.
+I (42140) chip[DIS]: mDNS service published: _matterc._udp
+I (42140) chip[EM]: <<< [E:843r S:0 M:261098016 (Ack:238485911)] (U) Msg TX from 0000000000000000 to 0:C3611BBC7F2B0A9E [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (42150) chip[EM]: >>> [E:844r S:0 M:238485912] (U) Msg RX from 0:46173DF634D06ADC [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)
+I (42170) chip[EM]: <<< [E:844r S:0 M:261098017 (Ack:238485912)] (U) Msg TX from 0000000000000000 to 0:46173DF634D06ADC [0000] [UDP:192.168.188.148:41293] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (42190) chip[EM]: <<< [E:844r S:0 M:261098018 (Ack:238485912)] (U) Msg TX from 0000000000000000 to 0:46173DF634D06ADC [0000] [UDP:192.168.188.148:41293] --- Type 0000:21 (SecureChannel:PBKDFParamResponse) (B:174)
+I (42210) chip[EM]: ??1 [E:844r S:0 M:261098018] (U) Msg Retransmission to 0:0000000000000000 scheduled for 373ms from now [State:Active II:500 AI:300 AT:4000]
+I (42220) chip[SVR]: Commissioning session establishment step started
+I (42230) app_main: Commissioning window opened
+I (42230) chip[EM]: >>> [E:844r S:0 M:238485913 (Ack:261098018)] (U) Msg RX from 0:46173DF634D06ADC [0000] to 0000000000000000 --- Type 0000:22 (SecureChannel:PASE_Pake1) (B:96)
+I (42250) chip[EM]: <<< [E:844r S:0 M:261098019 (Ack:238485913)] (U) Msg TX from 0000000000000000 to 0:46173DF634D06ADC [0000] [UDP:192.168.188.148:41293] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (43050) chip[EM]: <<< [E:844r S:0 M:261098020 (Ack:238485913)] (U) Msg TX from 0000000000000000 to 0:46173DF634D06ADC [0000] [UDP:192.168.188.148:41293] --- Type 0000:23 (SecureChannel:PASE_Pake2) (B:131)
+I (43060) chip[EM]: ??1 [E:844r S:0 M:261098020] (U) Msg Retransmission to 0:0000000000000000 scheduled for 402ms from now [State:Active II:500 AI:300 AT:4000]
+E (43080) chip[DL]: Long dispatch time: 844 ms, for event type 3
+I (43080) chip[EM]: >>> [E:844r S:0 M:238485914 (Ack:261098020)] (U) Msg RX from 0:46173DF634D06ADC [0000] to 0000000000000000 --- Type 0000:40 (SecureChannel:StatusReport) (B:34)
+E (43090) chip[SC]: Received error (protocol code 2) during PASE process: 38
+E (43110) chip[SC]: Failed during PASE session setup: 38
+E (43110) chip[SVR]: Commissioning failed (attempt 2): 38
+I (43120) chip[DIS]: Updating services using commissioning mode 2
+I (43120) chip[DIS]: CHIP minimal mDNS started advertising.
+I (43130) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (43140) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (43150) chip[DIS]: mDNS service published: _matter._tcp
+I (43150) chip[DIS]: Advertise commission parameter vendorID=65521 productID=32768 discriminator=0860/03 cm=2 cp=0 jf=0
+I (43160) chip[DIS]: CHIP minimal mDNS configured as 'Commissionable node device'; instance name: 15D6D96FB8446E54.
+I (43170) chip[DIS]: mDNS service published: _matterc._udp
+I (43170) chip[EM]: <<< [E:844r S:0 M:261098021 (Ack:238485914)] (U) Msg TX from 0000000000000000 to 0:46173DF634D06ADC [0000] [UDP:192.168.188.148:41293] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (43200) chip[EM]: >>> [E:845r S:0 M:238485915] (U) Msg RX from 0:443FBFC302C17813 [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)
+I (43210) chip[EM]: <<< [E:845r S:0 M:261098022 (Ack:238485915)] (U) Msg TX from 0000000000000000 to 0:443FBFC302C17813 [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (43230) chip[EM]: <<< [E:845r S:0 M:261098023 (Ack:238485915)] (U) Msg TX from 0000000000000000 to 0:443FBFC302C17813 [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:21 (SecureChannel:PBKDFParamResponse) (B:174)
+I (43250) chip[EM]: ??1 [E:845r S:0 M:261098023] (U) Msg Retransmission to 0:0000000000000000 scheduled for 400ms from now [State:Active II:500 AI:300 AT:4000]
+I (43270) chip[SVR]: Commissioning session establishment step started
+I (43270) app_main: Commissioning window opened
+I (43280) chip[EM]: >>> [E:845r S:0 M:238485916 (Ack:261098023)] (U) Msg RX from 0:443FBFC302C17813 [0000] to 0000000000000000 --- Type 0000:22 (SecureChannel:PASE_Pake1) (B:96)
+I (43290) chip[EM]: <<< [E:845r S:0 M:261098024 (Ack:238485916)] (U) Msg TX from 0000000000000000 to 0:443FBFC302C17813 [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (44080) chip[EM]: <<< [E:845r S:0 M:261098025 (Ack:238485916)] (U) Msg TX from 0000000000000000 to 0:443FBFC302C17813 [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:23 (SecureChannel:PASE_Pake2) (B:131)
+I (44100) chip[EM]: ??1 [E:845r S:0 M:261098025] (U) Msg Retransmission to 0:0000000000000000 scheduled for 350ms from now [State:Active II:500 AI:300 AT:4000]
+E (44110) chip[DL]: Long dispatch time: 833 ms, for event type 3
+I (44120) chip[EM]: >>> [E:845r S:0 M:238485917 (Ack:261098025)] (U) Msg RX from 0:443FBFC302C17813 [0000] to 0000000000000000 --- Type 0000:40 (SecureChannel:StatusReport) (B:34)
+E (44130) chip[SC]: Received error (protocol code 2) during PASE process: 38
+E (44140) chip[SC]: Failed during PASE session setup: 38
+E (44140) chip[SVR]: Commissioning failed (attempt 3): 38
+I (44150) chip[DIS]: Updating services using commissioning mode 2
+I (44160) chip[DIS]: CHIP minimal mDNS started advertising.
+I (44180) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (44180) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (44200) chip[DIS]: mDNS service published: _matter._tcp
+I (44200) chip[DIS]: Advertise commission parameter vendorID=65521 productID=32768 discriminator=0860/03 cm=2 cp=0 jf=0
+I (44210) chip[DIS]: CHIP minimal mDNS configured as 'Commissionable node device'; instance name: 15D6D96FB8446E54.
+I (44230) chip[DIS]: mDNS service published: _matterc._udp
+I (44230) chip[EM]: <<< [E:845r S:0 M:261098026 (Ack:238485917)] (U) Msg TX from 0000000000000000 to 0:443FBFC302C17813 [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (44250) chip[EM]: >>> [E:846r S:0 M:238485918] (U) Msg RX from 0:B567792E1A4B0E48 [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)
+I (44260) chip[EM]: <<< [E:846r S:0 M:261098027 (Ack:238485918)] (U) Msg TX from 0000000000000000 to 0:B567792E1A4B0E48 [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (44280) chip[EM]: <<< [E:846r S:0 M:261098028 (Ack:238485918)] (U) Msg TX from 0000000000000000 to 0:B567792E1A4B0E48 [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:21 (SecureChannel:PBKDFParamResponse) (B:174)
+I (44300) chip[EM]: ??1 [E:846r S:0 M:261098028] (U) Msg Retransmission to 0:0000000000000000 scheduled for 401ms from now [State:Active II:500 AI:300 AT:4000]
+I (44320) chip[SVR]: Commissioning session establishment step started
+I (44320) app_main: Commissioning window opened
+I (44330) chip[EM]: >>> [E:846r S:0 M:238485919 (Ack:261098028)] (U) Msg RX from 0:B567792E1A4B0E48 [0000] to 0000000000000000 --- Type 0000:22 (SecureChannel:PASE_Pake1) (B:96)
+I (44350) chip[EM]: <<< [E:846r S:0 M:261098029 (Ack:238485919)] (U) Msg TX from 0000000000000000 to 0:B567792E1A4B0E48 [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (45140) chip[EM]: <<< [E:846r S:0 M:261098030 (Ack:238485919)] (U) Msg TX from 0000000000000000 to 0:B567792E1A4B0E48 [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:23 (SecureChannel:PASE_Pake2) (B:131)
+I (45160) chip[EM]: ??1 [E:846r S:0 M:261098030] (U) Msg Retransmission to 0:0000000000000000 scheduled for 400ms from now [State:Active II:500 AI:300 AT:4000]
+E (45170) chip[DL]: Long dispatch time: 844 ms, for event type 3
+I (45170) chip[EM]: >>> [E:846r S:0 M:238485920 (Ack:261098030)] (U) Msg RX from 0:B567792E1A4B0E48 [0000] to 0000000000000000 --- Type 0000:40 (SecureChannel:StatusReport) (B:34)
+E (45190) chip[SC]: Received error (protocol code 2) during PASE process: 38
+E (45200) chip[SC]: Failed during PASE session setup: 38
+E (45210) chip[SVR]: Commissioning failed (attempt 4): 38
+I (45210) chip[DIS]: Updating services using commissioning mode 2
+I (45210) chip[DIS]: CHIP minimal mDNS started advertising.
+I (45230) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (45240) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (45250) chip[DIS]: mDNS service published: _matter._tcp
+I (45250) chip[DIS]: Advertise commission parameter vendorID=65521 productID=32768 discriminator=0860/03 cm=2 cp=0 jf=0
+I (45270) chip[DIS]: CHIP minimal mDNS configured as 'Commissionable node device'; instance name: 15D6D96FB8446E54.
+I (45280) chip[DIS]: mDNS service published: _matterc._udp
+I (45280) chip[EM]: <<< [E:846r S:0 M:261098031 (Ack:238485920)] (U) Msg TX from 0000000000000000 to 0:B567792E1A4B0E48 [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (45300) chip[EM]: >>> [E:847r S:0 M:238485921] (U) Msg RX from 0:5E9DAB52C22E2837 [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)
+I (45310) chip[EM]: <<< [E:847r S:0 M:261098032 (Ack:238485921)] (U) Msg TX from 0000000000000000 to 0:5E9DAB52C22E2837 [0000] [UDP:192.168.188.148:41293] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (45340) chip[EM]: <<< [E:847r S:0 M:261098033 (Ack:238485921)] (U) Msg TX from 0000000000000000 to 0:5E9DAB52C22E2837 [0000] [UDP:192.168.188.148:41293] --- Type 0000:21 (SecureChannel:PBKDFParamResponse) (B:174)
+I (45350) chip[EM]: ??1 [E:847r S:0 M:261098033] (U) Msg Retransmission to 0:0000000000000000 scheduled for 343ms from now [State:Active II:500 AI:300 AT:4000]
+I (45370) chip[SVR]: Commissioning session establishment step started
+I (45380) app_main: Commissioning window opened
+I (45380) chip[EM]: >>> [E:847r S:0 M:238485922 (Ack:261098033)] (U) Msg RX from 0:5E9DAB52C22E2837 [0000] to 0000000000000000 --- Type 0000:22 (SecureChannel:PASE_Pake1) (B:96)
+I (45390) chip[EM]: <<< [E:847r S:0 M:261098034 (Ack:238485922)] (U) Msg TX from 0000000000000000 to 0:5E9DAB52C22E2837 [0000] [UDP:192.168.188.148:41293] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (46200) chip[EM]: <<< [E:847r S:0 M:261098035 (Ack:238485922)] (U) Msg TX from 0000000000000000 to 0:5E9DAB52C22E2837 [0000] [UDP:192.168.188.148:41293] --- Type 0000:23 (SecureChannel:PASE_Pake2) (B:131)
+I (46210) chip[EM]: ??1 [E:847r S:0 M:261098035] (U) Msg Retransmission to 0:0000000000000000 scheduled for 376ms from now [State:Active II:500 AI:300 AT:4000]
+E (46220) chip[DL]: Long dispatch time: 844 ms, for event type 3
+I (46220) chip[EM]: >>> [E:847r S:0 M:238485923 (Ack:261098035)] (U) Msg RX from 0:5E9DAB52C22E2837 [0000] to 0000000000000000 --- Type 0000:40 (SecureChannel:StatusReport) (B:34)
+E (46240) chip[SC]: Received error (protocol code 2) during PASE process: 38
+E (46250) chip[SC]: Failed during PASE session setup: 38
+E (46250) chip[SVR]: Commissioning failed (attempt 5): 38
+I (46260) chip[DIS]: Updating services using commissioning mode 2
+I (46260) chip[DIS]: CHIP minimal mDNS started advertising.
+I (46280) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (46280) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (46290) chip[DIS]: mDNS service published: _matter._tcp
+I (46300) chip[DIS]: Advertise commission parameter vendorID=65521 productID=32768 discriminator=0860/03 cm=2 cp=0 jf=0
+I (46310) chip[DIS]: CHIP minimal mDNS configured as 'Commissionable node device'; instance name: 15D6D96FB8446E54.
+I (46330) chip[DIS]: mDNS service published: _matterc._udp
+I (46330) chip[EM]: <<< [E:847r S:0 M:261098036 (Ack:238485923)] (U) Msg TX from 0000000000000000 to 0:5E9DAB52C22E2837 [0000] [UDP:192.168.188.148:41293] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (46340) chip[EM]: >>> [E:848r S:0 M:238485924] (U) Msg RX from 0:52CBF86AB99AC517 [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)
+I (46360) chip[EM]: <<< [E:848r S:0 M:261098037 (Ack:238485924)] (U) Msg TX from 0000000000000000 to 0:52CBF86AB99AC517 [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (46380) chip[EM]: <<< [E:848r S:0 M:261098038 (Ack:238485924)] (U) Msg TX from 0000000000000000 to 0:52CBF86AB99AC517 [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:21 (SecureChannel:PBKDFParamResponse) (B:174)
+I (46400) chip[EM]: ??1 [E:848r S:0 M:261098038] (U) Msg Retransmission to 0:0000000000000000 scheduled for 391ms from now [State:Active II:500 AI:300 AT:4000]
+I (46410) chip[SVR]: Commissioning session establishment step started
+I (46420) app_main: Commissioning window opened
+I (46420) chip[EM]: >>> [E:848r S:0 M:238485925 (Ack:261098038)] (U) Msg RX from 0:52CBF86AB99AC517 [0000] to 0000000000000000 --- Type 0000:22 (SecureChannel:PASE_Pake1) (B:96)
+I (46440) chip[EM]: <<< [E:848r S:0 M:261098039 (Ack:238485925)] (U) Msg TX from 0000000000000000 to 0:52CBF86AB99AC517 [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (47240) chip[EM]: <<< [E:848r S:0 M:261098040 (Ack:238485925)] (U) Msg TX from 0000000000000000 to 0:52CBF86AB99AC517 [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:23 (SecureChannel:PASE_Pake2) (B:131)
+I (47260) chip[EM]: ??1 [E:848r S:0 M:261098040] (U) Msg Retransmission to 0:0000000000000000 scheduled for 411ms from now [State:Active II:500 AI:300 AT:4000]
+E (47270) chip[DL]: Long dispatch time: 845 ms, for event type 3
+I (47270) chip[EM]: >>> [E:848r S:0 M:238485926 (Ack:261098040)] (U) Msg RX from 0:52CBF86AB99AC517 [0000] to 0000000000000000 --- Type 0000:40 (SecureChannel:StatusReport) (B:34)
+E (47290) chip[SC]: Received error (protocol code 2) during PASE process: 38
+E (47300) chip[SC]: Failed during PASE session setup: 38
+E (47310) chip[SVR]: Commissioning failed (attempt 6): 38
+I (47310) chip[DIS]: Updating services using commissioning mode 2
+I (47310) chip[DIS]: CHIP minimal mDNS started advertising.
+I (47330) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (47340) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (47350) chip[DIS]: mDNS service published: _matter._tcp
+I (47350) chip[DIS]: Advertise commission parameter vendorID=65521 productID=32768 discriminator=0860/03 cm=2 cp=0 jf=0
+I (47370) chip[DIS]: CHIP minimal mDNS configured as 'Commissionable node device'; instance name: 15D6D96FB8446E54.
+I (47370) chip[DIS]: mDNS service published: _matterc._udp
+I (47370) chip[EM]: <<< [E:848r S:0 M:261098041 (Ack:238485926)] (U) Msg TX from 0000000000000000 to 0:52CBF86AB99AC517 [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (47400) chip[EM]: >>> [E:849r S:0 M:238485927] (U) Msg RX from 0:D50FD95F92B1E025 [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)
+I (47410) chip[EM]: <<< [E:849r S:0 M:261098042 (Ack:238485927)] (U) Msg TX from 0000000000000000 to 0:D50FD95F92B1E025 [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (47430) chip[EM]: <<< [E:849r S:0 M:261098043 (Ack:238485927)] (U) Msg TX from 0000000000000000 to 0:D50FD95F92B1E025 [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:21 (SecureChannel:PBKDFParamResponse) (B:174)
+I (47450) chip[EM]: ??1 [E:849r S:0 M:261098043] (U) Msg Retransmission to 0:0000000000000000 scheduled for 345ms from now [State:Active II:500 AI:300 AT:4000]
+I (47470) chip[SVR]: Commissioning session establishment step started
+I (47470) app_main: Commissioning window opened
+I (47480) chip[EM]: >>> [E:849r S:0 M:238485928 (Ack:261098043)] (U) Msg RX from 0:D50FD95F92B1E025 [0000] to 0000000000000000 --- Type 0000:22 (SecureChannel:PASE_Pake1) (B:96)
+I (47490) chip[EM]: <<< [E:849r S:0 M:261098044 (Ack:238485928)] (U) Msg TX from 0000000000000000 to 0:D50FD95F92B1E025 [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (48290) chip[EM]: <<< [E:849r S:0 M:261098045 (Ack:238485928)] (U) Msg TX from 0000000000000000 to 0:D50FD95F92B1E025 [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:23 (SecureChannel:PASE_Pake2) (B:131)
+I (48300) chip[EM]: ??1 [E:849r S:0 M:261098045] (U) Msg Retransmission to 0:0000000000000000 scheduled for 339ms from now [State:Active II:500 AI:300 AT:4000]
+E (48310) chip[DL]: Long dispatch time: 834 ms, for event type 3
+I (48320) chip[EM]: >>> [E:849r S:0 M:238485929 (Ack:261098045)] (U) Msg RX from 0:D50FD95F92B1E025 [0000] to 0000000000000000 --- Type 0000:40 (SecureChannel:StatusReport) (B:34)
+E (48340) chip[SC]: Received error (protocol code 2) during PASE process: 38
+E (48340) chip[SC]: Failed during PASE session setup: 38
+E (48350) chip[SVR]: Commissioning failed (attempt 7): 38
+I (48350) chip[DIS]: Updating services using commissioning mode 2
+I (48360) chip[DIS]: CHIP minimal mDNS started advertising.
+I (48380) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (48380) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (48400) chip[DIS]: mDNS service published: _matter._tcp
+I (48400) chip[DIS]: Advertise commission parameter vendorID=65521 productID=32768 discriminator=0860/03 cm=2 cp=0 jf=0
+I (48410) chip[DIS]: CHIP minimal mDNS configured as 'Commissionable node device'; instance name: 15D6D96FB8446E54.
+I (48430) chip[DIS]: mDNS service published: _matterc._udp
+I (48430) chip[EM]: <<< [E:849r S:0 M:261098046 (Ack:238485929)] (U) Msg TX from 0000000000000000 to 0:D50FD95F92B1E025 [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (48440) chip[EM]: >>> [E:850r S:0 M:238485930] (U) Msg RX from 0:4D810494A577E943 [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)
+I (48460) chip[EM]: <<< [E:850r S:0 M:261098047 (Ack:238485930)] (U) Msg TX from 0000000000000000 to 0:4D810494A577E943 [0000] [UDP:192.168.188.148:41293] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (48480) chip[EM]: <<< [E:850r S:0 M:261098048 (Ack:238485930)] (U) Msg TX from 0000000000000000 to 0:4D810494A577E943 [0000] [UDP:192.168.188.148:41293] --- Type 0000:21 (SecureChannel:PBKDFParamResponse) (B:174)
+I (48500) chip[EM]: ??1 [E:850r S:0 M:261098048] (U) Msg Retransmission to 0:0000000000000000 scheduled for 331ms from now [State:Active II:500 AI:300 AT:4000]
+I (48510) chip[SVR]: Commissioning session establishment step started
+I (48520) app_main: Commissioning window opened
+I (48520) chip[EM]: >>> [E:850r S:0 M:238485931 (Ack:261098048)] (U) Msg RX from 0:4D810494A577E943 [0000] to 0000000000000000 --- Type 0000:22 (SecureChannel:PASE_Pake1) (B:96)
+I (48540) chip[EM]: <<< [E:850r S:0 M:261098049 (Ack:238485931)] (U) Msg TX from 0000000000000000 to 0:4D810494A577E943 [0000] [UDP:192.168.188.148:41293] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (49340) chip[EM]: <<< [E:850r S:0 M:261098050 (Ack:238485931)] (U) Msg TX from 0000000000000000 to 0:4D810494A577E943 [0000] [UDP:192.168.188.148:41293] --- Type 0000:23 (SecureChannel:PASE_Pake2) (B:131)
+I (49350) chip[EM]: ??1 [E:850r S:0 M:261098050] (U) Msg Retransmission to 0:0000000000000000 scheduled for 402ms from now [State:Active II:500 AI:300 AT:4000]
+E (49370) chip[DL]: Long dispatch time: 843 ms, for event type 3
+I (49370) chip[EM]: >>> [E:850r S:0 M:238485932 (Ack:261098050)] (U) Msg RX from 0:4D810494A577E943 [0000] to 0000000000000000 --- Type 0000:40 (SecureChannel:StatusReport) (B:34)
+E (49390) chip[SC]: Received error (protocol code 2) during PASE process: 38
+E (49390) chip[SC]: Failed during PASE session setup: 38
+E (49390) chip[SVR]: Commissioning failed (attempt 8): 38
+I (49410) chip[DIS]: Updating services using commissioning mode 2
+I (49410) chip[DIS]: CHIP minimal mDNS started advertising.
+I (49430) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (49430) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (49450) chip[DIS]: mDNS service published: _matter._tcp
+I (49450) chip[DIS]: Advertise commission parameter vendorID=65521 productID=32768 discriminator=0860/03 cm=2 cp=0 jf=0
+I (49460) chip[DIS]: CHIP minimal mDNS configured as 'Commissionable node device'; instance name: 15D6D96FB8446E54.
+I (49480) chip[DIS]: mDNS service published: _matterc._udp
+I (49480) chip[EM]: <<< [E:850r S:0 M:261098051 (Ack:238485932)] (U) Msg TX from 0000000000000000 to 0:4D810494A577E943 [0000] [UDP:192.168.188.148:41293] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (49500) chip[EM]: >>> [E:851r S:0 M:238485933] (U) Msg RX from 0:788B9439DB127E4F [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)
+I (49510) chip[EM]: <<< [E:851r S:0 M:261098052 (Ack:238485933)] (U) Msg TX from 0000000000000000 to 0:788B9439DB127E4F [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (49540) chip[EM]: <<< [E:851r S:0 M:261098053 (Ack:238485933)] (U) Msg TX from 0000000000000000 to 0:788B9439DB127E4F [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:21 (SecureChannel:PBKDFParamResponse) (B:174)
+I (49550) chip[EM]: ??1 [E:851r S:0 M:261098053] (U) Msg Retransmission to 0:0000000000000000 scheduled for 339ms from now [State:Active II:500 AI:300 AT:4000]
+I (49560) chip[SVR]: Commissioning session establishment step started
+I (49580) app_main: Commissioning window opened
+I (49580) chip[EM]: >>> [E:851r S:0 M:238485934 (Ack:261098053)] (U) Msg RX from 0:788B9439DB127E4F [0000] to 0000000000000000 --- Type 0000:22 (SecureChannel:PASE_Pake1) (B:96)
+I (49590) chip[EM]: <<< [E:851r S:0 M:261098054 (Ack:238485934)] (U) Msg TX from 0000000000000000 to 0:788B9439DB127E4F [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (50390) chip[EM]: <<< [E:851r S:0 M:261098055 (Ack:238485934)] (U) Msg TX from 0000000000000000 to 0:788B9439DB127E4F [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:23 (SecureChannel:PASE_Pake2) (B:131)
+I (50410) chip[EM]: ??1 [E:851r S:0 M:261098055] (U) Msg Retransmission to 0:0000000000000000 scheduled for 351ms from now [State:Active II:500 AI:300 AT:4000]
+E (50420) chip[DL]: Long dispatch time: 845 ms, for event type 3
+I (50420) chip[EM]: >>> [E:851r S:0 M:238485935 (Ack:261098055)] (U) Msg RX from 0:788B9439DB127E4F [0000] to 0000000000000000 --- Type 0000:40 (SecureChannel:StatusReport) (B:34)
+E (50450) chip[SC]: Received error (protocol code 2) during PASE process: 38
+E (50450) chip[SC]: Failed during PASE session setup: 38
+E (50450) chip[SVR]: Commissioning failed (attempt 9): 38
+I (50460) chip[DIS]: Updating services using commissioning mode 2
+I (50460) chip[DIS]: CHIP minimal mDNS started advertising.
+I (50490) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (50490) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (50500) chip[DIS]: mDNS service published: _matter._tcp
+I (50510) chip[DIS]: Advertise commission parameter vendorID=65521 productID=32768 discriminator=0860/03 cm=2 cp=0 jf=0
+I (50520) chip[DIS]: CHIP minimal mDNS configured as 'Commissionable node device'; instance name: 15D6D96FB8446E54.
+I (50540) chip[DIS]: mDNS service published: _matterc._udp
+I (50540) chip[EM]: <<< [E:851r S:0 M:261098056 (Ack:238485935)] (U) Msg TX from 0000000000000000 to 0:788B9439DB127E4F [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (50550) chip[EM]: >>> [E:852r S:0 M:238485936] (U) Msg RX from 0:5FD3B8845A680D4B [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)
+I (50570) chip[EM]: <<< [E:852r S:0 M:261098057 (Ack:238485936)] (U) Msg TX from 0000000000000000 to 0:5FD3B8845A680D4B [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (50590) chip[EM]: <<< [E:852r S:0 M:261098058 (Ack:238485936)] (U) Msg TX from 0000000000000000 to 0:5FD3B8845A680D4B [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:21 (SecureChannel:PBKDFParamResponse) (B:174)
+I (50620) chip[EM]: ??1 [E:852r S:0 M:261098058] (U) Msg Retransmission to 0:0000000000000000 scheduled for 373ms from now [State:Active II:500 AI:300 AT:4000]
+I (50630) chip[SVR]: Commissioning session establishment step started
+I (50630) app_main: Commissioning window opened
+I (50630) chip[EM]: >>> [E:852r S:0 M:238485937 (Ack:261098058)] (U) Msg RX from 0:5FD3B8845A680D4B [0000] to 0000000000000000 --- Type 0000:22 (SecureChannel:PASE_Pake1) (B:96)
+I (50650) chip[EM]: <<< [E:852r S:0 M:261098059 (Ack:238485937)] (U) Msg TX from 0000000000000000 to 0:5FD3B8845A680D4B [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (51450) chip[EM]: <<< [E:852r S:0 M:261098060 (Ack:238485937)] (U) Msg TX from 0000000000000000 to 0:5FD3B8845A680D4B [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:23 (SecureChannel:PASE_Pake2) (B:131)
+I (51460) chip[EM]: ??1 [E:852r S:0 M:261098060] (U) Msg Retransmission to 0:0000000000000000 scheduled for 353ms from now [State:Active II:500 AI:300 AT:4000]
+E (51480) chip[DL]: Long dispatch time: 845 ms, for event type 3
+I (51480) chip[EM]: >>> [E:852r S:0 M:238485938 (Ack:261098060)] (U) Msg RX from 0:5FD3B8845A680D4B [0000] to 0000000000000000 --- Type 0000:40 (SecureChannel:StatusReport) (B:34)
+E (51500) chip[SC]: Received error (protocol code 2) during PASE process: 38
+E (51510) chip[SC]: Failed during PASE session setup: 38
+E (51510) chip[SVR]: Commissioning failed (attempt 10): 38
+I (51520) chip[DIS]: Updating services using commissioning mode 2
+I (51520) chip[DIS]: CHIP minimal mDNS started advertising.
+I (51540) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (51550) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (51560) chip[DIS]: mDNS service published: _matter._tcp
+I (51560) chip[DIS]: Advertise commission parameter vendorID=65521 productID=32768 discriminator=0860/03 cm=2 cp=0 jf=0
+I (51580) chip[DIS]: CHIP minimal mDNS configured as 'Commissionable node device'; instance name: 15D6D96FB8446E54.
+I (51590) chip[DIS]: mDNS service published: _matterc._udp
+I (51600) chip[EM]: <<< [E:852r S:0 M:261098061 (Ack:238485938)] (U) Msg TX from 0000000000000000 to 0:5FD3B8845A680D4B [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (51610) chip[EM]: >>> [E:853r S:0 M:238485939] (U) Msg RX from 0:77FD8FBAB685704E [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)
+I (51620) chip[EM]: <<< [E:853r S:0 M:261098062 (Ack:238485939)] (U) Msg TX from 0000000000000000 to 0:77FD8FBAB685704E [0000] [UDP:192.168.188.148:41293] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (51650) chip[EM]: <<< [E:853r S:0 M:261098063 (Ack:238485939)] (U) Msg TX from 0000000000000000 to 0:77FD8FBAB685704E [0000] [UDP:192.168.188.148:41293] --- Type 0000:21 (SecureChannel:PBKDFParamResponse) (B:174)
+I (51660) chip[EM]: ??1 [E:853r S:0 M:261098063] (U) Msg Retransmission to 0:0000000000000000 scheduled for 332ms from now [State:Active II:500 AI:300 AT:4000]
+I (51680) chip[SVR]: Commissioning session establishment step started
+I (51690) app_main: Commissioning window opened
+I (51690) chip[EM]: >>> [E:853r S:0 M:238485940 (Ack:261098063)] (U) Msg RX from 0:77FD8FBAB685704E [0000] to 0000000000000000 --- Type 0000:22 (SecureChannel:PASE_Pake1) (B:96)
+I (51700) chip[EM]: <<< [E:853r S:0 M:261098064 (Ack:238485940)] (U) Msg TX from 0000000000000000 to 0:77FD8FBAB685704E [0000] [UDP:192.168.188.148:41293] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (52510) chip[EM]: <<< [E:853r S:0 M:261098065 (Ack:238485940)] (U) Msg TX from 0000000000000000 to 0:77FD8FBAB685704E [0000] [UDP:192.168.188.148:41293] --- Type 0000:23 (SecureChannel:PASE_Pake2) (B:131)
+I (52520) chip[EM]: ??1 [E:853r S:0 M:261098065] (U) Msg Retransmission to 0:0000000000000000 scheduled for 407ms from now [State:Active II:500 AI:300 AT:4000]
+E (52530) chip[DL]: Long dispatch time: 844 ms, for event type 3
+I (52540) chip[EM]: >>> [E:853r S:0 M:238485941 (Ack:261098065)] (U) Msg RX from 0:77FD8FBAB685704E [0000] to 0000000000000000 --- Type 0000:40 (SecureChannel:StatusReport) (B:34)
+E (52550) chip[SC]: Received error (protocol code 2) during PASE process: 38
+E (52560) chip[SC]: Failed during PASE session setup: 38
+E (52560) chip[SVR]: Commissioning failed (attempt 11): 38
+I (52580) chip[DIS]: Updating services using commissioning mode 2
+I (52580) chip[DIS]: CHIP minimal mDNS started advertising.
+I (52590) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (52590) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (52610) chip[DIS]: mDNS service published: _matter._tcp
+I (52610) chip[DIS]: Advertise commission parameter vendorID=65521 productID=32768 discriminator=0860/03 cm=2 cp=0 jf=0
+I (52620) chip[DIS]: CHIP minimal mDNS configured as 'Commissionable node device'; instance name: 15D6D96FB8446E54.
+I (52640) chip[DIS]: mDNS service published: _matterc._udp
+I (52640) chip[EM]: <<< [E:853r S:0 M:261098066 (Ack:238485941)] (U) Msg TX from 0000000000000000 to 0:77FD8FBAB685704E [0000] [UDP:192.168.188.148:41293] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (52660) chip[EM]: >>> [E:854r S:0 M:238485942] (U) Msg RX from 0:B4B90904F112898C [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)
+I (52670) chip[EM]: <<< [E:854r S:0 M:261098067 (Ack:238485942)] (U) Msg TX from 0000000000000000 to 0:B4B90904F112898C [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (52700) chip[EM]: <<< [E:854r S:0 M:261098068 (Ack:238485942)] (U) Msg TX from 0000000000000000 to 0:B4B90904F112898C [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:21 (SecureChannel:PBKDFParamResponse) (B:174)
+I (52710) chip[EM]: ??1 [E:854r S:0 M:261098068] (U) Msg Retransmission to 0:0000000000000000 scheduled for 346ms from now [State:Active II:500 AI:300 AT:4000]
+I (52720) chip[SVR]: Commissioning session establishment step started
+I (52740) app_main: Commissioning window opened
+I (52740) chip[EM]: >>> [E:854r S:0 M:238485943 (Ack:261098068)] (U) Msg RX from 0:B4B90904F112898C [0000] to 0000000000000000 --- Type 0000:22 (SecureChannel:PASE_Pake1) (B:96)
+I (52750) chip[EM]: <<< [E:854r S:0 M:261098069 (Ack:238485943)] (U) Msg TX from 0000000000000000 to 0:B4B90904F112898C [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (53550) chip[EM]: <<< [E:854r S:0 M:261098070 (Ack:238485943)] (U) Msg TX from 0000000000000000 to 0:B4B90904F112898C [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:23 (SecureChannel:PASE_Pake2) (B:131)
+I (53570) chip[EM]: ??1 [E:854r S:0 M:261098070] (U) Msg Retransmission to 0:0000000000000000 scheduled for 353ms from now [State:Active II:500 AI:300 AT:4000]
+E (53580) chip[DL]: Long dispatch time: 844 ms, for event type 3
+I (53580) chip[EM]: >>> [E:854r S:0 M:238485944 (Ack:261098070)] (U) Msg RX from 0:B4B90904F112898C [0000] to 0000000000000000 --- Type 0000:40 (SecureChannel:StatusReport) (B:34)
+E (53610) chip[SC]: Received error (protocol code 2) during PASE process: 38
+E (53610) chip[SC]: Failed during PASE session setup: 38
+E (53620) chip[SVR]: Commissioning failed (attempt 12): 38
+I (53620) chip[DIS]: Updating services using commissioning mode 2
+I (53620) chip[DIS]: CHIP minimal mDNS started advertising.
+I (53650) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (53650) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (53660) chip[DIS]: mDNS service published: _matter._tcp
+I (53670) chip[DIS]: Advertise commission parameter vendorID=65521 productID=32768 discriminator=0860/03 cm=2 cp=0 jf=0
+I (53680) chip[DIS]: CHIP minimal mDNS configured as 'Commissionable node device'; instance name: 15D6D96FB8446E54.
+I (53700) chip[DIS]: mDNS service published: _matterc._udp
+I (53700) chip[EM]: <<< [E:854r S:0 M:261098071 (Ack:238485944)] (U) Msg TX from 0000000000000000 to 0:B4B90904F112898C [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (53710) chip[EM]: >>> [E:855r S:0 M:238485945] (U) Msg RX from 0:EAE3EEDFCD7EE181 [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)
+I (53730) chip[EM]: <<< [E:855r S:0 M:261098072 (Ack:238485945)] (U) Msg TX from 0000000000000000 to 0:EAE3EEDFCD7EE181 [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (53750) chip[EM]: <<< [E:855r S:0 M:261098073 (Ack:238485945)] (U) Msg TX from 0000000000000000 to 0:EAE3EEDFCD7EE181 [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:21 (SecureChannel:PBKDFParamResponse) (B:174)
+I (53780) chip[EM]: ??1 [E:855r S:0 M:261098073] (U) Msg Retransmission to 0:0000000000000000 scheduled for 357ms from now [State:Active II:500 AI:300 AT:4000]
+I (53790) chip[SVR]: Commissioning session establishment step started
+I (53790) app_main: Commissioning window opened
+I (53790) chip[EM]: >>> [E:855r S:0 M:238485946 (Ack:261098073)] (U) Msg RX from 0:EAE3EEDFCD7EE181 [0000] to 0000000000000000 --- Type 0000:22 (SecureChannel:PASE_Pake1) (B:96)
+I (53810) chip[EM]: <<< [E:855r S:0 M:261098074 (Ack:238485946)] (U) Msg TX from 0000000000000000 to 0:EAE3EEDFCD7EE181 [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (54610) chip[EM]: <<< [E:855r S:0 M:261098075 (Ack:238485946)] (U) Msg TX from 0000000000000000 to 0:EAE3EEDFCD7EE181 [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:23 (SecureChannel:PASE_Pake2) (B:131)
+I (54630) chip[EM]: ??1 [E:855r S:0 M:261098075] (U) Msg Retransmission to 0:0000000000000000 scheduled for 388ms from now [State:Active II:500 AI:300 AT:4000]
+E (54640) chip[DL]: Long dispatch time: 845 ms, for event type 3
+I (54640) chip[EM]: >>> [E:855r S:0 M:238485947 (Ack:261098075)] (U) Msg RX from 0:EAE3EEDFCD7EE181 [0000] to 0000000000000000 --- Type 0000:40 (SecureChannel:StatusReport) (B:34)
+E (54660) chip[SC]: Received error (protocol code 2) during PASE process: 38
+E (54670) chip[SC]: Failed during PASE session setup: 38
+E (54680) chip[SVR]: Commissioning failed (attempt 13): 38
+I (54680) chip[DIS]: Updating services using commissioning mode 2
+I (54680) chip[DIS]: CHIP minimal mDNS started advertising.
+I (54700) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (54710) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (54720) chip[DIS]: mDNS service published: _matter._tcp
+I (54720) chip[DIS]: Advertise commission parameter vendorID=65521 productID=32768 discriminator=0860/03 cm=2 cp=0 jf=0
+I (54730) chip[DIS]: CHIP minimal mDNS configured as 'Commissionable node device'; instance name: 15D6D96FB8446E54.
+I (54750) chip[DIS]: mDNS service published: _matterc._udp
+I (54750) chip[EM]: <<< [E:855r S:0 M:261098076 (Ack:238485947)] (U) Msg TX from 0000000000000000 to 0:EAE3EEDFCD7EE181 [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (54770) chip[EM]: >>> [E:856r S:0 M:238485948] (U) Msg RX from 0:A31E40F6AB5B3E77 [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)
+I (54780) chip[EM]: <<< [E:856r S:0 M:261098077 (Ack:238485948)] (U) Msg TX from 0000000000000000 to 0:A31E40F6AB5B3E77 [0000] [UDP:192.168.188.148:41293] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (54810) chip[EM]: <<< [E:856r S:0 M:261098078 (Ack:238485948)] (U) Msg TX from 0000000000000000 to 0:A31E40F6AB5B3E77 [0000] [UDP:192.168.188.148:41293] --- Type 0000:21 (SecureChannel:PBKDFParamResponse) (B:174)
+I (54820) chip[EM]: ??1 [E:856r S:0 M:261098078] (U) Msg Retransmission to 0:0000000000000000 scheduled for 380ms from now [State:Active II:500 AI:300 AT:4000]
+I (54840) chip[SVR]: Commissioning session establishment step started
+I (54850) app_main: Commissioning window opened
+I (54850) chip[EM]: >>> [E:856r S:0 M:238485949 (Ack:261098078)] (U) Msg RX from 0:A31E40F6AB5B3E77 [0000] to 0000000000000000 --- Type 0000:22 (SecureChannel:PASE_Pake1) (B:96)
+I (54860) chip[EM]: <<< [E:856r S:0 M:261098079 (Ack:238485949)] (U) Msg TX from 0000000000000000 to 0:A31E40F6AB5B3E77 [0000] [UDP:192.168.188.148:41293] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (55660) chip[EM]: <<< [E:856r S:0 M:261098080 (Ack:238485949)] (U) Msg TX from 0000000000000000 to 0:A31E40F6AB5B3E77 [0000] [UDP:192.168.188.148:41293] --- Type 0000:23 (SecureChannel:PASE_Pake2) (B:131)
+I (55680) chip[EM]: ??1 [E:856r S:0 M:261098080] (U) Msg Retransmission to 0:0000000000000000 scheduled for 360ms from now [State:Active II:500 AI:300 AT:4000]
+E (55690) chip[DL]: Long dispatch time: 844 ms, for event type 3
+I (55690) chip[EM]: >>> [E:856r S:0 M:238485950 (Ack:261098080)] (U) Msg RX from 0:A31E40F6AB5B3E77 [0000] to 0000000000000000 --- Type 0000:40 (SecureChannel:StatusReport) (B:34)
+E (55720) chip[SC]: Received error (protocol code 2) during PASE process: 38
+E (55720) chip[SC]: Failed during PASE session setup: 38
+E (55720) chip[SVR]: Commissioning failed (attempt 14): 38
+I (55730) chip[DIS]: Updating services using commissioning mode 2
+I (55730) chip[DIS]: CHIP minimal mDNS started advertising.
+I (55760) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (55760) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (55770) chip[DIS]: mDNS service published: _matter._tcp
+I (55780) chip[DIS]: Advertise commission parameter vendorID=65521 productID=32768 discriminator=0860/03 cm=2 cp=0 jf=0
+I (55790) chip[DIS]: CHIP minimal mDNS configured as 'Commissionable node device'; instance name: 15D6D96FB8446E54.
+I (55810) chip[DIS]: mDNS service published: _matterc._udp
+I (55810) chip[EM]: <<< [E:856r S:0 M:261098081 (Ack:238485950)] (U) Msg TX from 0000000000000000 to 0:A31E40F6AB5B3E77 [0000] [UDP:192.168.188.148:41293] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (55820) chip[EM]: >>> [E:857r S:0 M:238485951] (U) Msg RX from 0:B860EC94D5BA6612 [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)
+I (55840) chip[EM]: <<< [E:857r S:0 M:261098082 (Ack:238485951)] (U) Msg TX from 0000000000000000 to 0:B860EC94D5BA6612 [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (55860) chip[EM]: <<< [E:857r S:0 M:261098083 (Ack:238485951)] (U) Msg TX from 0000000000000000 to 0:B860EC94D5BA6612 [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:21 (SecureChannel:PBKDFParamResponse) (B:174)
+I (55880) chip[EM]: ??1 [E:857r S:0 M:261098083] (U) Msg Retransmission to 0:0000000000000000 scheduled for 388ms from now [State:Active II:500 AI:300 AT:4000]
+I (55890) chip[SVR]: Commissioning session establishment step started
+I (55900) app_main: Commissioning window opened
+I (55900) chip[EM]: >>> [E:857r S:0 M:238485952 (Ack:261098083)] (U) Msg RX from 0:B860EC94D5BA6612 [0000] to 0000000000000000 --- Type 0000:22 (SecureChannel:PASE_Pake1) (B:96)
+I (55920) chip[EM]: <<< [E:857r S:0 M:261098084 (Ack:238485952)] (U) Msg TX from 0000000000000000 to 0:B860EC94D5BA6612 [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (56720) chip[EM]: <<< [E:857r S:0 M:261098085 (Ack:238485952)] (U) Msg TX from 0000000000000000 to 0:B860EC94D5BA6612 [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:23 (SecureChannel:PASE_Pake2) (B:131)
+I (56730) chip[EM]: ??1 [E:857r S:0 M:261098085] (U) Msg Retransmission to 0:0000000000000000 scheduled for 389ms from now [State:Active II:500 AI:300 AT:4000]
+E (56750) chip[DL]: Long dispatch time: 844 ms, for event type 3
+I (56750) chip[EM]: >>> [E:857r S:0 M:238485953 (Ack:261098085)] (U) Msg RX from 0:B860EC94D5BA6612 [0000] to 0000000000000000 --- Type 0000:40 (SecureChannel:StatusReport) (B:34)
+E (56770) chip[SC]: Received error (protocol code 2) during PASE process: 38
+E (56770) chip[SC]: Failed during PASE session setup: 38
+E (56780) chip[SVR]: Commissioning failed (attempt 15): 38
+I (56790) chip[DIS]: Updating services using commissioning mode 2
+I (56790) chip[DIS]: CHIP minimal mDNS started advertising.
+I (56810) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (56810) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (56830) chip[DIS]: mDNS service published: _matter._tcp
+I (56830) chip[DIS]: Advertise commission parameter vendorID=65521 productID=32768 discriminator=0860/03 cm=2 cp=0 jf=0
+I (56840) chip[DIS]: CHIP minimal mDNS configured as 'Commissionable node device'; instance name: 15D6D96FB8446E54.
+I (56860) chip[DIS]: mDNS service published: _matterc._udp
+I (56860) chip[EM]: <<< [E:857r S:0 M:261098086 (Ack:238485953)] (U) Msg TX from 0000000000000000 to 0:B860EC94D5BA6612 [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (56880) chip[EM]: >>> [E:858r S:0 M:238485954] (U) Msg RX from 0:23B51309407A46E4 [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)
+I (56890) chip[EM]: <<< [E:858r S:0 M:261098087 (Ack:238485954)] (U) Msg TX from 0000000000000000 to 0:23B51309407A46E4 [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (56920) chip[EM]: <<< [E:858r S:0 M:261098088 (Ack:238485954)] (U) Msg TX from 0000000000000000 to 0:23B51309407A46E4 [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:21 (SecureChannel:PBKDFParamResponse) (B:174)
+I (56930) chip[EM]: ??1 [E:858r S:0 M:261098088] (U) Msg Retransmission to 0:0000000000000000 scheduled for 383ms from now [State:Active II:500 AI:300 AT:4000]
+I (56950) chip[SVR]: Commissioning session establishment step started
+I (56960) app_main: Commissioning window opened
+I (56960) chip[EM]: >>> [E:858r S:0 M:238485955 (Ack:261098088)] (U) Msg RX from 0:23B51309407A46E4 [0000] to 0000000000000000 --- Type 0000:22 (SecureChannel:PASE_Pake1) (B:96)
+I (56980) chip[EM]: <<< [E:858r S:0 M:261098089 (Ack:238485955)] (U) Msg TX from 0000000000000000 to 0:23B51309407A46E4 [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (57770) chip[EM]: <<< [E:858r S:0 M:261098090 (Ack:238485955)] (U) Msg TX from 0000000000000000 to 0:23B51309407A46E4 [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:23 (SecureChannel:PASE_Pake2) (B:131)
+I (57790) chip[EM]: ??1 [E:858r S:0 M:261098090] (U) Msg Retransmission to 0:0000000000000000 scheduled for 332ms from now [State:Active II:500 AI:300 AT:4000]
+E (57800) chip[DL]: Long dispatch time: 845 ms, for event type 3
+I (57800) chip[EM]: >>> [E:858r S:0 M:238485956 (Ack:261098090)] (U) Msg RX from 0:23B51309407A46E4 [0000] to 0000000000000000 --- Type 0000:40 (SecureChannel:StatusReport) (B:34)
+E (57830) chip[SC]: Received error (protocol code 2) during PASE process: 38
+E (57830) chip[SC]: Failed during PASE session setup: 38
+E (57840) chip[SVR]: Commissioning failed (attempt 16): 38
+I (57840) chip[DIS]: Updating services using commissioning mode 2
+I (57840) chip[DIS]: CHIP minimal mDNS started advertising.
+I (57870) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (57870) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (57880) chip[DIS]: mDNS service published: _matter._tcp
+I (57880) chip[DIS]: Advertise commission parameter vendorID=65521 productID=32768 discriminator=0860/03 cm=2 cp=0 jf=0
+I (57900) chip[DIS]: CHIP minimal mDNS configured as 'Commissionable node device'; instance name: 15D6D96FB8446E54.
+I (57920) chip[DIS]: mDNS service published: _matterc._udp
+I (57920) chip[EM]: <<< [E:858r S:0 M:261098091 (Ack:238485956)] (U) Msg TX from 0000000000000000 to 0:23B51309407A46E4 [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (57930) chip[EM]: >>> [E:859r S:0 M:238485957] (U) Msg RX from 0:1E9711F37D7BDD56 [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)
+I (57950) chip[EM]: <<< [E:859r S:0 M:261098092 (Ack:238485957)] (U) Msg TX from 0000000000000000 to 0:1E9711F37D7BDD56 [0000] [UDP:192.168.188.148:41293] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (57970) chip[EM]: <<< [E:859r S:0 M:261098093 (Ack:238485957)] (U) Msg TX from 0000000000000000 to 0:1E9711F37D7BDD56 [0000] [UDP:192.168.188.148:41293] --- Type 0000:21 (SecureChannel:PBKDFParamResponse) (B:174)
+I (57990) chip[EM]: ??1 [E:859r S:0 M:261098093] (U) Msg Retransmission to 0:0000000000000000 scheduled for 397ms from now [State:Active II:500 AI:300 AT:4000]
+I (58000) chip[SVR]: Commissioning session establishment step started
+I (58010) app_main: Commissioning window opened
+I (58010) chip[EM]: >>> [E:859r S:0 M:238485958 (Ack:261098093)] (U) Msg RX from 0:1E9711F37D7BDD56 [0000] to 0000000000000000 --- Type 0000:22 (SecureChannel:PASE_Pake1) (B:96)
+I (58020) chip[EM]: <<< [E:859r S:0 M:261098094 (Ack:238485958)] (U) Msg TX from 0000000000000000 to 0:1E9711F37D7BDD56 [0000] [UDP:192.168.188.148:41293] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (58830) chip[EM]: <<< [E:859r S:0 M:261098095 (Ack:238485958)] (U) Msg TX from 0000000000000000 to 0:1E9711F37D7BDD56 [0000] [UDP:192.168.188.148:41293] --- Type 0000:23 (SecureChannel:PASE_Pake2) (B:131)
+I (58840) chip[EM]: ??1 [E:859r S:0 M:261098095] (U) Msg Retransmission to 0:0000000000000000 scheduled for 379ms from now [State:Active II:500 AI:300 AT:4000]
+E (58860) chip[DL]: Long dispatch time: 844 ms, for event type 3
+I (58860) chip[EM]: >>> [E:859r S:0 M:238485959 (Ack:261098095)] (U) Msg RX from 0:1E9711F37D7BDD56 [0000] to 0000000000000000 --- Type 0000:40 (SecureChannel:StatusReport) (B:34)
+E (58880) chip[SC]: Received error (protocol code 2) during PASE process: 38
+E (58880) chip[SC]: Failed during PASE session setup: 38
+E (58880) chip[SVR]: Commissioning failed (attempt 17): 38
+I (58890) chip[DIS]: Updating services using commissioning mode 2
+I (58900) chip[DIS]: CHIP minimal mDNS started advertising.
+I (58920) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (58920) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (58940) chip[DIS]: mDNS service published: _matter._tcp
+I (58940) chip[DIS]: Advertise commission parameter vendorID=65521 productID=32768 discriminator=0860/03 cm=2 cp=0 jf=0
+I (58950) chip[DIS]: CHIP minimal mDNS configured as 'Commissionable node device'; instance name: 15D6D96FB8446E54.
+I (58970) chip[DIS]: mDNS service published: _matterc._udp
+I (58970) chip[EM]: <<< [E:859r S:0 M:261098096 (Ack:238485959)] (U) Msg TX from 0000000000000000 to 0:1E9711F37D7BDD56 [0000] [UDP:192.168.188.148:41293] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (58990) chip[EM]: >>> [E:860r S:0 M:238485960] (U) Msg RX from 0:FE5DBF9952BF238C [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)
+I (59000) chip[EM]: <<< [E:860r S:0 M:261098097 (Ack:238485960)] (U) Msg TX from 0000000000000000 to 0:FE5DBF9952BF238C [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (59030) chip[EM]: <<< [E:860r S:0 M:261098098 (Ack:238485960)] (U) Msg TX from 0000000000000000 to 0:FE5DBF9952BF238C [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:21 (SecureChannel:PBKDFParamResponse) (B:174)
+I (59040) chip[EM]: ??1 [E:860r S:0 M:261098098] (U) Msg Retransmission to 0:0000000000000000 scheduled for 368ms from now [State:Active II:500 AI:300 AT:4000]
+I (59050) chip[SVR]: Commissioning session establishment step started
+I (59070) app_main: Commissioning window opened
+I (59070) chip[EM]: >>> [E:860r S:0 M:238485961 (Ack:261098098)] (U) Msg RX from 0:FE5DBF9952BF238C [0000] to 0000000000000000 --- Type 0000:22 (SecureChannel:PASE_Pake1) (B:96)
+I (59080) chip[EM]: <<< [E:860r S:0 M:261098099 (Ack:238485961)] (U) Msg TX from 0000000000000000 to 0:FE5DBF9952BF238C [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (59880) chip[EM]: <<< [E:860r S:0 M:261098100 (Ack:238485961)] (U) Msg TX from 0000000000000000 to 0:FE5DBF9952BF238C [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:23 (SecureChannel:PASE_Pake2) (B:131)
+I (59900) chip[EM]: ??1 [E:860r S:0 M:261098100] (U) Msg Retransmission to 0:0000000000000000 scheduled for 390ms from now [State:Active II:500 AI:300 AT:4000]
+E (59910) chip[DL]: Long dispatch time: 844 ms, for event type 3
+I (59910) chip[EM]: >>> [E:860r S:0 M:238485962 (Ack:261098100)] (U) Msg RX from 0:FE5DBF9952BF238C [0000] to 0000000000000000 --- Type 0000:40 (SecureChannel:StatusReport) (B:34)
+E (59940) chip[SC]: Received error (protocol code 2) during PASE process: 38
+E (59940) chip[SC]: Failed during PASE session setup: 38
+E (59950) chip[SVR]: Commissioning failed (attempt 18): 38
+I (59950) chip[DIS]: Updating services using commissioning mode 2
+I (59950) chip[DIS]: CHIP minimal mDNS started advertising.
+I (59980) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (59980) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (59990) chip[DIS]: mDNS service published: _matter._tcp
+I (59990) chip[DIS]: Advertise commission parameter vendorID=65521 productID=32768 discriminator=0860/03 cm=2 cp=0 jf=0
+I (60010) chip[DIS]: CHIP minimal mDNS configured as 'Commissionable node device'; instance name: 15D6D96FB8446E54.
+I (60020) chip[DIS]: mDNS service published: _matterc._udp
+I (60030) chip[EM]: <<< [E:860r S:0 M:261098101 (Ack:238485962)] (U) Msg TX from 0000000000000000 to 0:FE5DBF9952BF238C [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (60040) chip[EM]: >>> [E:861r S:0 M:238485963] (U) Msg RX from 0:263E4846A76B7367 [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)
+I (60050) chip[EM]: <<< [E:861r S:0 M:261098102 (Ack:238485963)] (U) Msg TX from 0000000000000000 to 0:263E4846A76B7367 [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (60080) chip[EM]: <<< [E:861r S:0 M:261098103 (Ack:238485963)] (U) Msg TX from 0000000000000000 to 0:263E4846A76B7367 [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:21 (SecureChannel:PBKDFParamResponse) (B:174)
+I (60100) chip[EM]: ??1 [E:861r S:0 M:261098103] (U) Msg Retransmission to 0:0000000000000000 scheduled for 380ms from now [State:Active II:500 AI:300 AT:4000]
+I (60110) chip[SVR]: Commissioning session establishment step started
+I (60120) app_main: Commissioning window opened
+I (60120) chip[EM]: >>> [E:861r S:0 M:238485964 (Ack:261098103)] (U) Msg RX from 0:263E4846A76B7367 [0000] to 0000000000000000 --- Type 0000:22 (SecureChannel:PASE_Pake1) (B:96)
+I (60130) chip[EM]: <<< [E:861r S:0 M:261098104 (Ack:238485964)] (U) Msg TX from 0000000000000000 to 0:263E4846A76B7367 [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (60940) chip[EM]: <<< [E:861r S:0 M:261098105 (Ack:238485964)] (U) Msg TX from 0000000000000000 to 0:263E4846A76B7367 [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:23 (SecureChannel:PASE_Pake2) (B:131)
+I (60950) chip[EM]: ??1 [E:861r S:0 M:261098105] (U) Msg Retransmission to 0:0000000000000000 scheduled for 347ms from now [State:Active II:500 AI:300 AT:4000]
+E (60970) chip[DL]: Long dispatch time: 844 ms, for event type 3
+I (60970) chip[EM]: >>> [E:861r S:0 M:238485965 (Ack:261098105)] (U) Msg RX from 0:263E4846A76B7367 [0000] to 0000000000000000 --- Type 0000:40 (SecureChannel:StatusReport) (B:34)
+E (60990) chip[SC]: Received error (protocol code 2) during PASE process: 38
+E (60990) chip[SC]: Failed during PASE session setup: 38
+E (60990) chip[SVR]: Commissioning failed (attempt 19): 38
+I (61010) chip[DIS]: Updating services using commissioning mode 2
+I (61010) chip[DIS]: CHIP minimal mDNS started advertising.
+I (61030) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (61030) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (61050) chip[DIS]: mDNS service published: _matter._tcp
+I (61050) chip[DIS]: Advertise commission parameter vendorID=65521 productID=32768 discriminator=0860/03 cm=2 cp=0 jf=0
+I (61060) chip[DIS]: CHIP minimal mDNS configured as 'Commissionable node device'; instance name: 15D6D96FB8446E54.
+I (61080) chip[DIS]: mDNS service published: _matterc._udp
+I (61080) chip[EM]: <<< [E:861r S:0 M:261098106 (Ack:238485965)] (U) Msg TX from 0000000000000000 to 0:263E4846A76B7367 [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (61100) chip[EM]: >>> [E:862r S:0 M:238485966] (U) Msg RX from 0:BED9E53F09B5628A [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)
+I (61110) chip[EM]: <<< [E:862r S:0 M:261098107 (Ack:238485966)] (U) Msg TX from 0000000000000000 to 0:BED9E53F09B5628A [0000] [UDP:192.168.188.148:41293] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (61140) chip[EM]: <<< [E:862r S:0 M:261098108 (Ack:238485966)] (U) Msg TX from 0000000000000000 to 0:BED9E53F09B5628A [0000] [UDP:192.168.188.148:41293] --- Type 0000:21 (SecureChannel:PBKDFParamResponse) (B:174)
+I (61150) chip[EM]: ??1 [E:862r S:0 M:261098108] (U) Msg Retransmission to 0:0000000000000000 scheduled for 347ms from now [State:Active II:500 AI:300 AT:4000]
+I (61160) chip[SVR]: Commissioning session establishment step started
+I (61180) app_main: Commissioning window opened
+I (61180) chip[EM]: >>> [E:862r S:0 M:238485967 (Ack:261098108)] (U) Msg RX from 0:BED9E53F09B5628A [0000] to 0000000000000000 --- Type 0000:22 (SecureChannel:PASE_Pake1) (B:96)
+I (61190) chip[EM]: <<< [E:862r S:0 M:261098109 (Ack:238485967)] (U) Msg TX from 0000000000000000 to 0:BED9E53F09B5628A [0000] [UDP:192.168.188.148:41293] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (61990) chip[EM]: <<< [E:862r S:0 M:261098110 (Ack:238485967)] (U) Msg TX from 0000000000000000 to 0:BED9E53F09B5628A [0000] [UDP:192.168.188.148:41293] --- Type 0000:23 (SecureChannel:PASE_Pake2) (B:131)
+I (62010) chip[EM]: ??1 [E:862r S:0 M:261098110] (U) Msg Retransmission to 0:0000000000000000 scheduled for 393ms from now [State:Active II:500 AI:300 AT:4000]
+E (62020) chip[DL]: Long dispatch time: 843 ms, for event type 3
+I (62020) chip[EM]: >>> [E:862r S:0 M:238485968 (Ack:261098110)] (U) Msg RX from 0:BED9E53F09B5628A [0000] to 0000000000000000 --- Type 0000:40 (SecureChannel:StatusReport) (B:34)
+E (62030) chip[SC]: Received error (protocol code 2) during PASE process: 38
+E (62050) chip[SC]: Failed during PASE session setup: 38
+E (62050) chip[SVR]: Commissioning failed (attempt 20): 38
+I (62060) chip[DIS]: Updating services using commissioning mode 0
+I (62060) chip[DIS]: CHIP minimal mDNS started advertising.
+I (62080) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-0000000028F450B9
+I (62090) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-0000000028F450B9.
+I (62100) chip[DIS]: mDNS service published: _matter._tcp
+I (62100) chip[EM]: <<< [E:862r S:0 M:261098111 (Ack:238485968)] (U) Msg TX from 0000000000000000 to 0:BED9E53F09B5628A [0000] [UDP:192.168.188.148:41293] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (62120) chip[EM]: >>> [E:863r S:0 M:238485969] (U) Msg RX from 0:C6BFEADEDB3C0AED [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)
+I (62140) chip[EM]: <<< [E:863r S:0 M:261098112 (Ack:238485969)] (U) Msg TX from 0000000000000000 to 0:C6BFEADEDB3C0AED [0000] [UDP:[FE80::E00E:9DF4:FCC1:5E9A%st1]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (62150) app_main: Commissioning window closed
+I (62160) app_main: Commissioning session stopped
+E (65810) chip[SWU]: No suitable OTA Provider candidate found
+I (65810) chip[SWU]: No provider available
+I (72550) chip[EM]: >>> [E:864r S:0 M:238485970] (U) Msg RX from 0:C8B3CA43155ED1D6 [0000] to 0000000000000000 --- Type 0000:20 (SecureChannel:PBKDFParamRequest) (B:98)
+I (72560) chip[EM]: <<< [E:864r S:0 M:261098113 (Ack:238485970)] (U) Msg TX from 0000000000000000 to 0:C8B3CA43155ED1D6 [0000] [UDP:[FD7A:9F3C:4599:0:65C8:2A44:2BC6:D108]:54507] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)

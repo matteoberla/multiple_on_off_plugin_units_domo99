@@ -83,81 +83,95 @@ esp_err_t app_driver_serial_init(void) {
   return ESP_OK;
 }
 
-// Improved RX task with diagnostic logging
+// Improved RX task with buffered reader ending on CR (0x0d) or LF (0x0a)
 static void serial_rx_task(void *arg) {
-  uint8_t data[128];
+  uint8_t rx_byte;
+  char rx_buffer[64];
+  int rx_index = 0;
   ESP_LOGI(TAG, "Serial RX Task started on UART%d", UART_PORT);
 
   while (1) {
-    int len =
-        uart_read_bytes(UART_PORT, data, sizeof(data) - 1, pdMS_TO_TICKS(200));
+    // Read 1 byte at a time to parse terminators immediately
+    int len = uart_read_bytes(UART_PORT, &rx_byte, 1, portMAX_DELAY);
     if (len > 0) {
-      data[len] = 0;
-      char *buf = (char *)data;
+      // If we see CR (0x0d) or LF (0x0a), we treat it as end of command
+      if (rx_byte == '\r' || rx_byte == '\n' || rx_byte == 0x0d) {
+        if (rx_index > 0) {
+          rx_buffer[rx_index] = 0; // Null terminate
+          
+          ESP_LOGI(TAG, "Serial RX Complete Command (%d bytes): [%s]", rx_index, rx_buffer);
 
-      // LOG EVERYTHING RECEIVED FOR DEBUGGING
-      ESP_LOGI(TAG, "Serial RX Raw (%d bytes): [%s]", len, buf);
+          char *p = NULL;
+          bool new_state = false;
+          bool found = false;
+          bool is_monostable_cmd = false;
 
-      char *p = NULL;
-      bool new_state = false;
-      bool found = false;
-      bool is_monostable_cmd = false;
+          if ((p = strstr(rx_buffer, "on,")) != NULL) {
+            new_state = true;
+            found = true;
+            is_monostable_cmd = false;
+          } else if ((p = strstr(rx_buffer, "of,")) != NULL) {
+            new_state = false;
+            found = true;
+            is_monostable_cmd = false;
+          } else if ((p = strstr(rx_buffer, "za,")) != NULL) {
+            new_state = true;
+            found = true;
+            is_monostable_cmd = true;
+          } else if ((p = strstr(rx_buffer, "zs,")) != NULL) {
+            new_state = false;
+            found = true;
+            is_monostable_cmd = true;
+          }
 
-      if ((p = strstr(buf, "on,")) != NULL) {
-        new_state = true;
-        found = true;
-        is_monostable_cmd = false;
-      } else if ((p = strstr(buf, "of,")) != NULL) {
-        new_state = false;
-        found = true;
-        is_monostable_cmd = false;
-      } else if ((p = strstr(buf, "za,")) != NULL) {
-        new_state = true;
-        found = true;
-        is_monostable_cmd = true;
-      } else if ((p = strstr(buf, "zs,")) != NULL) {
-        new_state = false;
-        found = true;
-        is_monostable_cmd = true;
-      }
+          if (found) {
+            int raw_idx = atoi(p + 3);
+            int idx = is_monostable_cmd ? (raw_idx + NUM_BISTABLE_PLUGS) : raw_idx;
 
-      if (found) {
-        int raw_idx = atoi(p + 3);
-        int idx = is_monostable_cmd ? (raw_idx + NUM_BISTABLE_PLUGS) : raw_idx;
+            ESP_LOGI(TAG, "Serial RX Task: Parsed Raw Index %d, Final Index %d, New State: %s", 
+                     raw_idx, idx, new_state ? "ON" : "OFF");
 
-        ESP_LOGI(TAG, "Serial RX Task: Parsed Raw Index %d, Final Index %d, New State: %s", 
-                 raw_idx, idx, new_state ? "ON" : "OFF");
+            if (idx >= 1 && idx <= TOTAL_PLUG_COUNT) {
+              uint16_t ep_id = plugin_unit_list[idx].endpoint_id;
+              if (ep_id != 0xFFFF) {
+                if (plug_states[idx] != new_state) {
+                  plug_states[idx] = new_state;
+                  esp_matter_attr_val_t val = esp_matter_bool(new_state);
+                  ESP_LOGI(TAG,
+                           "Serial RX Task: Updating Attribute Endpoint %d to %s",
+                           ep_id, new_state ? "ON" : "OFF");
 
-        if (idx >= 1 && idx <= TOTAL_PLUG_COUNT) {
-          uint16_t ep_id = plugin_unit_list[idx].endpoint_id;
-          if (ep_id != 0xFFFF) {
-            if (plug_states[idx] != new_state) {
-              plug_states[idx] = new_state;
-              esp_matter_attr_val_t val = esp_matter_bool(new_state);
-              ESP_LOGI(TAG,
-                       "Serial RX Task: Updating Attribute Endpoint %d to %s",
-                       ep_id, new_state ? "ON" : "OFF");
-
-              esp_matter::lock::ScopedChipStackLock lock(portMAX_DELAY);
-              esp_err_t err = attribute::update(
-                  ep_id, OnOff::Id, OnOff::Attributes::OnOff::Id, &val);
-              if (err != ESP_OK) {
-                ESP_LOGE(TAG,
-                         "Failed to update Matter attribute for EP %d, err: %d",
-                         ep_id, err);
+                  esp_matter::lock::ScopedChipStackLock lock(portMAX_DELAY);
+                  esp_err_t err = attribute::update(
+                      ep_id, OnOff::Id, OnOff::Attributes::OnOff::Id, &val);
+                  if (err != ESP_OK) {
+                    ESP_LOGE(TAG,
+                             "Failed to update Matter attribute for EP %d, err: %d",
+                             ep_id, err);
+                  }
+                } else {
+                  ESP_LOGI(TAG,
+                           "Serial RX Task: Index %d already in state %s, skipping",
+                           idx, new_state ? "ON" : "OFF");
+                }
+              } else {
+                ESP_LOGW(TAG,
+                         "Serial RX Task: Index %d has no endpoint ID assigned",
+                         idx);
               }
             } else {
-              ESP_LOGI(TAG,
-                       "Serial RX Task: Index %d already in state %s, skipping",
-                       idx, new_state ? "ON" : "OFF");
+              ESP_LOGW(TAG, "Serial RX Task: Invalid index %d", idx);
             }
-          } else {
-            ESP_LOGW(TAG,
-                     "Serial RX Task: Index %d has no endpoint ID assigned",
-                     idx);
           }
+          rx_index = 0; // Reset buffer index after processing
+        }
+      } else {
+        // Collect characters into buffer (prevent overflow)
+        if (rx_index < sizeof(rx_buffer) - 1) {
+          rx_buffer[rx_index++] = (char)rx_byte;
         } else {
-          ESP_LOGW(TAG, "Serial RX Task: Invalid index %d", idx);
+          // Buffer full, reset it to prevent corrupted commands sticking
+          rx_index = 0;
         }
       }
     }

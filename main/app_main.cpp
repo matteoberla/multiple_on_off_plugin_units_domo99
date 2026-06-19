@@ -193,6 +193,8 @@ extern "C" void app_main() {
     }
   }
 
+
+
   /* Custom product and vendor info will be provided via the factory data
    * partition. See the instructions on using mfg_tool.py to generate the
    * 'fctry' partition. */

@@ -10,7 +10,7 @@
   "idf.openOcdConfigs": [
     "board/esp32s3-builtin.cfg"
   ],
-  "idf.port": "/dev/tty.usbmodem11101",
+  "idf.port": "/dev/tty.usbmodem1101",
   "idf.flashType": "JTAG",
   "idf.currentSetup": "/Users/matteo/.espressif/v5.5.3/esp-idf"
 }

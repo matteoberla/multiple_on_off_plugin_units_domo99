@@ -29,8 +29,8 @@ struct plugin_endpoint {
 };
 
 // Configurazione Manuale
-#define NUM_BISTABLE_PLUGS 1
-#define NUM_MONOSTABLE_PLUGS 1
+#define NUM_BISTABLE_PLUGS 50
+#define NUM_MONOSTABLE_PLUGS 50
 #define TOTAL_PLUG_COUNT (NUM_BISTABLE_PLUGS + NUM_MONOSTABLE_PLUGS)
 
 // Size for index 0 to TOTAL_PLUG_COUNT
