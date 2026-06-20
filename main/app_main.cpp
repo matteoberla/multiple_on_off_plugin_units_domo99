@@ -11,6 +11,7 @@
 #include <nvs_flash.h>
 
 #include "driver/gpio.h"
+#include "esp_wifi.h"
 #include "soc/gpio_num.h"
 #include <esp_matter.h>
 #include <esp_matter_console.h>
@@ -24,6 +25,7 @@
 #endif
 
 #include <app/server/CommissioningWindowManager.h>
+#include <app/server/Dnssd.h>
 #include <app/server/Server.h>
 
 static const char *TAG = "app_main";
@@ -58,6 +60,21 @@ static void app_event_cb(const ChipDeviceEvent *event, intptr_t arg) {
   switch (event->Type) {
   case chip::DeviceLayer::DeviceEventType::kInterfaceIpAddressChanged:
     ESP_LOGI(TAG, "Interface IP Address changed");
+    // FIX: disabilita il modem sleep WiFi per non perdere pacchetti mDNS multicast.
+    // Con WIFI_PS_MIN_MODEM (default) l'ESP32 può dormire tra beacon e perdere
+    // le query di scoperta operativa che HA invia dopo il suo riavvio.
+    esp_wifi_set_ps(WIFI_PS_NONE);
+    // FIX: forza il restart del server DNS-SD (mDNS Matter operational discovery).
+    // esp-matter lo chiama già internamente, ma solo se l'IP è cambiato.
+    // Con IP statico (DHCP reservation) l'IP non cambia → DnssdServer non riparte
+    // → HA non riesce a riscoprire il device dopo il suo riavvio.
+    chip::app::DnssdServer::Instance().StartServer();
+    // Aggiorna il LED: abbiamo un IP → siamo connessi (o in commissioning se non abbiamo fabric)
+    if (chip::Server::GetInstance().GetFabricTable().FabricCount() > 0) {
+      app_driver_led_set_state(APP_LED_CONNECTED);
+    } else {
+      app_driver_led_set_state(APP_LED_COMMISSIONING);
+    }
     break;
 
   case chip::DeviceLayer::DeviceEventType::kCommissioningComplete:
@@ -167,8 +184,23 @@ app_attribute_update_cb(attribute::callback_type_t type, uint16_t endpoint_id,
 extern "C" void app_main() {
   esp_err_t err = ESP_OK;
 
-  /* Initialize the ESP NVS layer */
-  nvs_flash_init();
+  /* Initialize the ESP NVS layer — con gestione robusta della corruzione.
+   * Se la partizione è corrotta (ESP_ERR_NVS_NO_FREE_PAGES) o ha una versione
+   * incompatibile (ESP_ERR_NVS_NEW_VERSION_FOUND), la cancelliamo e
+   * reinizializziamo: evita che le credenziali WiFi vengano perse silenziosamente
+   * lasciando il device impossibilitato a riconnettersi alla rete. */
+  {
+    esp_err_t nvs_err = nvs_flash_init();
+    if (nvs_err == ESP_ERR_NVS_NO_FREE_PAGES ||
+        nvs_err == ESP_ERR_NVS_NEW_VERSION_FOUND) {
+      ESP_LOGW(TAG, "NVS corrotta o versione incompatibile (err=%d), cancello e reinizializzo", nvs_err);
+      nvs_flash_erase();
+      nvs_err = nvs_flash_init();
+    }
+    if (nvs_err != ESP_OK) {
+      ESP_LOGE(TAG, "Impossibile inizializzare NVS, err=%d", nvs_err);
+    }
+  }
 
   /* Initialize built-in RGB LED early so it gives visual feedback during boot */
   if (app_driver_led_init() == ESP_OK) {

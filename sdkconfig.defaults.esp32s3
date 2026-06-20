@@ -8,3 +8,7 @@ CONFIG_USER_BUTTON_GPIO=3
 CONFIG_USER_BUTTON_LEVEL=0
 # Built-in RGB LED (WS2812) on GPIO48
 CONFIG_RGB_LED_GPIO=48
+# Disable WiFi modem sleep to ensure mDNS multicast packets are never missed.
+# Critical for Matter Operational Discovery: HA must be able to re-find this
+# device after a controller reboot even when the device IP has not changed.
+CONFIG_ESP_WIFI_STA_DISCONNECTED_PM_ENABLE=n
