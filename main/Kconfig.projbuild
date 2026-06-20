@@ -1,18 +1,28 @@
 menu "Plugin manager"
     config USER_BUTTON
         bool "Use custom GPIO for factory reset button"
-        default n
+        default y
 
     config USER_BUTTON_GPIO
         int "GPIO pin number for factory reset button"
-        default 0
+        default 3
         depends on USER_BUTTON
+        help
+            GPIO number for the factory reset button (Default 3).
+            Hold for 3s = factory reset.
 
     config USER_BUTTON_LEVEL
         int "GPIO level when factory reset button is active"
         default 0
         depends on USER_BUTTON
-    
+
+    config RGB_LED_GPIO
+        int "GPIO pin for the built-in RGB LED (WS2812)"
+        default 48
+        help
+            GPIO number connected to the WS2812 RGB LED data pin.
+            On most ESP32-S3 DevKit boards this is GPIO48.
+
     config SERIAL_UART_TX_PIN
         int "GPIO pin for UART TX (external)"
         default 4

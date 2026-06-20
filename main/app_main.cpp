@@ -62,14 +62,17 @@ static void app_event_cb(const ChipDeviceEvent *event, intptr_t arg) {
 
   case chip::DeviceLayer::DeviceEventType::kCommissioningComplete:
     ESP_LOGI(TAG, "Commissioning complete");
+    app_driver_led_set_state(APP_LED_CONNECTED);
     break;
 
   case chip::DeviceLayer::DeviceEventType::kFailSafeTimerExpired:
     ESP_LOGI(TAG, "Commissioning failed, fail safe timer expired");
+    app_driver_led_set_state(APP_LED_BOOTING);
     break;
 
   case chip::DeviceLayer::DeviceEventType::kCommissioningSessionStarted:
     ESP_LOGI(TAG, "Commissioning session started");
+    app_driver_led_set_state(APP_LED_COMMISSIONING);
     break;
 
   case chip::DeviceLayer::DeviceEventType::kCommissioningSessionStopped:
@@ -78,15 +81,23 @@ static void app_event_cb(const ChipDeviceEvent *event, intptr_t arg) {
 
   case chip::DeviceLayer::DeviceEventType::kCommissioningWindowOpened:
     ESP_LOGI(TAG, "Commissioning window opened");
+    app_driver_led_set_state(APP_LED_COMMISSIONING);
     break;
 
   case chip::DeviceLayer::DeviceEventType::kCommissioningWindowClosed:
     ESP_LOGI(TAG, "Commissioning window closed");
+    // Se abbiamo fabric attivi torniamo a verde, altrimenti a booting
+    if (chip::Server::GetInstance().GetFabricTable().FabricCount() > 0) {
+      app_driver_led_set_state(APP_LED_CONNECTED);
+    } else {
+      app_driver_led_set_state(APP_LED_BOOTING);
+    }
     break;
 
   case chip::DeviceLayer::DeviceEventType::kFabricRemoved: {
     ESP_LOGI(TAG, "Fabric removed successfully");
     if (chip::Server::GetInstance().GetFabricTable().FabricCount() == 0) {
+      app_driver_led_set_state(APP_LED_BOOTING);
       chip::CommissioningWindowManager &commissionMgr =
           chip::Server::GetInstance().GetCommissioningWindowManager();
       constexpr auto kTimeoutSeconds =
@@ -108,6 +119,7 @@ static void app_event_cb(const ChipDeviceEvent *event, intptr_t arg) {
 
   case chip::DeviceLayer::DeviceEventType::kFabricWillBeRemoved:
     ESP_LOGI(TAG, "Fabric will be removed");
+    app_driver_led_set_state(APP_LED_FACTORY_RESET);
     break;
 
   case chip::DeviceLayer::DeviceEventType::kFabricUpdated:
@@ -116,6 +128,7 @@ static void app_event_cb(const ChipDeviceEvent *event, intptr_t arg) {
 
   case chip::DeviceLayer::DeviceEventType::kFabricCommitted:
     ESP_LOGI(TAG, "Fabric is committed");
+    app_driver_led_set_state(APP_LED_CONNECTED);
     break;
 
   case chip::DeviceLayer::DeviceEventType::kBLEDeinitialized:
@@ -156,6 +169,11 @@ extern "C" void app_main() {
 
   /* Initialize the ESP NVS layer */
   nvs_flash_init();
+
+  /* Initialize built-in RGB LED early so it gives visual feedback during boot */
+  if (app_driver_led_init() == ESP_OK) {
+    app_driver_led_set_state(APP_LED_BOOTING);
+  }
 
   /* Initialize UART */
   app_driver_serial_init();

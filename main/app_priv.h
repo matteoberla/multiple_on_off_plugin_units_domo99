@@ -57,6 +57,27 @@ esp_err_t app_driver_attribute_update(app_driver_handle_t driver_handle,
  */
 app_driver_handle_t app_driver_button_init(gpio_num_t *reset_gpio);
 
+/** LED RGB states for visual feedback */
+typedef enum {
+  APP_LED_BOOTING = 0,       /**< Avvio: blu lento lampeggiante */
+  APP_LED_COMMISSIONING,     /**< Commissioning BLE: azzurro veloce lampeggiante */
+  APP_LED_CONNECTED,         /**< Connesso a Matter fabric: verde fisso */
+  APP_LED_FACTORY_RESET,     /**< Factory reset in corso: rosso lampeggiante */
+  APP_LED_ERROR,             /**< Errore: rosso fisso */
+  APP_LED_OFF,               /**< LED spento */
+} app_led_state_t;
+
+/** Initialize the built-in RGB LED (WS2812 via RMT)
+ *  @return ESP_OK on success
+ */
+esp_err_t app_driver_led_init(void);
+
+/** Set the LED to a specific visual state.
+ *  This function is safe to call from any task.
+ *  @param state  The desired visual state
+ */
+void app_driver_led_set_state(app_led_state_t state);
+
 // Serial functions
 esp_err_t app_driver_serial_init(void);
 esp_err_t app_driver_serial_start_rx_task(void);

@@ -1,16 +1,8 @@
-// Copyright 2021 Espressif Systems (Shanghai) PTE LTD
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
+/*
+ * SPDX-FileCopyrightText: 2021 Espressif Systems (Shanghai) CO LTD
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
 
 #include <stdio.h>
 #include <string.h>
@@ -591,6 +583,14 @@ static esp_mqtt_client_config_t esp_mqtt_glue_create_client_config(esp_rmaker_mq
 #endif /* CONFIG_ESP_RMAKER_MQTT_PERSISTENT_SESSION */
         },
     };
+    if (conn_params->use_ecdsa_peripheral) {
+#if ESP_IDF_VERSION >= ESP_IDF_VERSION_VAL(5, 5, 1)
+        mqtt_client_cfg.credentials.authentication.use_ecdsa_peripheral = conn_params->use_ecdsa_peripheral;
+        mqtt_client_cfg.credentials.authentication.ecdsa_key_efuse_blk = conn_params->ecdsa_key_efuse_blk;
+#else
+        ESP_LOGW(TAG, "MQTT ECDSA peripheral is supported only on ESP-IDF >= v5.5.1");
+#endif
+    }
     return mqtt_client_cfg;
 }
 
@@ -612,6 +612,10 @@ static esp_err_t esp_mqtt_glue_init(esp_rmaker_mqtt_conn_params_t *conn_params)
 {
 #ifdef CONFIG_ESP_RMAKER_MQTT_SEND_USERNAME
     const char *username = esp_get_aws_ppi();
+    if (!username) {
+        ESP_LOGE(TAG, "username received is NULL");
+        return ESP_FAIL;
+    }
     ESP_LOGI(TAG, "AWS PPI: %s", username);
 #endif
     if (mqtt_data) {

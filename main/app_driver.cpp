@@ -19,6 +19,13 @@
 #include <bsp/esp-bsp.h>
 #include <esp_log.h>
 
+// LED Strip (WS2812 built-in RGB)
+#include "led_strip.h"
+#include "led_strip_rmt.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+#include "freertos/queue.h"
+
 #include <app_priv.h>
 #include <button_gpio.h>
 #include <esp_matter.h>
@@ -28,6 +35,149 @@ using namespace chip::app::Clusters;
 using namespace esp_matter;
 
 static const char *TAG = "app_driver";
+
+// ---------------------------------------------------------------------------
+// RGB LED built-in driver (WS2812 via RMT)
+// ---------------------------------------------------------------------------
+
+#ifndef CONFIG_RGB_LED_GPIO
+#define CONFIG_RGB_LED_GPIO 48
+#endif
+
+// LED brightness (0-255). Keep it low to avoid blinding.
+#define LED_BRIGHTNESS 30
+
+static led_strip_handle_t s_led_strip = NULL;
+static QueueHandle_t      s_led_queue = NULL;
+// Stato LED precedente al factory reset — usato dal callback BUTTON_PRESS_UP
+static app_led_state_t    s_led_pre_reset_state = APP_LED_BOOTING;
+
+/** Set a single solid colour on the LED (r,g,b scaled to LED_BRIGHTNESS) */
+static void led_set_color(uint8_t r, uint8_t g, uint8_t b)
+{
+  if (!s_led_strip) return;
+  // Scale
+  r = (uint8_t)((r * LED_BRIGHTNESS) / 255);
+  g = (uint8_t)((g * LED_BRIGHTNESS) / 255);
+  b = (uint8_t)((b * LED_BRIGHTNESS) / 255);
+  led_strip_set_pixel(s_led_strip, 0, r, g, b);
+  led_strip_refresh(s_led_strip);
+}
+
+/** FreeRTOS task that owns the LED animation loop */
+static void led_task(void *arg)
+{
+  app_led_state_t current_state = APP_LED_BOOTING;
+  app_led_state_t new_state;
+  bool led_on = false;
+
+  while (true) {
+    // Check for a new state (non-blocking)
+    if (xQueueReceive(s_led_queue, &new_state, 0) == pdTRUE) {
+      current_state = new_state;
+      led_on = false;
+      // Immediately clear LED when switching state
+      led_strip_clear(s_led_strip);
+      led_strip_refresh(s_led_strip);
+    }
+
+    switch (current_state) {
+      case APP_LED_BOOTING:
+        // Blu lento lampeggiante (1 Hz)
+        led_on = !led_on;
+        if (led_on) led_set_color(0, 0, 255);
+        else { led_strip_clear(s_led_strip); led_strip_refresh(s_led_strip); }
+        vTaskDelay(pdMS_TO_TICKS(500));
+        break;
+
+      case APP_LED_COMMISSIONING:
+        // Azzurro veloce lampeggiante (4 Hz)
+        led_on = !led_on;
+        if (led_on) led_set_color(0, 100, 255);
+        else { led_strip_clear(s_led_strip); led_strip_refresh(s_led_strip); }
+        vTaskDelay(pdMS_TO_TICKS(125));
+        break;
+
+      case APP_LED_CONNECTED:
+        // Verde fisso
+        led_set_color(0, 255, 0);
+        vTaskDelay(pdMS_TO_TICKS(1000));
+        break;
+
+      case APP_LED_FACTORY_RESET:
+        // Rosso lampeggiante veloce (8 Hz)
+        led_on = !led_on;
+        if (led_on) led_set_color(255, 0, 0);
+        else { led_strip_clear(s_led_strip); led_strip_refresh(s_led_strip); }
+        vTaskDelay(pdMS_TO_TICKS(125));
+        break;
+
+      case APP_LED_ERROR:
+        // Rosso fisso
+        led_set_color(255, 0, 0);
+        vTaskDelay(pdMS_TO_TICKS(1000));
+        break;
+
+      case APP_LED_OFF:
+      default:
+        led_strip_clear(s_led_strip);
+        led_strip_refresh(s_led_strip);
+        vTaskDelay(pdMS_TO_TICKS(500));
+        break;
+    }
+  }
+}
+
+esp_err_t app_driver_led_init(void)
+{
+  led_strip_config_t strip_config = {
+    .strip_gpio_num          = CONFIG_RGB_LED_GPIO,
+    .max_leds                = 1,
+    .led_model               = LED_MODEL_WS2812,
+    .color_component_format  = LED_STRIP_COLOR_COMPONENT_FMT_GRB,
+    .flags                   = { .invert_out = 0 },
+  };
+  led_strip_rmt_config_t rmt_config = {
+    .clk_src        = RMT_CLK_SRC_DEFAULT,
+    .resolution_hz  = 10 * 1000 * 1000, // 10 MHz
+    .mem_block_symbols = 64,
+    .flags          = { .with_dma = false },
+  };
+
+  esp_err_t err = led_strip_new_rmt_device(&strip_config, &rmt_config, &s_led_strip);
+  if (err != ESP_OK) {
+    ESP_LOGE(TAG, "Failed to create LED strip: %d", err);
+    return err;
+  }
+
+  // Turn off at boot
+  led_strip_clear(s_led_strip);
+  led_strip_refresh(s_led_strip);
+
+  // Create command queue (depth=1, required by xQueueOverwrite) and task
+  // xQueueOverwrite requires a queue of length exactly 1
+  s_led_queue = xQueueCreate(1, sizeof(app_led_state_t));
+  if (!s_led_queue) {
+    ESP_LOGE(TAG, "Failed to create LED queue");
+    return ESP_ERR_NO_MEM;
+  }
+
+  xTaskCreate(led_task, "led_task", 2048, NULL, 3, NULL);
+  ESP_LOGI(TAG, "RGB LED initialized on GPIO%d", CONFIG_RGB_LED_GPIO);
+  return ESP_OK;
+}
+
+void app_driver_led_set_state(app_led_state_t state)
+{
+  if (s_led_queue) {
+    // Salva lo stato precedente ogni volta che non stiamo andando in FACTORY_RESET
+    // così il callback BUTTON_PRESS_UP può ripristinare l'ultimo stato stabile.
+    if (state != APP_LED_FACTORY_RESET) {
+      s_led_pre_reset_state = state;
+    }
+    xQueueOverwrite(s_led_queue, &state);
+  }
+}
 
 // State array tracking OnOff status locally for TOTAL_PLUG_COUNT + 1 plugs
 static bool plug_states[TOTAL_PLUG_COUNT + 1] = {false};
@@ -243,9 +393,6 @@ app_driver_handle_t app_driver_button_init(gpio_num_t *reset_gpio) {
     return NULL;
   }
 
-  ESP_LOGI(TAG, "Initializing reset button with gpio pin %d ...",
-           (int)*reset_gpio);
-
   // Final safety check for GPIO
   if (*reset_gpio < 0 || *reset_gpio >= GPIO_NUM_MAX) {
     ESP_LOGE(TAG, "Invalid GPIO %d for reset button", *reset_gpio);
@@ -253,20 +400,62 @@ app_driver_handle_t app_driver_button_init(gpio_num_t *reset_gpio) {
     return NULL;
   }
 
+#ifdef CONFIG_USER_BUTTON_LEVEL
+  int active_level = CONFIG_USER_BUTTON_LEVEL;
+#else
+  int active_level = 0;
+#endif
+
+  ESP_LOGI(TAG, "Initializing reset button on GPIO%d (active_level=%d)",
+           (int)*reset_gpio, active_level);
+
   /* Initialize button */
   app_driver_handle_t reset_handle = NULL;
   const button_config_t btn_cfg = {0};
   const button_gpio_config_t btn_gpio_cfg = {
-      .gpio_num = *reset_gpio,
-      .active_level = 0, // Assume 0 as typical for BOOT button
+      .gpio_num    = *reset_gpio,
+      .active_level = (uint8_t)active_level,
   };
 
   if (iot_button_new_gpio_device(&btn_cfg, &btn_gpio_cfg,
                                  (button_handle_t *)&reset_handle) != ESP_OK) {
-    ESP_LOGE(TAG, "Failed to create button device");
+    ESP_LOGE(TAG, "Failed to create button device on GPIO%d", (int)*reset_gpio);
     *reset_gpio = gpio_num_t::GPIO_NUM_NC;
     return NULL;
   }
 
+  // ------------------------------------------------------------------
+  // LED feedback callbacks — registered directly on the button handle.
+  // app_reset uses BUTTON_LONG_PRESS_HOLD + BUTTON_PRESS_UP internally;
+  // we piggyback the same events to drive the RGB LED.
+  // ------------------------------------------------------------------
+
+  // Accende il LED rosso non appena la soglia long-press è raggiunta
+  iot_button_register_cb(
+      (button_handle_t)reset_handle,
+      BUTTON_LONG_PRESS_HOLD, NULL,
+      [](void * /*btn*/, void * /*data*/) {
+        ESP_LOGI("app_driver", "Reset button held — LED rosso attivo");
+        app_driver_led_set_state(APP_LED_FACTORY_RESET);
+      },
+      NULL);
+
+  // Al rilascio: ripristina lo stato LED precedente.
+  // Se il reset è stato avviato il device si riavvierà comunque,
+  // altrimenti il LED torna allo stato pre-pressione (CONNECTED o BOOTING).
+  iot_button_register_cb(
+      (button_handle_t)reset_handle,
+      BUTTON_PRESS_UP, NULL,
+      [](void * /*btn*/, void * /*data*/) {
+        ESP_LOGI("app_driver", "Reset button released — ripristino stato LED");
+        // s_led_pre_reset_state viene aggiornato da app_driver_led_set_state
+        // ogni volta che lo stato cambia (prima di impostare FACTORY_RESET)
+        app_driver_led_set_state(s_led_pre_reset_state);
+      },
+      NULL);
+
+
+  ESP_LOGI(TAG, "Reset button ready on GPIO%d — hold 3s to factory reset",
+           (int)*reset_gpio);
   return reset_handle;
 }
