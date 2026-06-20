@@ -29,8 +29,9 @@ struct plugin_endpoint {
 };
 
 // Configurazione Manuale
-#define NUM_BISTABLE_PLUGS 50
-#define NUM_MONOSTABLE_PLUGS 50
+// Per testare tutte le uscite bistabili 1-94: 94 bistabili, 0 monostabili.
+#define NUM_BISTABLE_PLUGS 94
+#define NUM_MONOSTABLE_PLUGS 0
 #define TOTAL_PLUG_COUNT (NUM_BISTABLE_PLUGS + NUM_MONOSTABLE_PLUGS)
 
 // Size for index 0 to TOTAL_PLUG_COUNT
