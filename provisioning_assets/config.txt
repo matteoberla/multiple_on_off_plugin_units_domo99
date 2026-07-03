@@ -1,0 +1,7 @@
+Configurazione cloudflare tunnel
+https://www.youtube.com/watch?v=JGAKzzOmvxg
+https://indomus.it/guide/collegarsi-da-remoto-a-home-assistant-via-reti-provider-tradizionali-o-che-usino-nat-via-cloudflare/
+
+
+Configurazione matter bridge hub
+https://indomus.it/guide/integrare-home-assistant-ad-amazon-alexa-via-matter-con-hamh/
