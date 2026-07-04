@@ -5,3 +5,6 @@ https://indomus.it/guide/collegarsi-da-remoto-a-home-assistant-via-reti-provider
 
 Configurazione matter bridge hub
 https://indomus.it/guide/integrare-home-assistant-ad-amazon-alexa-via-matter-con-hamh/
+
+HACS personalizzazione dashboard
+https://www.youtube.com/watch?v=TL2eqsjhmTE

@@ -1,0 +1,1028 @@
+W (2773) data_model: Attribute 0x00000011 on cluster 0x00000039 already exists. Not creating again.
+I (2783) app_main: Endpoint 70 (Plug 69) configurato (Label: B69, Serial: D99-B69)
+I (2783) app_main: Plug 69 (index 69, monostable 0) created with endpoint_id 70
+W (2793) data_model: Attribute 0x00000011 on cluster 0x00000039 already exists. Not creating again.
+I (2803) app_main: Endpoint 71 (Plug 70) configurato (Label: B70, Serial: D99-B70)
+I (2813) app_main: Plug 70 (index 70, monostable 0) created with endpoint_id 71
+W (2823) data_model: Attribute 0x00000011 on cluster 0x00000039 already exists. Not creating again.
+I (2823) app_main: Endpoint 72 (Plug 71) configurato (Label: B71, Serial: D99-B71)
+I (2833) app_main: Plug 71 (index 71, monostable 0) created with endpoint_id 72
+W (2843) data_model: Attribute 0x00000011 on cluster 0x00000039 already exists. Not creating again.
+I (2853) app_main: Endpoint 73 (Plug 72) configurato (Label: B72, Serial: D99-B72)
+I (2853) app_main: Plug 72 (index 72, monostable 0) created with endpoint_id 73
+W (2863) data_model: Attribute 0x00000011 on cluster 0x00000039 already exists. Not creating again.
+I (2873) app_main: Endpoint 74 (Plug 73) configurato (Label: B73, Serial: D99-B73)
+I (2883) app_main: Plug 73 (index 73, monostable 0) created with endpoint_id 74
+W (2893) data_model: Attribute 0x00000011 on cluster 0x00000039 already exists. Not creating again.
+I (2893) app_main: Endpoint 75 (Plug 74) configurato (Label: B74, Serial: D99-B74)
+I (2903) app_main: Plug 74 (index 74, monostable 0) created with endpoint_id 75
+W (2913) data_model: Attribute 0x00000011 on cluster 0x00000039 already exists. Not creating again.
+I (2923) app_main: Endpoint 76 (Plug 75) configurato (Label: B75, Serial: D99-B75)
+I (2923) app_main: Plug 75 (index 75, monostable 0) created with endpoint_id 76
+W (2933) data_model: Attribute 0x00000011 on cluster 0x00000039 already exists. Not creating again.
+I (2943) app_main: Endpoint 77 (Plug 76) configurato (Label: B76, Serial: D99-B76)
+I (2953) app_main: Plug 76 (index 76, monostable 0) created with endpoint_id 77
+W (2963) data_model: Attribute 0x00000011 on cluster 0x00000039 already exists. Not creating again.
+I (2963) app_main: Endpoint 78 (Plug 77) configurato (Label: B77, Serial: D99-B77)
+I (2973) app_main: Plug 77 (index 77, monostable 0) created with endpoint_id 78
+W (2983) data_model: Attribute 0x00000011 on cluster 0x00000039 already exists. Not creating again.
+I (2993) app_main: Endpoint 79 (Plug 78) configurato (Label: B78, Serial: D99-B78)
+I (2993) app_main: Plug 78 (index 78, monostable 0) created with endpoint_id 79
+W (3003) data_model: Attribute 0x00000011 on cluster 0x00000039 already exists. Not creating again.
+I (3013) app_main: Endpoint 80 (Plug 79) configurato (Label: B79, Serial: D99-B79)
+I (3023) app_main: Plug 79 (index 79, monostable 0) created with endpoint_id 80
+W (3023) data_model: Attribute 0x00000011 on cluster 0x00000039 already exists. Not creating again.
+I (3033) app_main: Endpoint 81 (Plug 80) configurato (Label: B80, Serial: D99-B80)
+I (3043) app_main: Plug 80 (index 80, monostable 0) created with endpoint_id 81
+W (3053) data_model: Attribute 0x00000011 on cluster 0x00000039 already exists. Not creating again.
+I (3053) app_main: Endpoint 82 (Plug 81) configurato (Label: B81, Serial: D99-B81)
+I (3063) app_main: Plug 81 (index 81, monostable 0) created with endpoint_id 82
+W (3073) data_model: Attribute 0x00000011 on cluster 0x00000039 already exists. Not creating again.
+I (3083) app_main: Endpoint 83 (Plug 82) configurato (Label: B82, Serial: D99-B82)
+I (3083) app_main: Plug 82 (index 82, monostable 0) created with endpoint_id 83
+W (3093) data_model: Attribute 0x00000011 on cluster 0x00000039 already exists. Not creating again.
+I (3103) app_main: Endpoint 84 (Plug 83) configurato (Label: B83, Serial: D99-B83)
+I (3113) app_main: Plug 83 (index 83, monostable 0) created with endpoint_id 84
+W (3123) data_model: Attribute 0x00000011 on cluster 0x00000039 already exists. Not creating again.
+I (3123) app_main: Endpoint 85 (Plug 84) configurato (Label: B84, Serial: D99-B84)
+I (3133) app_main: Plug 84 (index 84, monostable 0) created with endpoint_id 85
+W (3143) data_model: Attribute 0x00000011 on cluster 0x00000039 already exists. Not creating again.
+I (3153) app_main: Endpoint 86 (Plug 85) configurato (Label: B85, Serial: D99-B85)
+I (3153) app_main: Plug 85 (index 85, monostable 0) created with endpoint_id 86
+W (3163) data_model: Attribute 0x00000011 on cluster 0x00000039 already exists. Not creating again.
+I (3173) app_main: Endpoint 87 (Plug 86) configurato (Label: B86, Serial: D99-B86)
+I (3183) app_main: Plug 86 (index 86, monostable 0) created with endpoint_id 87
+W (3193) data_model: Attribute 0x00000011 on cluster 0x00000039 already exists. Not creating again.
+I (3193) app_main: Endpoint 88 (Plug 87) configurato (Label: B87, Serial: D99-B87)
+I (3203) app_main: Plug 87 (index 87, monostable 0) created with endpoint_id 88
+W (3213) data_model: Attribute 0x00000011 on cluster 0x00000039 already exists. Not creating again.
+I (3223) app_main: Endpoint 89 (Plug 88) configurato (Label: B88, Serial: D99-B88)
+I (3223) app_main: Plug 88 (index 88, monostable 0) created with endpoint_id 89
+W (3233) data_model: Attribute 0x00000011 on cluster 0x00000039 already exists. Not creating again.
+I (3243) app_main: Endpoint 90 (Plug 89) configurato (Label: B89, Serial: D99-B89)
+I (3253) app_main: Plug 89 (index 89, monostable 0) created with endpoint_id 90
+W (3263) data_model: Attribute 0x00000011 on cluster 0x00000039 already exists. Not creating again.
+I (3263) app_main: Endpoint 91 (Plug 90) configurato (Label: B90, Serial: D99-B90)
+I (3273) app_main: Plug 90 (index 90, monostable 0) created with endpoint_id 91
+W (3283) data_model: Attribute 0x00000011 on cluster 0x00000039 already exists. Not creating again.
+I (3293) app_main: Endpoint 92 (Plug 91) configurato (Label: B91, Serial: D99-B91)
+I (3293) app_main: Plug 91 (index 91, monostable 0) created with endpoint_id 92
+W (3303) data_model: Attribute 0x00000011 on cluster 0x00000039 already exists. Not creating again.
+I (3313) app_main: Endpoint 93 (Plug 92) configurato (Label: B92, Serial: D99-B92)
+I (3323) app_main: Plug 92 (index 92, monostable 0) created with endpoint_id 93
+W (3323) data_model: Attribute 0x00000011 on cluster 0x00000039 already exists. Not creating again.
+I (3333) app_main: Endpoint 94 (Plug 93) configurato (Label: B93, Serial: D99-B93)
+I (3343) app_main: Plug 93 (index 93, monostable 0) created with endpoint_id 94
+W (3353) data_model: Attribute 0x00000011 on cluster 0x00000039 already exists. Not creating again.
+I (3353) app_main: Endpoint 95 (Plug 94) configurato (Label: B94, Serial: D99-B94)
+I (3363) app_main: Plug 94 (index 94, monostable 0) created with endpoint_id 95
+I (3373) app_driver: Initializing reset button on GPIO3 (active_level=0)
+I (3383) button: IoT Button Version: 4.2.0
+I (3383) app_driver: Reset button ready on GPIO3 — hold 3s to factory reset
+I (3393) pp: pp rom version: e7ae62f
+I (3393) net80211: net80211 rom version: e7ae62f
+I (3403) wifi:wifi driver task: 3fcd78fc, prio:23, stack:6656, core=0
+I (3413) wifi:wifi firmware version: 4df78f2
+I (3413) wifi:wifi certification version: v7.0
+I (3413) wifi:config NVS flash: enabled
+I (3413) wifi:config nano formatting: disabled
+I (3423) wifi:Init data frame dynamic rx buffer num: 32
+I (3423) wifi:Init static rx mgmt buffer num: 5
+I (3423) wifi:Init management short buffer num: 32
+I (3433) wifi:Init dynamic tx buffer num: 32
+I (3433) wifi:Init static tx FG buffer num: 2
+I (3443) wifi:Init static rx buffer size: 1600
+I (3443) wifi:Init static rx buffer num: 10
+I (3453) wifi:Init dynamic rx buffer num: 32
+I (3453) wifi_init: rx ba win: 6
+I (3453) wifi_init: accept mbox: 6
+I (3463) wifi_init: tcpip mbox: 32
+I (3463) wifi_init: udp mbox: 6
+I (3463) wifi_init: tcp mbox: 6
+I (3463) wifi_init: tcp tx win: 5760
+I (3473) wifi_init: tcp rx win: 5760
+I (3473) wifi_init: tcp mss: 1440
+I (3473) wifi_init: WiFi IRAM OP enabled
+I (3483) wifi_init: WiFi RX IRAM OP enabled
+I (3523) chip[DL]: NVS set: chip-counters/reboot-count = 10 (0xA)
+I (3523) BLE_INIT: BT controller compile version [1bb2f50]
+I (3523) BLE_INIT: Using main XTAL as clock source
+I (3523) BLE_INIT: Feature Config, ADV:1, BLE_50:1, DTM:1, SCAN:1, CCA:0, SMP:1, CONNECT:1
+I (3533) BLE_INIT: Bluetooth MAC: 14:c1:9f:c1:24:2a
+I (3533) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10
+I (3583) NimBLE: GAP procedure initiated: stop advertising.
+
+I (3583) CHIP[DL]: BLE host-controller synced
+I (4083) chip[DL]: Starting ESP WiFi layer
+I (4083) wifi:mode : sta (14:c1:9f:c1:24:28)
+I (4083) wifi:enable tsf
+I (4083) chip[DL]: Posting ESPSystemEvent: Wifi Event with eventId : 43
+W (4083) wifi:Haven't to connect to a suitable AP now!
+I (4093) chip[DL]: Attempting to connect WiFi station interface
+I (4093) chip[DL]: I (4093) chip[DL]: Posting ESPSystemEvent: Wifi Event with eventId : 2
+I (4103) wifi:WiFi station state change: NotConnected -> Connecting
+new:<1,0>, old:<1,0>, ap:<255,255>, sta:<1,0>, prof:1, snd_ch_cfg:0x0
+I (4113) chip[DL]: I (4113) wifi:Done driving station state, nothing else to do...state: init -> auth (0xb0)
+
+I (4123) chip[SVR]: Initializing session resumption storage...
+I (4133) wifi:I (4133) chip[SVR]: state: auth -> assoc (0x0)Initializing subscription resumption storage...
+
+I (4143) chip[SVR]: Server initializing...
+I (4143) chip[TS]: Last Known Good Time: 2026-07-04T09:19:37
+I (4143) wifi:state: assoc -> run (0x10)
+I (4153) chip[FP]: Fabric index 0x1 was retrieved from storage. Compressed FabricId 0x7CBC3FECC26E2ED0, FabricId 0x00000000E56C0D34, NodeId 0x000000004A303E5A, VendorId 0x1384
+I (4173) chip[FP]: Fabric index 0x2 was retrieved from storage. Compressed FabricId 0xFD4E0D615FBBC4F9, FabricId 0x0000000000000002, NodeId 0x0000000000000006, VendorId 0x134BI (4173) wifi:
+connected with FRITZ!Box 7530 HE, aid = 4, channel 1, BW20, bssid = 74:42:7f:17:37:93
+I (4183) chip[DMG]: I (4193) wifi:AccessControl: initializingsecurity: WPA2-PSK, phy: bgn, rssi: -36
+
+I (4203) chip[DMG]: Examples::AccessControlDelegate::Init
+I (4203) wifi:I (4203) chip[DMG]: pm start, type: 1
+AccessControl: setting
+
+I (4213) wifi:I (4213) chip[DMG]: dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 usDefaultAclStorage: initializing
+
+I (4223) wifi:set rx beacon pti, rx_bcn_pti: 14, bcn_timeout: 25000, mt_pti: 14, mt_time: 10000
+I (4223) chip[DMG]: DefaultAclStorage: 2 entries loaded
+I (4233) wifi:I (4243) chip[SVR]: AP's beacon interval = 102400 us, DTIM period = 1WARNING: mTestEventTriggerDelegate is null
+
+I (4253) chip[DL]: Posting ESPSystemEvent: Wifi Event with eventId : 4
+I (4263) chip[SVR]: Fabric already commissioned. Disabling BLE advertisement
+I (4263) chip[IN]: CASE Server enabling CASE session setups
+I (4273) chip[SVR]: Joining Multicast groups
+I (4273) chip[SVR]: Server Listening...
+I (4273) chip[DMG]: AccessControlCluster: initializing
+I (4283) chip[ZCL]: Boot reason: 0
+I (4283) chip[ZCL]: Endpoint 2 On/off already set to new value
+I (4293) chip[ZCL]: Boot reason: 0
+I (4293) chip[ZCL]: Endpoint 3 On/off already set to new value
+I (4303) chip[ZCL]: Boot reason: 0
+I (4303) chip[ZCL]: Endpoint 4 On/off already set to new value
+I (4273) wifi:<ba-add>idx:0 (ifx:0, 74:42:7f:17:37:93), tid:6, ssn:2, winSize:64
+I (4313) chip[ZCL]: Boot reason: 0
+I (4313) chip[ZCL]: Endpoint 5 On/off already set to new value
+I (4323) chip[ZCL]: Boot reason: 0
+I (4323) chip[ZCL]: Endpoint 6 On/off already set to new value
+I (4333) chip[ZCL]: Boot reason: 0
+I (4333) chip[ZCL]: Endpoint 7 On/off already set to new value
+I (4343) chip[ZCL]: Boot reason: 0
+I (4343) chip[ZCL]: Endpoint 8 On/off already set to new value
+I (4353) chip[ZCL]: Boot reason: 0
+I (4353) chip[ZCL]: Endpoint 9 On/off already set to new value
+I (4363) chip[ZCL]: Boot reason: 0
+I (4363) chip[ZCL]: Endpoint a On/off already set to new value
+I (4363) chip[ZCL]: Boot reason: 0
+I (4373) chip[ZCL]: Endpoint b On/off already set to new value
+I (4373) chip[ZCL]: Boot reason: 0
+I (4373) chip[ZCL]: Endpoint c On/off already set to new value
+I (4383) chip[ZCL]: Boot reason: 0
+I (4383) chip[ZCL]: Endpoint d On/off already set to new value
+I (4393) chip[ZCL]: Boot reason: 0
+I (4393) chip[ZCL]: Endpoint e On/off already set to new value
+I (4403) chip[ZCL]: Boot reason: 0
+I (4403) chip[ZCL]: Endpoint f On/off already set to new value
+I (4413) chip[ZCL]: Boot reason: 0
+I (4413) chip[ZCL]: Endpoint 10 On/off already set to new value
+I (4423) chip[ZCL]: Boot reason: 0
+I (4423) chip[ZCL]: Endpoint 11 On/off already set to new value
+I (4433) chip[ZCL]: Boot reason: 0
+I (4433) chip[ZCL]: Endpoint 12 On/off already set to new value
+I (4433) chip[ZCL]: Boot reason: 0
+I (4443) chip[ZCL]: Endpoint 13 On/off already set to new value
+I (4443) chip[ZCL]: Boot reason: 0
+I (4443) chip[ZCL]: Endpoint 14 On/off already set to new value
+I (4453) chip[ZCL]: Boot reason: 0
+I (4453) chip[ZCL]: Endpoint 15 On/off already set to new value
+I (4463) chip[ZCL]: Boot reason: 0
+I (4463) chip[ZCL]: Endpoint 16 On/off already set to new value
+I (4473) chip[ZCL]: Boot reason: 0
+I (4473) chip[ZCL]: Endpoint 17 On/off already set to new value
+I (4483) chip[ZCL]: Boot reason: 0
+I (4483) chip[ZCL]: Endpoint 18 On/off already set to new value
+I (4493) chip[ZCL]: Boot reason: 0
+I (4493) chip[ZCL]: Endpoint 19 On/off already set to new value
+I (4503) chip[ZCL]: Boot reason: 0
+I (4503) chip[ZCL]: Endpoint 1a On/off already set to new value
+I (4503) chip[ZCL]: Boot reason: 0
+I (4513) chip[ZCL]: Endpoint 1b On/off already set to new value
+I (4513) chip[ZCL]: Boot reason: 0
+I (4513) chip[ZCL]: Endpoint 1c On/off already set to new value
+I (4523) chip[ZCL]: Boot reason: 0
+I (4523) chip[ZCL]: Endpoint 1d On/off already set to new value
+I (4533) chip[ZCL]: Boot reason: 0
+I (4533) chip[ZCL]: Endpoint 1e On/off already set to new value
+I (4543) chip[ZCL]: Boot reason: 0
+I (4543) chip[ZCL]: Endpoint 1f On/off already set to new value
+I (4553) chip[ZCL]: Boot reason: 0
+I (4553) chip[ZCL]: Endpoint 20 On/off already set to new value
+I (4563) chip[ZCL]: Boot reason: 0
+I (4563) chip[ZCL]: Endpoint 21 On/off already set to new value
+I (4573) chip[ZCL]: Boot reason: 0
+I (4573) chip[ZCL]: Endpoint 22 On/off already set to new value
+I (4573) chip[ZCL]: Boot reason: 0
+I (4583) chip[ZCL]: Endpoint 23 On/off already set to new value
+I (4583) chip[ZCL]: Boot reason: 0
+I (4583) chip[ZCL]: Endpoint 24 On/off already set to new value
+I (4593) chip[ZCL]: Boot reason: 0
+I (4593) chip[ZCL]: Endpoint 25 On/off already set to new value
+I (4603) chip[ZCL]: Boot reason: 0
+I (4603) chip[ZCL]: Endpoint 26 On/off already set to new value
+I (4613) chip[ZCL]: Boot reason: 0
+I (4613) chip[ZCL]: Endpoint 27 On/off already set to new value
+I (4623) chip[ZCL]: Boot reason: 0
+I (4623) chip[ZCL]: Endpoint 28 On/off already set to new value
+I (4633) chip[ZCL]: Boot reason: 0
+I (4633) chip[ZCL]: Endpoint 29 On/off already set to new value
+I (4643) chip[ZCL]: Boot reason: 0
+I (4643) chip[ZCL]: Endpoint 2a On/off already set to new value
+I (4653) chip[ZCL]: Boot reason: 0
+I (4653) chip[ZCL]: Endpoint 2b On/off already set to new value
+I (4653) chip[ZCL]: Boot reason: 0
+I (4653) chip[ZCL]: Endpoint 2c On/off already set to new value
+I (4663) chip[ZCL]: Boot reason: 0
+I (4663) chip[ZCL]: Endpoint 2d On/off already set to new value
+I (4673) chip[ZCL]: Boot reason: 0
+I (4673) chip[ZCL]: Endpoint 2e On/off already set to new value
+I (4683) chip[ZCL]: Boot reason: 0
+I (4683) chip[ZCL]: Endpoint 2f On/off already set to new value
+I (4693) chip[ZCL]: Boot reason: 0
+I (4693) chip[ZCL]: Endpoint 30 On/off already set to new value
+I (4703) chip[ZCL]: Boot reason: 0
+I (4703) chip[ZCL]: Endpoint 31 On/off already set to new value
+I (4713) chip[ZCL]: Boot reason: 0
+I (4713) chip[ZCL]: Endpoint 32 On/off already set to new value
+I (4723) chip[ZCL]: Boot reason: 0
+I (4723) chip[ZCL]: Endpoint 33 On/off already set to new value
+I (4723) chip[ZCL]: Boot reason: 0
+I (4723) chip[ZCL]: Endpoint 34 On/off already set to new value
+I (4733) chip[ZCL]: Boot reason: 0
+I (4733) chip[ZCL]: Endpoint 35 On/off already set to new value
+I (4743) chip[ZCL]: Boot reason: 0
+I (4743) chip[ZCL]: Endpoint 36 On/off already set to new value
+I (4753) chip[ZCL]: Boot reason: 0
+I (4753) chip[ZCL]: Endpoint 37 On/off already set to new value
+I (4763) chip[ZCL]: Boot reason: 0
+I (4763) chip[ZCL]: Endpoint 38 On/off already set to new value
+I (4773) chip[ZCL]: Boot reason: 0
+I (4773) chip[ZCL]: Endpoint 39 On/off already set to new value
+I (4783) chip[ZCL]: Boot reason: 0
+I (4783) chip[ZCL]: Endpoint 3a On/off already set to new value
+I (4793) chip[ZCL]: Boot reason: 0
+I (4793) chip[ZCL]: Endpoint 3b On/off already set to new value
+I (4793) chip[ZCL]: Boot reason: 0
+I (4793) chip[ZCL]: Endpoint 3c On/off already set to new value
+I (4803) chip[ZCL]: Boot reason: 0
+I (4803) chip[ZCL]: Endpoint 3d On/off already set to new value
+I (4813) chip[ZCL]: Boot reason: 0
+I (4813) chip[ZCL]: Endpoint 3e On/off already set to new value
+I (4823) chip[ZCL]: Boot reason: 0
+I (4823) chip[ZCL]: Endpoint 3f On/off already set to new value
+I (4833) chip[ZCL]: Boot reason: 0
+I (4833) chip[ZCL]: Endpoint 40 On/off already set to new value
+I (4843) chip[ZCL]: Boot reason: 0
+I (4843) chip[ZCL]: Endpoint 41 On/off already set to new value
+I (4853) chip[ZCL]: Boot reason: 0
+I (4853) chip[ZCL]: Endpoint 42 On/off already set to new value
+I (4863) chip[ZCL]: Boot reason: 0
+I (4863) chip[ZCL]: Endpoint 43 On/off already set to new value
+I (4863) chip[ZCL]: Boot reason: 0
+I (4863) chip[ZCL]: Endpoint 44 On/off already set to new value
+I (4873) chip[ZCL]: Boot reason: 0
+I (4873) chip[ZCL]: Endpoint 45 On/off already set to new value
+I (4883) chip[ZCL]: Boot reason: 0
+I (4883) chip[ZCL]: Endpoint 46 On/off already set to new value
+I (4893) chip[ZCL]: Boot reason: 0
+I (4893) chip[ZCL]: Endpoint 47 On/off already set to new value
+I (4903) chip[ZCL]: Boot reason: 0
+I (4903) chip[ZCL]: Endpoint 48 On/off already set to new value
+I (4913) chip[ZCL]: Boot reason: 0
+I (4913) chip[ZCL]: Endpoint 49 On/off already set to new value
+I (4923) chip[ZCL]: Boot reason: 0
+I (4923) chip[ZCL]: Endpoint 4a On/off already set to new value
+I (4933) chip[ZCL]: Boot reason: 0
+I (4933) chip[ZCL]: Endpoint 4b On/off already set to new value
+I (4933) chip[ZCL]: Boot reason: 0
+I (4933) chip[ZCL]: Endpoint 4c On/off already set to new value
+I (4943) chip[ZCL]: Boot reason: 0
+I (4943) chip[ZCL]: Endpoint 4d On/off already set to new value
+I (4953) chip[ZCL]: Boot reason: 0
+I (4953) chip[ZCL]: Endpoint 4e On/off already set to new value
+I (4963) chip[ZCL]: Boot reason: 0
+I (4963) chip[ZCL]: Endpoint 4f On/off already set to new value
+I (4973) chip[ZCL]: Boot reason: 0
+I (4973) chip[ZCL]: Endpoint 50 On/off already set to new value
+I (4983) chip[ZCL]: Boot reason: 0
+I (4983) chip[ZCL]: Endpoint 51 On/off already set to new value
+I (4993) chip[ZCL]: Boot reason: 0
+I (4993) chip[ZCL]: Endpoint 52 On/off already set to new value
+I (5003) chip[ZCL]: Boot reason: 0
+I (5003) chip[ZCL]: Endpoint 53 On/off already set to new value
+I (5003) chip[ZCL]: Boot reason: 0
+I (5013) chip[ZCL]: Endpoint 54 On/off already set to new value
+I (5013) chip[ZCL]: Boot reason: 0
+I (5013) chip[ZCL]: Endpoint 55 On/off already set to new value
+I (5023) chip[ZCL]: Boot reason: 0
+I (5023) chip[ZCL]: Endpoint 56 On/off already set to new value
+I (5033) chip[ZCL]: Boot reason: 0
+I (5033) chip[ZCL]: Endpoint 57 On/off already set to new value
+I (5043) chip[ZCL]: Boot reason: 0
+I (5043) chip[ZCL]: Endpoint 58 On/off already set to new value
+I (5053) chip[ZCL]: Boot reason: 0
+I (5053) chip[ZCL]: Endpoint 59 On/off already set to new value
+I (5063) chip[ZCL]: Boot reason: 0
+I (5063) chip[ZCL]: Endpoint 5a On/off already set to new value
+I (5073) chip[ZCL]: Boot reason: 0
+I (5073) chip[ZCL]: Endpoint 5b On/off already set to new value
+I (5073) chip[ZCL]: Boot reason: 0
+I (5083) chip[ZCL]: Endpoint 5c On/off already set to new value
+I (5083) chip[ZCL]: Boot reason: 0
+I (5083) chip[ZCL]: Endpoint 5d On/off already set to new value
+I (5093) chip[ZCL]: Boot reason: 0
+I (5093) chip[ZCL]: Endpoint 5e On/off already set to new value
+I (5103) chip[ZCL]: Boot reason: 0
+I (5103) chip[ZCL]: Endpoint 5f On/off already set to new value
+E (5113) chip[DL]: Long dispatch time: 988 ms, for event type 2
+I (5113) app_driver: Serial RX Task started on UART1
+I (5113) chip[DL]: WIFI_EVENT_STA_START
+I (5123) chip[DL]: Done driving station state, nothing else to do...
+I (5133) chip[DL]: WIFI_EVENT_STA_CONNECTED
+I (5133) chip[DL]: WiFi station state change: Connecting -> Connecting_Succeeded
+I (5143) chip[DL]: WiFi station state change: Connecting_Succeeded -> Connected
+I (5153) chip[DL]: WiFi station interface connected
+I (5153) chip[DL]: Done driving station state, nothing else to do...
+I (5163) chip[DL]: Updating advertising data
+I (5163) NimBLE: GAP procedure initiated: stop advertising.
+
+I (5173) chip[DL]: BLE deinit successful and memory reclaimed
+I (5173) app_main: BLE deinitialized and memory reclaimed
+I (5213) app_driver: Serial TX Query-All: acc,00@ (7 bytes)
+I (5323) esp_netif_handlers: sta ip: 192.168.188.153, mask: 255.255.255.0, gw: 192.168.188.1
+I (5323) chip[DL]: Posting ESPSystemEvent: IP Event with eventId : 0
+I (5333) chip[DL]: IP_EVENT_STA_GOT_IP
+I (5333) chip[DL]: IPv4 address changed on WiFi station interface: 192.168.188.153/255.255.255.0 gateway 192.168.188.1
+I (5343) chip[DL]: IPv4 Internet connectivity ESTABLISHED
+I (5343) app_main: Interface IP Address changed
+I (5343) wifi:Set ps type: 0, coexist: 0
+
+I (5353) chip[DIS]: Updating services using commissioning mode 0
+I (5363) chip[DIS]: CHIP minimal mDNS started advertising.
+I (5363) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-000000004A303E5A
+I (5373) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-000000004A303E5A.
+I (5383) chip[DIS]: mDNS service published: _matter._tcp
+I (5383) chip[DIS]: Advertise operational node FD4E0D615FBBC4F9-0000000000000006
+I (5403) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: FD4E0D615FBBC4F9-0000000000000006.
+I (5403) chip[DIS]: mDNS service published: _matter._tcp
+I (5413) chip[DIS]: Updating services using commissioning mode 0
+I (5413) chip[DIS]: CHIP minimal mDNS started advertising.
+I (5423) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-000000004A303E5A
+I (5433) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-000000004A303E5A.
+I (5433) chip[DIS]: mDNS service published: _matter._tcp
+I (5453) chip[DIS]: Advertise operational node FD4E0D615FBBC4F9-0000000000000006
+I (5453) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: FD4E0D615FBBC4F9-0000000000000006.
+I (5463) chip[DIS]: mDNS service published: _matter._tcp
+I (5523) wifi:<ba-add>idx:1 (ifx:0, 74:42:7f:17:37:93), tid:0, ssn:0, winSize:64
+I (5523) chip[EM]: >>> [E:30802r S:0 M:152169981] (U) Msg RX from 0:9FDF63A3311E6414 [0000] to 0000000000000000 --- Type 0000:30 (SecureChannel:CASE_Sigma1) (B:234)
+I (5533) chip[IN]: CASE Server received Sigma1 message . Starting handshake. EC 0x3fcac490
+I (5553) chip[EM]: <<< [E:30802r S:0 M:267272026 (Ack:152169981)] (U) Msg TX from 0000000000000000 to 0:9FDF63A3311E6414 [0000] [UDP:192.168.188.148:38391] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (5563) chip[SC]: Received Sigma1 msg
+I (5563) chip[EM]: <<< [E:30802r S:0 M:267272027 (Ack:152169981)] (U) Msg TX from 0000000000000000 to 0:9FDF63A3311E6414 [0000] [UDP:192.168.188.148:38391] --- Type 0000:33 (SecureChannel:CASE_Sigma2Resume) (B:100)
+I (5593) chip[EM]: ??1 [E:30802r S:0 M:267272027] (U) Msg Retransmission to 0:0000000000000000 scheduled for 360ms from now [State:Active II:500 AI:300 AT:4000]
+I (5603) chip[SC]: Sent Sigma2Resume msg
+I (5603) chip[EM]: >>> [E:30802r S:0 M:152169982 (Ack:267272027)] (U) Msg RX from 0:9FDF63A3311E6414 [0000] to 0000000000000000 --- Type 0000:40 (SecureChannel:StatusReport) (B:34)
+I (5623) chip[SC]: Success status report received. Session was established
+I (5633) chip[SC]: SecureSession[0x3fcaaa30, LSID:41108]: State change 'kEstablishing' --> 'kActive'
+I (5633) chip[IN]: CASE Session established to peer: <000000000001B669, 2>
+I (5643) chip[EM]: <<< [E:30802r S:0 M:267272028 (Ack:152169982)] (U) Msg TX from 0000000000000000 to 0:9FDF63A3311E6414 [0000] [UDP:192.168.188.148:38391] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:26)
+I (5663) chip[EM]: >>> [E:30803r S:41108 M:255337314] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:03 (IM:SubscribeRequest) (B:68)
+I (5673) chip[IM]: Deleting previous non-active subscription from NodeId: 000000000001B669, FabricIndex: 2, SubscriptionId: 0x4ab94a22
+I (5713) chip[DMG]: Final negotiated min/max parameters: Min = 1s, Max = 60s
+E (5763) chip[DMG]: Fail to retrieve data, roll back and encode status on clusterId: 0x0000_0028, attributeId: 0x0000_0008err = 201
+I (5783) chip[EM]: <<< [E:30803r S:41108 M:155213568 (Ack:255337314)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1199)
+I (5793) chip[EM]: ??1 [E:30803r S:41108 M:155213568] (S) Msg Retransmission to 2:000000000001B669 scheduled for 351ms from now [State:Active II:500 AI:300 AT:4000]
+I (5913) chip[EM]: >>> [E:30803r S:41108 M:255337315 (Ack:155213568)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (5933) chip[IM]: Received status response, status is 0x00
+I (5993) chip[EM]: <<< [E:30803r S:41108 M:155213569 (Ack:255337315)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1192)
+I (6003) chip[EM]: ??1 [E:30803r S:41108 M:155213569] (S) Msg Retransmission to 2:000000000001B669 scheduled for 386ms from now [State:Active II:500 AI:300 AT:4000]
+I (6023) chip[EM]: >>> [E:30803r S:41108 M:255337316 (Ack:155213569)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (6033) chip[IM]: Received status response, status is 0x00
+I (6073) chip[EM]: <<< [E:30803r S:41108 M:155213570 (Ack:255337316)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1178)
+I (6093) chip[EM]: ??1 [E:30803r S:41108 M:155213570] (S) Msg Retransmission to 2:000000000001B669 scheduled for 335ms from now [State:Active II:500 AI:300 AT:4000]
+I (6103) chip[EM]: >>> [E:30803r S:41108 M:255337317 (Ack:155213570)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (6123) chip[IM]: Received status response, status is 0x00
+> I (6133) main_task: Returned from app_main()
+I (6163) chip[EM]: <<< [E:30803r S:41108 M:155213571 (Ack:255337317)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1194)
+I (6183) chip[EM]: ??1 [E:30803r S:41108 M:155213571] (S) Msg Retransmission to 2:000000000001B669 scheduled for 374ms from now [State:Active II:500 AI:300 AT:4000]
+I (6193) chip[EM]: >>> [E:30803r S:41108 M:255337318 (Ack:155213571)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (6203) chip[IM]: Received status response, status is 0x00
+I (6253) chip[EM]: <<< [E:30803r S:41108 M:155213572 (Ack:255337318)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1208)
+I (6263) chip[EM]: ??1 [E:30803r S:41108 M:155213572] (S) Msg Retransmission to 2:000000000001B669 scheduled for 349ms from now [State:Active II:500 AI:300 AT:4000]
+I (6283) chip[EM]: >>> [E:30803r S:41108 M:255337319 (Ack:155213572)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (6293) chip[IM]: Received status response, status is 0x00
+I (6333) chip[EM]: <<< [E:30803r S:41108 M:155213573 (Ack:255337319)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1198)
+I (6353) chip[EM]: ??1 [E:30803r S:41108 M:155213573] (S) Msg Retransmission to 2:000000000001B669 scheduled for 384ms from now [State:Active II:500 AI:300 AT:4000]
+I (6363) chip[EM]: >>> [E:30803r S:41108 M:255337320 (Ack:155213573)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (6383) chip[IM]: Received status response, status is 0x00
+I (6393) chip[DL]: Posting ESPSystemEvent: IP Event with eventId : 3
+I (6433) chip[EM]: <<< [E:30803r S:41108 M:155213574 (Ack:255337320)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1204)
+I (6443) chip[EM]: ??1 [E:30803r S:41108 M:155213574] (S) Msg Retransmission to 2:000000000001B669 scheduled for 373ms from now [State:Active II:500 AI:300 AT:4000]
+I (6453) chip[DL]: IP_EVENT_GOT_IP6
+I (6453) chip[DL]: IPv6 addr available. Ready on WIFI_STA_DEF interface: fe80:0000:0000:0000:16c1:9fff:fec1:2428
+I (6473) chip[EM]: >>> [E:30803r S:41108 M:255337321 (Ack:155213574)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (6483) chip[IM]: Received status response, status is 0x00
+I (6483) app_main: Interface IP Address changed
+I (6493) wifi:Set ps type: 0, coexist: 0
+
+I (6493) chip[DIS]: Updating services using commissioning mode 0
+I (6503) chip[DIS]: CHIP minimal mDNS started advertising.
+I (6523) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-000000004A303E5A
+I (6523) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-000000004A303E5A.
+I (6533) chip[DIS]: mDNS service published: _matter._tcp
+I (6533) chip[DIS]: Advertise operational node FD4E0D615FBBC4F9-0000000000000006
+I (6543) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: FD4E0D615FBBC4F9-0000000000000006.
+I (6553) chip[DIS]: mDNS service published: _matter._tcp
+I (6553) chip[DIS]: Updating services using commissioning mode 0
+I (6563) chip[DIS]: CHIP minimal mDNS started advertising.
+I (6573) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-000000004A303E5A
+I (6573) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-000000004A303E5A.
+I (6593) chip[DIS]: mDNS service published: _matter._tcp
+I (6593) chip[DIS]: Advertise operational node FD4E0D615FBBC4F9-0000000000000006
+I (6603) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: FD4E0D615FBBC4F9-0000000000000006.
+I (6613) chip[DIS]: mDNS service published: _matter._tcp
+I (6663) chip[EM]: <<< [E:30803r S:41108 M:155213575 (Ack:255337321)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1201)
+I (6683) chip[EM]: ??1 [E:30803r S:41108 M:155213575] (S) Msg Retransmission to 2:000000000001B669 scheduled for 373ms from now [State:Active II:500 AI:300 AT:4000]
+I (6693) chip[DIS]: Updating services using commissioning mode 0
+I (6693) chip[DIS]: CHIP minimal mDNS started advertising.
+I (6713) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-000000004A303E5A
+I (6713) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-000000004A303E5A.
+I (6733) chip[DIS]: mDNS service published: _matter._tcp
+I (6733) chip[DIS]: Advertise operational node FD4E0D615FBBC4F9-0000000000000006
+I (6743) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: FD4E0D615FBBC4F9-0000000000000006.
+I (6753) chip[DIS]: mDNS service published: _matter._tcp
+I (6753) chip[SVR]: Server initialization complete
+I (6763) chip[SWU]: Stopping the watchdog timer
+I (6763) chip[SWU]: Starting the periodic query timer, timeout: 86400 seconds
+I (6773) chip[EM]: >>> [E:30803r S:41108 M:255337322 (Ack:155213575)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (6793) chip[IM]: Received status response, status is 0x00
+I (6793) chip[IM]: Resuming 1 subscriptions in 1 seconds
+I (6843) chip[EM]: <<< [E:30803r S:41108 M:155213576 (Ack:255337322)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1184)
+I (6853) chip[EM]: ??1 [E:30803r S:41108 M:155213576] (S) Msg Retransmission to 2:000000000001B669 scheduled for 389ms from now [State:Active II:500 AI:300 AT:4000]
+I (6943) chip[EM]: >>> [E:30803r S:41108 M:255337323 (Ack:155213576)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (6953) chip[IM]: Received status response, status is 0x00
+I (7003) chip[EM]: <<< [E:30803r S:41108 M:155213577 (Ack:255337323)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1191)
+I (7013) chip[EM]: ??1 [E:30803r S:41108 M:155213577] (S) Msg Retransmission to 2:000000000001B669 scheduled for 353ms from now [State:Active II:500 AI:300 AT:4000]
+I (7023) chip[EM]: >>> [E:30803r S:41108 M:255337324 (Ack:155213577)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (7043) chip[IM]: Received status response, status is 0x00
+I (7083) chip[EM]: <<< [E:30803r S:41108 M:155213578 (Ack:255337324)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1184)
+I (7103) chip[EM]: ??1 [E:30803r S:41108 M:155213578] (S) Msg Retransmission to 2:000000000001B669 scheduled for 364ms from now [State:Active II:500 AI:300 AT:4000]
+I (7113) chip[EM]: >>> [E:30803r S:41108 M:255337325 (Ack:155213578)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (7133) chip[IM]: Received status response, status is 0x00
+I (7173) chip[EM]: <<< [E:30803r S:41108 M:155213579 (Ack:255337325)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1188)
+I (7193) chip[EM]: ??1 [E:30803r S:41108 M:155213579] (S) Msg Retransmission to 2:000000000001B669 scheduled for 359ms from now [State:Active II:500 AI:300 AT:4000]
+I (7203) chip[EM]: >>> [E:30803r S:41108 M:255337326 (Ack:155213579)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (7213) chip[IM]: Received status response, status is 0x00
+I (7263) chip[EM]: <<< [E:30803r S:41108 M:155213580 (Ack:255337326)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1185)
+I (7273) chip[EM]: ??1 [E:30803r S:41108 M:155213580] (S) Msg Retransmission to 2:000000000001B669 scheduled for 366ms from now [State:Active II:500 AI:300 AT:4000]
+I (7293) chip[EM]: >>> [E:30803r S:41108 M:255337327 (Ack:155213580)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (7303) chip[IM]: Received status response, status is 0x00
+I (7353) chip[EM]: <<< [E:30803r S:41108 M:155213581 (Ack:255337327)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1199)
+I (7363) chip[EM]: ??1 [E:30803r S:41108 M:155213581] (S) Msg Retransmission to 2:000000000001B669 scheduled for 357ms from now [State:Active II:500 AI:300 AT:4000]
+I (7383) chip[EM]: >>> [E:30803r S:41108 M:255337328 (Ack:155213581)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (7393) chip[IM]: Received status response, status is 0x00
+I (7443) chip[EM]: <<< [E:30803r S:41108 M:155213582 (Ack:255337328)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1200)
+I (7453) chip[EM]: ??1 [E:30803r S:41108 M:155213582] (S) Msg Retransmission to 2:000000000001B669 scheduled for 356ms from now [State:Active II:500 AI:300 AT:4000]
+I (7463) chip[EM]: >>> [E:30803r S:41108 M:255337329 (Ack:155213582)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (7483) chip[IM]: Received status response, status is 0x00
+I (7523) chip[EM]: <<< [E:30803r S:41108 M:155213583 (Ack:255337329)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1198)
+I (7543) chip[EM]: ??1 [E:30803r S:41108 M:155213583] (S) Msg Retransmission to 2:000000000001B669 scheduled for 343ms from now [State:Active II:500 AI:300 AT:4000]
+I (7553) chip[EM]: >>> [E:30803r S:41108 M:255337330 (Ack:155213583)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (7573) chip[IM]: Received status response, status is 0x00
+I (7613) chip[EM]: <<< [E:30803r S:41108 M:155213584 (Ack:255337330)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1203)
+I (7633) chip[EM]: ??1 [E:30803r S:41108 M:155213584] (S) Msg Retransmission to 2:000000000001B669 scheduled for 354ms from now [State:Active II:500 AI:300 AT:4000]
+I (7643) chip[EM]: >>> [E:30803r S:41108 M:255337331 (Ack:155213584)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (7653) chip[IM]: Received status response, status is 0x00
+I (7703) chip[EM]: <<< [E:30803r S:41108 M:155213585 (Ack:255337331)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1183)
+I (7713) chip[EM]: ??1 [E:30803r S:41108 M:155213585] (S) Msg Retransmission to 2:000000000001B669 scheduled for 381ms from now [State:Active II:500 AI:300 AT:4000]
+I (7733) chip[EM]: >>> [E:30803r S:41108 M:255337332 (Ack:155213585)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (7743) chip[IM]: Received status response, status is 0x00
+I (7793) chip[EM]: <<< [E:30803r S:41108 M:155213586 (Ack:255337332)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1204)
+I (7803) chip[EM]: ??1 [E:30803r S:41108 M:155213586] (S) Msg Retransmission to 2:000000000001B669 scheduled for 411ms from now [State:Active II:500 AI:300 AT:4000]
+I (7823) chip[IM]: Skip resuming live subscriptionId 2023190921
+I (7823) chip[EM]: >>> [E:30803r S:41108 M:255337333 (Ack:155213586)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (7843) chip[IM]: Received status response, status is 0x00
+I (7883) chip[EM]: <<< [E:30803r S:41108 M:155213587 (Ack:255337333)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1209)
+I (7903) chip[EM]: ??1 [E:30803r S:41108 M:155213587] (S) Msg Retransmission to 2:000000000001B669 scheduled for 395ms from now [State:Active II:500 AI:300 AT:4000]
+I (7913) chip[EM]: >>> [E:30803r S:41108 M:255337334 (Ack:155213587)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (7923) chip[IM]: Received status response, status is 0x00
+I (7963) chip[EM]: <<< [E:30803r S:41108 M:155213588 (Ack:255337334)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1204)
+I (7983) chip[EM]: ??1 [E:30803r S:41108 M:155213588] (S) Msg Retransmission to 2:000000000001B669 scheduled for 411ms from now [State:Active II:500 AI:300 AT:4000]
+I (7993) chip[EM]: >>> [E:30803r S:41108 M:255337335 (Ack:155213588)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (8013) chip[IM]: Received status response, status is 0x00
+I (8053) chip[EM]: <<< [E:30803r S:41108 M:155213589 (Ack:255337335)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1188)
+I (8073) chip[EM]: ??1 [E:30803r S:41108 M:155213589] (S) Msg Retransmission to 2:000000000001B669 scheduled for 395ms from now [State:Active II:500 AI:300 AT:4000]
+I (8083) chip[EM]: >>> [E:30803r S:41108 M:255337336 (Ack:155213589)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (8103) chip[IM]: Received status response, status is 0x00
+I (8143) chip[EM]: <<< [E:30803r S:41108 M:155213590 (Ack:255337336)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1185)
+I (8153) chip[EM]: ??1 [E:30803r S:41108 M:155213590] (S) Msg Retransmission to 2:000000000001B669 scheduled for 387ms from now [State:Active II:500 AI:300 AT:4000]
+I (8173) chip[EM]: >>> [E:30803r S:41108 M:255337337 (Ack:155213590)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (8183) chip[IM]: Received status response, status is 0x00
+I (8233) chip[EM]: <<< [E:30803r S:41108 M:155213591 (Ack:255337337)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1199)
+I (8243) chip[EM]: ??1 [E:30803r S:41108 M:155213591] (S) Msg Retransmission to 2:000000000001B669 scheduled for 373ms from now [State:Active II:500 AI:300 AT:4000]
+I (8263) chip[EM]: >>> [E:30803r S:41108 M:255337338 (Ack:155213591)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (8273) chip[IM]: Received status response, status is 0x00
+I (8323) chip[EM]: <<< [E:30803r S:41108 M:155213592 (Ack:255337338)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1200)
+I (8333) chip[EM]: ??1 [E:30803r S:41108 M:155213592] (S) Msg Retransmission to 2:000000000001B669 scheduled for 397ms from now [State:Active II:500 AI:300 AT:4000]
+I (8353) chip[EM]: >>> [E:30803r S:41108 M:255337339 (Ack:155213592)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (8363) chip[IM]: Received status response, status is 0x00
+I (8393) ROUTE_HOOK: Received RIO
+I (8393) ROUTE_HOOK: prefix FD7A:9F3C:4599:: lifetime 1800
+I (8413) chip[EM]: <<< [E:30803r S:41108 M:155213593 (Ack:255337339)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1198)
+I (8423) chip[EM]: ??1 [E:30803r S:41108 M:155213593] (S) Msg Retransmission to 2:000000000001B669 scheduled for 376ms from now [State:Active II:500 AI:300 AT:4000]
+I (8443) chip[EM]: >>> [E:30803r S:41108 M:255337340 (Ack:155213593)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (8453) chip[IM]: Received status response, status is 0x00
+I (8503) chip[EM]: <<< [E:30803r S:41108 M:155213594 (Ack:255337340)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1203)
+I (8513) chip[EM]: ??1 [E:30803r S:41108 M:155213594] (S) Msg Retransmission to 2:000000000001B669 scheduled for 338ms from now [State:Active II:500 AI:300 AT:4000]
+I (8523) chip[EM]: >>> [E:30803r S:41108 M:255337341 (Ack:155213594)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (8543) chip[IM]: Received status response, status is 0x00
+I (8583) chip[EM]: <<< [E:30803r S:41108 M:155213595 (Ack:255337341)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1183)
+I (8603) chip[EM]: ??1 [E:30803r S:41108 M:155213595] (S) Msg Retransmission to 2:000000000001B669 scheduled for 398ms from now [State:Active II:500 AI:300 AT:4000]
+I (8613) chip[EM]: >>> [E:30803r S:41108 M:255337342 (Ack:155213595)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (8623) chip[IM]: Received status response, status is 0x00
+I (8673) chip[EM]: <<< [E:30803r S:41108 M:155213596 (Ack:255337342)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1204)
+I (8683) chip[EM]: ??1 [E:30803r S:41108 M:155213596] (S) Msg Retransmission to 2:000000000001B669 scheduled for 392ms from now [State:Active II:500 AI:300 AT:4000]
+I (8703) chip[EM]: >>> [E:30803r S:41108 M:255337343 (Ack:155213596)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (8713) chip[IM]: Received status response, status is 0x00
+I (8763) chip[EM]: <<< [E:30803r S:41108 M:155213597 (Ack:255337343)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1209)
+I (8773) chip[EM]: ??1 [E:30803r S:41108 M:155213597] (S) Msg Retransmission to 2:000000000001B669 scheduled for 352ms from now [State:Active II:500 AI:300 AT:4000]
+I (8793) chip[EM]: >>> [E:30803r S:41108 M:255337344 (Ack:155213597)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (8803) chip[IM]: Received status response, status is 0x00
+I (8843) chip[EM]: <<< [E:30803r S:41108 M:155213598 (Ack:255337344)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1204)
+I (8853) chip[EM]: ??1 [E:30803r S:41108 M:155213598] (S) Msg Retransmission to 2:000000000001B669 scheduled for 373ms from now [State:Active II:500 AI:300 AT:4000]
+I (8873) chip[EM]: >>> [E:30803r S:41108 M:255337345 (Ack:155213598)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (8883) chip[IM]: Received status response, status is 0x00
+I (8933) chip[EM]: <<< [E:30803r S:41108 M:155213599 (Ack:255337345)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1188)
+I (8943) chip[EM]: ??1 [E:30803r S:41108 M:155213599] (S) Msg Retransmission to 2:000000000001B669 scheduled for 337ms from now [State:Active II:500 AI:300 AT:4000]
+I (8963) chip[EM]: >>> [E:30803r S:41108 M:255337346 (Ack:155213599)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (8973) chip[IM]: Received status response, status is 0x00
+I (9023) chip[EM]: <<< [E:30803r S:41108 M:155213600 (Ack:255337346)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1185)
+I (9033) chip[EM]: ??1 [E:30803r S:41108 M:155213600] (S) Msg Retransmission to 2:000000000001B669 scheduled for 406ms from now [State:Active II:500 AI:300 AT:4000]
+I (9043) chip[EM]: >>> [E:30803r S:41108 M:255337347 (Ack:155213600)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (9063) chip[IM]: Received status response, status is 0x00
+I (9103) chip[EM]: <<< [E:30803r S:41108 M:155213601 (Ack:255337347)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1199)
+I (9123) chip[EM]: ??1 [E:30803r S:41108 M:155213601] (S) Msg Retransmission to 2:000000000001B669 scheduled for 408ms from now [State:Active II:500 AI:300 AT:4000]
+I (9133) chip[EM]: >>> [E:30803r S:41108 M:255337348 (Ack:155213601)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (9143) chip[IM]: Received status response, status is 0x00
+I (9193) chip[EM]: <<< [E:30803r S:41108 M:155213602 (Ack:255337348)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1200)
+I (9203) chip[EM]: ??1 [E:30803r S:41108 M:155213602] (S) Msg Retransmission to 2:000000000001B669 scheduled for 334ms from now [State:Active II:500 AI:300 AT:4000]
+I (9223) chip[EM]: >>> [E:30803r S:41108 M:255337349 (Ack:155213602)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (9233) chip[IM]: Received status response, status is 0x00
+I (9283) chip[EM]: <<< [E:30803r S:41108 M:155213603 (Ack:255337349)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1198)
+I (9293) chip[EM]: ??1 [E:30803r S:41108 M:155213603] (S) Msg Retransmission to 2:000000000001B669 scheduled for 367ms from now [State:Active II:500 AI:300 AT:4000]
+I (9303) chip[EM]: >>> [E:30803r S:41108 M:255337350 (Ack:155213603)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (9323) chip[IM]: Received status response, status is 0x00
+I (9363) chip[EM]: <<< [E:30803r S:41108 M:155213604 (Ack:255337350)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1203)
+I (9383) chip[EM]: ??1 [E:30803r S:41108 M:155213604] (S) Msg Retransmission to 2:000000000001B669 scheduled for 403ms from now [State:Active II:500 AI:300 AT:4000]
+I (9403) chip[EM]: >>> [E:30803r S:41108 M:255337351 (Ack:155213604)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (9413) chip[IM]: Received status response, status is 0x00
+I (9453) chip[EM]: <<< [E:30803r S:41108 M:155213605 (Ack:255337351)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1183)
+I (9473) chip[EM]: ??1 [E:30803r S:41108 M:155213605] (S) Msg Retransmission to 2:000000000001B669 scheduled for 391ms from now [State:Active II:500 AI:300 AT:4000]
+I (9483) chip[EM]: >>> [E:30803r S:41108 M:255337352 (Ack:155213605)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (9493) chip[IM]: Received status response, status is 0x00
+I (9543) chip[EM]: <<< [E:30803r S:41108 M:155213606 (Ack:255337352)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1204)
+I (9563) chip[EM]: ??1 [E:30803r S:41108 M:155213606] (S) Msg Retransmission to 2:000000000001B669 scheduled for 347ms from now [State:Active II:500 AI:300 AT:4000]
+I (9573) chip[EM]: >>> [E:30803r S:41108 M:255337353 (Ack:155213606)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (9583) chip[IM]: Received status response, status is 0x00
+I (9633) chip[EM]: <<< [E:30803r S:41108 M:155213607 (Ack:255337353)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1209)
+I (9643) chip[EM]: ??1 [E:30803r S:41108 M:155213607] (S) Msg Retransmission to 2:000000000001B669 scheduled for 338ms from now [State:Active II:500 AI:300 AT:4000]
+I (9663) chip[EM]: >>> [E:30803r S:41108 M:255337354 (Ack:155213607)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (9673) chip[IM]: Received status response, status is 0x00
+I (9713) chip[EM]: <<< [E:30803r S:41108 M:155213608 (Ack:255337354)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1204)
+I (9723) chip[EM]: ??1 [E:30803r S:41108 M:155213608] (S) Msg Retransmission to 2:000000000001B669 scheduled for 340ms from now [State:Active II:500 AI:300 AT:4000]
+I (9743) chip[EM]: >>> [E:30803r S:41108 M:255337355 (Ack:155213608)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (9753) chip[IM]: Received status response, status is 0x00
+I (9793) chip[EM]: <<< [E:30803r S:41108 M:155213609 (Ack:255337355)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1188)
+I (9813) chip[EM]: ??1 [E:30803r S:41108 M:155213609] (S) Msg Retransmission to 2:000000000001B669 scheduled for 383ms from now [State:Active II:500 AI:300 AT:4000]
+I (9823) chip[EM]: >>> [E:30803r S:41108 M:255337356 (Ack:155213609)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (9843) chip[IM]: Received status response, status is 0x00
+I (9883) chip[EM]: <<< [E:30803r S:41108 M:155213610 (Ack:255337356)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1185)
+I (9893) chip[EM]: ??1 [E:30803r S:41108 M:155213610] (S) Msg Retransmission to 2:000000000001B669 scheduled for 340ms from now [State:Active II:500 AI:300 AT:4000]
+I (9913) chip[EM]: >>> [E:30803r S:41108 M:255337357 (Ack:155213610)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (9923) chip[IM]: Received status response, status is 0x00
+I (9973) chip[EM]: <<< [E:30803r S:41108 M:155213611 (Ack:255337357)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1199)
+I (9983) chip[EM]: ??1 [E:30803r S:41108 M:155213611] (S) Msg Retransmission to 2:000000000001B669 scheduled for 381ms from now [State:Active II:500 AI:300 AT:4000]
+I (9993) chip[EM]: >>> [E:30803r S:41108 M:255337358 (Ack:155213611)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (10013) chip[IM]: Received status response, status is 0x00
+I (10053) chip[EM]: <<< [E:30803r S:41108 M:155213612 (Ack:255337358)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1200)
+I (10073) chip[EM]: ??1 [E:30803r S:41108 M:155213612] (S) Msg Retransmission to 2:000000000001B669 scheduled for 387ms from now [State:Active II:500 AI:300 AT:4000]
+I (10083) chip[EM]: >>> [E:30803r S:41108 M:255337359 (Ack:155213612)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (10093) chip[IM]: Received status response, status is 0x00
+I (10143) chip[EM]: <<< [E:30803r S:41108 M:155213613 (Ack:255337359)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1198)
+I (10153) chip[EM]: ??1 [E:30803r S:41108 M:155213613] (S) Msg Retransmission to 2:000000000001B669 scheduled for 349ms from now [State:Active II:500 AI:300 AT:4000]
+I (10173) chip[EM]: >>> [E:30803r S:41108 M:255337360 (Ack:155213613)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (10183) chip[IM]: Received status response, status is 0x00
+I (10223) chip[EM]: <<< [E:30803r S:41108 M:155213614 (Ack:255337360)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1203)
+I (10243) chip[EM]: ??1 [E:30803r S:41108 M:155213614] (S) Msg Retransmission to 2:000000000001B669 scheduled for 356ms from now [State:Active II:500 AI:300 AT:4000]
+I (10253) chip[EM]: >>> [E:30803r S:41108 M:255337361 (Ack:155213614)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (10273) chip[IM]: Received status response, status is 0x00
+I (10313) chip[EM]: <<< [E:30803r S:41108 M:155213615 (Ack:255337361)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1183)
+I (10323) chip[EM]: ??1 [E:30803r S:41108 M:155213615] (S) Msg Retransmission to 2:000000000001B669 scheduled for 342ms from now [State:Active II:500 AI:300 AT:4000]
+I (10343) chip[EM]: >>> [E:30803r S:41108 M:255337362 (Ack:155213615)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (10353) chip[IM]: Received status response, status is 0x00
+I (10393) chip[DL]: Posting ESPSystemEvent: IP Event with eventId : 3
+I (10403) chip[EM]: <<< [E:30803r S:41108 M:155213616 (Ack:255337362)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1204)
+I (10413) chip[EM]: ??1 [E:30803r S:41108 M:155213616] (S) Msg Retransmission to 2:000000000001B669 scheduled for 409ms from now [State:Active II:500 AI:300 AT:4000]
+I (10433) chip[DL]: IP_EVENT_GOT_IP6
+I (10433) chip[DL]: IPv6 addr available. Ready on WIFI_STA_DEF interface: fd7a:9f3c:4599:0000:16c1:9fff:fec1:2428
+I (10443) ROUTE_HOOK: Hook already installed on netif, skip...
+I (10443) chip[EM]: >>> [E:30803r S:41108 M:255337363 (Ack:155213616)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (10463) chip[IM]: Received status response, status is 0x00
+I (10463) app_main: Interface IP Address changed
+I (10473) wifi:Set ps type: 0, coexist: 0
+
+I (10483) chip[DIS]: Updating services using commissioning mode 0
+I (10483) chip[DIS]: CHIP minimal mDNS started advertising.
+I (10493) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-000000004A303E5A
+I (10493) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-000000004A303E5A.
+I (10503) chip[DIS]: mDNS service published: _matter._tcp
+I (10513) chip[DIS]: Advertise operational node FD4E0D615FBBC4F9-0000000000000006
+I (10523) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: FD4E0D615FBBC4F9-0000000000000006.
+I (10533) chip[DIS]: mDNS service published: _matter._tcp
+I (10533) chip[DIS]: Updating services using commissioning mode 0
+I (10543) chip[DIS]: CHIP minimal mDNS started advertising.
+I (10553) chip[DIS]: Advertise operational node 7CBC3FECC26E2ED0-000000004A303E5A
+I (10563) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: 7CBC3FECC26E2ED0-000000004A303E5A.
+I (10573) chip[DIS]: mDNS service published: _matter._tcp
+I (10573) chip[DIS]: Advertise operational node FD4E0D615FBBC4F9-0000000000000006
+I (10583) chip[DIS]: CHIP minimal mDNS configured as 'Operational device'; instance name: FD4E0D615FBBC4F9-0000000000000006.
+I (10593) chip[DIS]: mDNS service published: _matter._tcp
+I (10633) chip[EM]: <<< [E:30803r S:41108 M:155213617 (Ack:255337363)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1209)
+I (10653) chip[EM]: ??1 [E:30803r S:41108 M:155213617] (S) Msg Retransmission to 2:000000000001B669 scheduled for 340ms from now [State:Active II:500 AI:300 AT:4000]
+I (10663) chip[EM]: >>> [E:30803r S:41108 M:255337364 (Ack:155213617)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (10673) chip[IM]: Received status response, status is 0x00
+I (10713) chip[EM]: <<< [E:30803r S:41108 M:155213618 (Ack:255337364)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1204)
+I (10733) chip[EM]: ??1 [E:30803r S:41108 M:155213618] (S) Msg Retransmission to 2:000000000001B669 scheduled for 362ms from now [State:Active II:500 AI:300 AT:4000]
+I (10743) chip[EM]: >>> [E:30803r S:41108 M:255337365 (Ack:155213618)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (10763) chip[IM]: Received status response, status is 0x00
+I (10803) chip[EM]: <<< [E:30803r S:41108 M:155213619 (Ack:255337365)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1188)
+I (10813) chip[EM]: ??1 [E:30803r S:41108 M:155213619] (S) Msg Retransmission to 2:000000000001B669 scheduled for 397ms from now [State:Active II:500 AI:300 AT:4000]
+I (10833) chip[EM]: >>> [E:30803r S:41108 M:255337366 (Ack:155213619)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (10843) chip[IM]: Received status response, status is 0x00
+I (10893) chip[EM]: <<< [E:30803r S:41108 M:155213620 (Ack:255337366)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1185)
+I (10903) chip[EM]: ??1 [E:30803r S:41108 M:155213620] (S) Msg Retransmission to 2:000000000001B669 scheduled for 376ms from now [State:Active II:500 AI:300 AT:4000]
+I (10913) chip[EM]: >>> [E:30803r S:41108 M:255337367 (Ack:155213620)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (10933) chip[IM]: Received status response, status is 0x00
+I (10973) chip[EM]: <<< [E:30803r S:41108 M:155213621 (Ack:255337367)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1199)
+I (10993) chip[EM]: ??1 [E:30803r S:41108 M:155213621] (S) Msg Retransmission to 2:000000000001B669 scheduled for 375ms from now [State:Active II:500 AI:300 AT:4000]
+I (11003) chip[EM]: >>> [E:30803r S:41108 M:255337368 (Ack:155213621)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (11013) chip[IM]: Received status response, status is 0x00
+I (11063) chip[EM]: <<< [E:30803r S:41108 M:155213622 (Ack:255337368)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1200)
+I (11073) chip[EM]: ??1 [E:30803r S:41108 M:155213622] (S) Msg Retransmission to 2:000000000001B669 scheduled for 400ms from now [State:Active II:500 AI:300 AT:4000]
+I (11093) chip[EM]: >>> [E:30803r S:41108 M:255337369 (Ack:155213622)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (11103) chip[IM]: Received status response, status is 0x00
+I (11143) chip[EM]: <<< [E:30803r S:41108 M:155213623 (Ack:255337369)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1198)
+I (11163) chip[EM]: ??1 [E:30803r S:41108 M:155213623] (S) Msg Retransmission to 2:000000000001B669 scheduled for 401ms from now [State:Active II:500 AI:300 AT:4000]
+I (11173) chip[EM]: >>> [E:30803r S:41108 M:255337370 (Ack:155213623)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (11183) chip[IM]: Received status response, status is 0x00
+I (11233) chip[EM]: <<< [E:30803r S:41108 M:155213624 (Ack:255337370)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1203)
+I (11243) chip[EM]: ??1 [E:30803r S:41108 M:155213624] (S) Msg Retransmission to 2:000000000001B669 scheduled for 406ms from now [State:Active II:500 AI:300 AT:4000]
+I (11263) chip[EM]: >>> [E:30803r S:41108 M:255337371 (Ack:155213624)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (11273) chip[IM]: Received status response, status is 0x00
+I (11313) chip[EM]: <<< [E:30803r S:41108 M:155213625 (Ack:255337371)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1183)
+I (11323) chip[EM]: ??1 [E:30803r S:41108 M:155213625] (S) Msg Retransmission to 2:000000000001B669 scheduled for 397ms from now [State:Active II:500 AI:300 AT:4000]
+I (11343) chip[EM]: >>> [E:30803r S:41108 M:255337372 (Ack:155213625)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (11353) chip[IM]: Received status response, status is 0x00
+I (11403) chip[EM]: <<< [E:30803r S:41108 M:155213626 (Ack:255337372)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1204)
+I (11413) chip[EM]: ??1 [E:30803r S:41108 M:155213626] (S) Msg Retransmission to 2:000000000001B669 scheduled for 339ms from now [State:Active II:500 AI:300 AT:4000]
+I (11433) chip[EM]: >>> [E:30803r S:41108 M:255337373 (Ack:155213626)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (11443) chip[IM]: Received status response, status is 0x00
+I (11483) chip[EM]: <<< [E:30803r S:41108 M:155213627 (Ack:255337373)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1209)
+I (11503) chip[EM]: ??1 [E:30803r S:41108 M:155213627] (S) Msg Retransmission to 2:000000000001B669 scheduled for 344ms from now [State:Active II:500 AI:300 AT:4000]
+I (11513) chip[EM]: >>> [E:30803r S:41108 M:255337374 (Ack:155213627)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (11523) chip[IM]: Received status response, status is 0x00
+I (11563) chip[EM]: <<< [E:30803r S:41108 M:155213628 (Ack:255337374)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1204)
+I (11583) chip[EM]: ??1 [E:30803r S:41108 M:155213628] (S) Msg Retransmission to 2:000000000001B669 scheduled for 392ms from now [State:Active II:500 AI:300 AT:4000]
+I (11593) chip[EM]: >>> [E:30803r S:41108 M:255337375 (Ack:155213628)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (11603) chip[IM]: Received status response, status is 0x00
+I (11653) chip[EM]: <<< [E:30803r S:41108 M:155213629 (Ack:255337375)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1188)
+I (11663) chip[EM]: ??1 [E:30803r S:41108 M:155213629] (S) Msg Retransmission to 2:000000000001B669 scheduled for 338ms from now [State:Active II:500 AI:300 AT:4000]
+I (11683) chip[EM]: >>> [E:30803r S:41108 M:255337376 (Ack:155213629)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (11693) chip[IM]: Received status response, status is 0x00
+I (11733) chip[EM]: <<< [E:30803r S:41108 M:155213630 (Ack:255337376)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1185)
+I (11753) chip[EM]: ??1 [E:30803r S:41108 M:155213630] (S) Msg Retransmission to 2:000000000001B669 scheduled for 380ms from now [State:Active II:500 AI:300 AT:4000]
+I (11763) chip[EM]: >>> [E:30803r S:41108 M:255337377 (Ack:155213630)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (11773) chip[IM]: Received status response, status is 0x00
+I (11823) chip[EM]: <<< [E:30803r S:41108 M:155213631 (Ack:255337377)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1199)
+I (11833) chip[EM]: ??1 [E:30803r S:41108 M:155213631] (S) Msg Retransmission to 2:000000000001B669 scheduled for 409ms from now [State:Active II:500 AI:300 AT:4000]
+I (11843) chip[EM]: >>> [E:30803r S:41108 M:255337378 (Ack:155213631)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (11863) chip[IM]: Received status response, status is 0x00
+I (11903) chip[EM]: <<< [E:30803r S:41108 M:155213632 (Ack:255337378)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1200)
+I (11913) chip[EM]: ??1 [E:30803r S:41108 M:155213632] (S) Msg Retransmission to 2:000000000001B669 scheduled for 335ms from now [State:Active II:500 AI:300 AT:4000]
+I (11933) chip[EM]: >>> [E:30803r S:41108 M:255337379 (Ack:155213632)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (11943) chip[IM]: Received status response, status is 0x00
+I (11993) chip[EM]: <<< [E:30803r S:41108 M:155213633 (Ack:255337379)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1198)
+I (12003) chip[EM]: ??1 [E:30803r S:41108 M:155213633] (S) Msg Retransmission to 2:000000000001B669 scheduled for 363ms from now [State:Active II:500 AI:300 AT:4000]
+I (12013) chip[EM]: >>> [E:30803r S:41108 M:255337380 (Ack:155213633)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (12033) chip[IM]: Received status response, status is 0x00
+I (12073) chip[EM]: <<< [E:30803r S:41108 M:155213634 (Ack:255337380)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1203)
+I (12083) chip[EM]: ??1 [E:30803r S:41108 M:155213634] (S) Msg Retransmission to 2:000000000001B669 scheduled for 401ms from now [State:Active II:500 AI:300 AT:4000]
+I (12103) chip[EM]: >>> [E:30803r S:41108 M:255337381 (Ack:155213634)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (12113) chip[IM]: Received status response, status is 0x00
+I (12153) chip[EM]: <<< [E:30803r S:41108 M:155213635 (Ack:255337381)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1183)
+I (12173) chip[EM]: ??1 [E:30803r S:41108 M:155213635] (S) Msg Retransmission to 2:000000000001B669 scheduled for 407ms from now [State:Active II:500 AI:300 AT:4000]
+I (12183) chip[EM]: >>> [E:30803r S:41108 M:255337382 (Ack:155213635)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (12203) chip[IM]: Received status response, status is 0x00
+I (12243) chip[EM]: <<< [E:30803r S:41108 M:155213636 (Ack:255337382)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1204)
+I (12253) chip[EM]: ??1 [E:30803r S:41108 M:155213636] (S) Msg Retransmission to 2:000000000001B669 scheduled for 340ms from now [State:Active II:500 AI:300 AT:4000]
+I (12273) chip[EM]: >>> [E:30803r S:41108 M:255337383 (Ack:155213636)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (12283) chip[IM]: Received status response, status is 0x00
+I (12323) chip[EM]: <<< [E:30803r S:41108 M:155213637 (Ack:255337383)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1209)
+I (12343) chip[EM]: ??1 [E:30803r S:41108 M:155213637] (S) Msg Retransmission to 2:000000000001B669 scheduled for 372ms from now [State:Active II:500 AI:300 AT:4000]
+I (12353) chip[EM]: >>> [E:30803r S:41108 M:255337384 (Ack:155213637)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (12363) chip[IM]: Received status response, status is 0x00
+I (12403) chip[EM]: <<< [E:30803r S:41108 M:155213638 (Ack:255337384)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1204)
+I (12423) chip[EM]: ??1 [E:30803r S:41108 M:155213638] (S) Msg Retransmission to 2:000000000001B669 scheduled for 362ms from now [State:Active II:500 AI:300 AT:4000]
+I (12433) chip[EM]: >>> [E:30803r S:41108 M:255337385 (Ack:155213638)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (12443) chip[IM]: Received status response, status is 0x00
+I (12493) chip[EM]: <<< [E:30803r S:41108 M:155213639 (Ack:255337385)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1188)
+I (12503) chip[EM]: ??1 [E:30803r S:41108 M:155213639] (S) Msg Retransmission to 2:000000000001B669 scheduled for 341ms from now [State:Active II:500 AI:300 AT:4000]
+I (12523) chip[EM]: >>> [E:30803r S:41108 M:255337386 (Ack:155213639)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (12533) chip[IM]: Received status response, status is 0x00
+I (12573) chip[EM]: <<< [E:30803r S:41108 M:155213640 (Ack:255337386)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1185)
+I (12583) chip[EM]: ??1 [E:30803r S:41108 M:155213640] (S) Msg Retransmission to 2:000000000001B669 scheduled for 410ms from now [State:Active II:500 AI:300 AT:4000]
+I (12603) chip[EM]: >>> [E:30803r S:41108 M:255337387 (Ack:155213640)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (12613) chip[IM]: Received status response, status is 0x00
+I (12653) chip[EM]: <<< [E:30803r S:41108 M:155213641 (Ack:255337387)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1199)
+I (12673) chip[EM]: ??1 [E:30803r S:41108 M:155213641] (S) Msg Retransmission to 2:000000000001B669 scheduled for 369ms from now [State:Active II:500 AI:300 AT:4000]
+I (12683) chip[EM]: >>> [E:30803r S:41108 M:255337388 (Ack:155213641)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (12693) chip[IM]: Received status response, status is 0x00
+I (12743) chip[EM]: <<< [E:30803r S:41108 M:155213642 (Ack:255337388)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1200)
+I (12753) chip[EM]: ??1 [E:30803r S:41108 M:155213642] (S) Msg Retransmission to 2:000000000001B669 scheduled for 403ms from now [State:Active II:500 AI:300 AT:4000]
+I (12773) chip[EM]: >>> [E:30803r S:41108 M:255337389 (Ack:155213642)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (12783) chip[IM]: Received status response, status is 0x00
+I (12823) chip[EM]: <<< [E:30803r S:41108 M:155213643 (Ack:255337389)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1198)
+I (12843) chip[EM]: ??1 [E:30803r S:41108 M:155213643] (S) Msg Retransmission to 2:000000000001B669 scheduled for 337ms from now [State:Active II:500 AI:300 AT:4000]
+I (12853) chip[EM]: >>> [E:30803r S:41108 M:255337390 (Ack:155213643)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (12863) chip[IM]: Received status response, status is 0x00
+I (12913) chip[EM]: <<< [E:30803r S:41108 M:155213644 (Ack:255337390)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1203)
+I (12923) chip[EM]: ??1 [E:30803r S:41108 M:155213644] (S) Msg Retransmission to 2:000000000001B669 scheduled for 345ms from now [State:Active II:500 AI:300 AT:4000]
+I (12933) chip[EM]: >>> [E:30803r S:41108 M:255337391 (Ack:155213644)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (12953) chip[IM]: Received status response, status is 0x00
+I (12993) chip[EM]: <<< [E:30803r S:41108 M:155213645 (Ack:255337391)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1183)
+I (13003) chip[EM]: ??1 [E:30803r S:41108 M:155213645] (S) Msg Retransmission to 2:000000000001B669 scheduled for 348ms from now [State:Active II:500 AI:300 AT:4000]
+I (13013) chip[EM]: >>> [E:30803r S:41108 M:255337392 (Ack:155213645)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (13033) chip[IM]: Received status response, status is 0x00
+I (13073) chip[EM]: <<< [E:30803r S:41108 M:155213646 (Ack:255337392)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1204)
+I (13093) chip[EM]: ??1 [E:30803r S:41108 M:155213646] (S) Msg Retransmission to 2:000000000001B669 scheduled for 370ms from now [State:Active II:500 AI:300 AT:4000]
+I (13103) chip[EM]: >>> [E:30803r S:41108 M:255337393 (Ack:155213646)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (13113) chip[IM]: Received status response, status is 0x00
+I (13153) chip[EM]: <<< [E:30803r S:41108 M:155213647 (Ack:255337393)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1209)
+I (13173) chip[EM]: ??1 [E:30803r S:41108 M:155213647] (S) Msg Retransmission to 2:000000000001B669 scheduled for 353ms from now [State:Active II:500 AI:300 AT:4000]
+I (13183) chip[EM]: >>> [E:30803r S:41108 M:255337394 (Ack:155213647)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (13203) chip[IM]: Received status response, status is 0x00
+I (13233) chip[EM]: <<< [E:30803r S:41108 M:155213648 (Ack:255337394)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1204)
+I (13253) chip[EM]: ??1 [E:30803r S:41108 M:155213648] (S) Msg Retransmission to 2:000000000001B669 scheduled for 380ms from now [State:Active II:500 AI:300 AT:4000]
+I (13263) chip[EM]: >>> [E:30803r S:41108 M:255337395 (Ack:155213648)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (13273) chip[IM]: Received status response, status is 0x00
+I (13323) chip[EM]: <<< [E:30803r S:41108 M:155213649 (Ack:255337395)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1188)
+I (13333) chip[EM]: ??1 [E:30803r S:41108 M:155213649] (S) Msg Retransmission to 2:000000000001B669 scheduled for 335ms from now [State:Active II:500 AI:300 AT:4000]
+I (13343) chip[EM]: >>> [E:30803r S:41108 M:255337396 (Ack:155213649)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (13363) chip[IM]: Received status response, status is 0x00
+I (13403) chip[EM]: <<< [E:30803r S:41108 M:155213650 (Ack:255337396)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1185)
+I (13413) chip[EM]: ??1 [E:30803r S:41108 M:155213650] (S) Msg Retransmission to 2:000000000001B669 scheduled for 411ms from now [State:Active II:500 AI:300 AT:4000]
+I (13433) chip[EM]: >>> [E:30803r S:41108 M:255337397 (Ack:155213650)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (13443) chip[IM]: Received status response, status is 0x00
+I (13483) chip[EM]: <<< [E:30803r S:41108 M:155213651 (Ack:255337397)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1199)
+I (13493) chip[EM]: ??1 [E:30803r S:41108 M:155213651] (S) Msg Retransmission to 2:000000000001B669 scheduled for 390ms from now [State:Active II:500 AI:300 AT:4000]
+I (13513) chip[EM]: >>> [E:30803r S:41108 M:255337398 (Ack:155213651)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (13523) chip[IM]: Received status response, status is 0x00
+I (13563) chip[EM]: <<< [E:30803r S:41108 M:155213652 (Ack:255337398)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1200)
+I (13583) chip[EM]: ??1 [E:30803r S:41108 M:155213652] (S) Msg Retransmission to 2:000000000001B669 scheduled for 391ms from now [State:Active II:500 AI:300 AT:4000]
+I (13603) chip[EM]: >>> [E:30803r S:41108 M:255337399 (Ack:155213652)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (13613) chip[IM]: Received status response, status is 0x00
+I (13653) chip[EM]: <<< [E:30803r S:41108 M:155213653 (Ack:255337399)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1198)
+I (13673) chip[EM]: ??1 [E:30803r S:41108 M:155213653] (S) Msg Retransmission to 2:000000000001B669 scheduled for 397ms from now [State:Active II:500 AI:300 AT:4000]
+I (13683) chip[EM]: >>> [E:30803r S:41108 M:255337400 (Ack:155213653)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (13693) chip[IM]: Received status response, status is 0x00
+I (13733) chip[EM]: <<< [E:30803r S:41108 M:155213654 (Ack:255337400)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1203)
+I (13753) chip[EM]: ??1 [E:30803r S:41108 M:155213654] (S) Msg Retransmission to 2:000000000001B669 scheduled for 343ms from now [State:Active II:500 AI:300 AT:4000]
+I (13763) chip[EM]: >>> [E:30803r S:41108 M:255337401 (Ack:155213654)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (13783) chip[IM]: Received status response, status is 0x00
+I (13813) chip[EM]: <<< [E:30803r S:41108 M:155213655 (Ack:255337401)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1183)
+I (13833) chip[EM]: ??1 [E:30803r S:41108 M:155213655] (S) Msg Retransmission to 2:000000000001B669 scheduled for 330ms from now [State:Active II:500 AI:300 AT:4000]
+I (13853) chip[EM]: >>> [E:30803r S:41108 M:255337402 (Ack:155213655)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (13863) chip[IM]: Received status response, status is 0x00
+I (13903) chip[EM]: <<< [E:30803r S:41108 M:155213656 (Ack:255337402)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1204)
+I (13923) chip[EM]: ??1 [E:30803r S:41108 M:155213656] (S) Msg Retransmission to 2:000000000001B669 scheduled for 335ms from now [State:Active II:500 AI:300 AT:4000]
+I (13933) chip[EM]: >>> [E:30803r S:41108 M:255337403 (Ack:155213656)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (13943) chip[IM]: Received status response, status is 0x00
+I (13983) chip[EM]: <<< [E:30803r S:41108 M:155213657 (Ack:255337403)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1209)
+I (14003) chip[EM]: ??1 [E:30803r S:41108 M:155213657] (S) Msg Retransmission to 2:000000000001B669 scheduled for 409ms from now [State:Active II:500 AI:300 AT:4000]
+I (14013) chip[EM]: >>> [E:30803r S:41108 M:255337404 (Ack:155213657)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (14033) chip[IM]: Received status response, status is 0x00
+I (14063) chip[EM]: <<< [E:30803r S:41108 M:155213658 (Ack:255337404)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1204)
+I (14083) chip[EM]: ??1 [E:30803r S:41108 M:155213658] (S) Msg Retransmission to 2:000000000001B669 scheduled for 334ms from now [State:Active II:500 AI:300 AT:4000]
+I (14093) chip[EM]: >>> [E:30803r S:41108 M:255337405 (Ack:155213658)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (14103) chip[IM]: Received status response, status is 0x00
+I (14153) chip[EM]: <<< [E:30803r S:41108 M:155213659 (Ack:255337405)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1188)
+I (14163) chip[EM]: ??1 [E:30803r S:41108 M:155213659] (S) Msg Retransmission to 2:000000000001B669 scheduled for 381ms from now [State:Active II:500 AI:300 AT:4000]
+I (14173) chip[EM]: >>> [E:30803r S:41108 M:255337406 (Ack:155213659)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (14193) chip[IM]: Received status response, status is 0x00
+I (14233) chip[EM]: <<< [E:30803r S:41108 M:155213660 (Ack:255337406)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1185)
+I (14243) chip[EM]: ??1 [E:30803r S:41108 M:155213660] (S) Msg Retransmission to 2:000000000001B669 scheduled for 399ms from now [State:Active II:500 AI:300 AT:4000]
+I (14253) chip[EM]: >>> [E:30803r S:41108 M:255337407 (Ack:155213660)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (14273) chip[IM]: Received status response, status is 0x00
+I (14313) chip[EM]: <<< [E:30803r S:41108 M:155213661 (Ack:255337407)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1199)
+I (14323) chip[EM]: ??1 [E:30803r S:41108 M:155213661] (S) Msg Retransmission to 2:000000000001B669 scheduled for 345ms from now [State:Active II:500 AI:300 AT:4000]
+I (14343) chip[EM]: >>> [E:30803r S:41108 M:255337408 (Ack:155213661)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (14353) chip[IM]: Received status response, status is 0x00
+I (14393) chip[EM]: <<< [E:30803r S:41108 M:155213662 (Ack:255337408)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1200)
+I (14403) chip[EM]: ??1 [E:30803r S:41108 M:155213662] (S) Msg Retransmission to 2:000000000001B669 scheduled for 349ms from now [State:Active II:500 AI:300 AT:4000]
+I (14423) chip[EM]: >>> [E:30803r S:41108 M:255337409 (Ack:155213662)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (14433) chip[IM]: Received status response, status is 0x00
+I (14473) chip[EM]: <<< [E:30803r S:41108 M:155213663 (Ack:255337409)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1198)
+I (14493) chip[EM]: ??1 [E:30803r S:41108 M:155213663] (S) Msg Retransmission to 2:000000000001B669 scheduled for 371ms from now [State:Active II:500 AI:300 AT:4000]
+I (14503) chip[EM]: >>> [E:30803r S:41108 M:255337410 (Ack:155213663)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (14513) chip[IM]: Received status response, status is 0x00
+I (14553) chip[EM]: <<< [E:30803r S:41108 M:155213664 (Ack:255337410)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1203)
+I (14573) chip[EM]: ??1 [E:30803r S:41108 M:155213664] (S) Msg Retransmission to 2:000000000001B669 scheduled for 409ms from now [State:Active II:500 AI:300 AT:4000]
+I (14583) chip[EM]: >>> [E:30803r S:41108 M:255337411 (Ack:155213664)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (14593) chip[IM]: Received status response, status is 0x00
+I (14633) chip[EM]: <<< [E:30803r S:41108 M:155213665 (Ack:255337411)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1183)
+I (14653) chip[EM]: ??1 [E:30803r S:41108 M:155213665] (S) Msg Retransmission to 2:000000000001B669 scheduled for 331ms from now [State:Active II:500 AI:300 AT:4000]
+I (14663) chip[EM]: >>> [E:30803r S:41108 M:255337412 (Ack:155213665)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (14673) chip[IM]: Received status response, status is 0x00
+I (14723) chip[EM]: <<< [E:30803r S:41108 M:155213666 (Ack:255337412)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1204)
+I (14733) chip[EM]: ??1 [E:30803r S:41108 M:155213666] (S) Msg Retransmission to 2:000000000001B669 scheduled for 411ms from now [State:Active II:500 AI:300 AT:4000]
+I (14753) chip[EM]: >>> [E:30803r S:41108 M:255337413 (Ack:155213666)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (14763) chip[IM]: Received status response, status is 0x00
+I (14803) chip[EM]: <<< [E:30803r S:41108 M:155213667 (Ack:255337413)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1209)
+I (14813) chip[EM]: ??1 [E:30803r S:41108 M:155213667] (S) Msg Retransmission to 2:000000000001B669 scheduled for 391ms from now [State:Active II:500 AI:300 AT:4000]
+I (14833) chip[EM]: >>> [E:30803r S:41108 M:255337414 (Ack:155213667)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (14843) chip[IM]: Received status response, status is 0x00
+I (14873) chip[EM]: <<< [E:30803r S:41108 M:155213668 (Ack:255337414)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1204)
+I (14893) chip[EM]: ??1 [E:30803r S:41108 M:155213668] (S) Msg Retransmission to 2:000000000001B669 scheduled for 387ms from now [State:Active II:500 AI:300 AT:4000]
+I (14903) chip[EM]: >>> [E:30803r S:41108 M:255337415 (Ack:155213668)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (14923) chip[IM]: Received status response, status is 0x00
+I (14963) chip[EM]: <<< [E:30803r S:41108 M:155213669 (Ack:255337415)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1188)
+I (14973) chip[EM]: ??1 [E:30803r S:41108 M:155213669] (S) Msg Retransmission to 2:000000000001B669 scheduled for 344ms from now [State:Active II:500 AI:300 AT:4000]
+I (14983) chip[EM]: >>> [E:30803r S:41108 M:255337416 (Ack:155213669)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (15003) chip[IM]: Received status response, status is 0x00
+I (15043) chip[EM]: <<< [E:30803r S:41108 M:155213670 (Ack:255337416)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1185)
+I (15053) chip[EM]: ??1 [E:30803r S:41108 M:155213670] (S) Msg Retransmission to 2:000000000001B669 scheduled for 379ms from now [State:Active II:500 AI:300 AT:4000]
+I (15063) chip[EM]: >>> [E:30803r S:41108 M:255337417 (Ack:155213670)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (15083) chip[IM]: Received status response, status is 0x00
+I (15123) chip[EM]: <<< [E:30803r S:41108 M:155213671 (Ack:255337417)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1199)
+I (15133) chip[EM]: ??1 [E:30803r S:41108 M:155213671] (S) Msg Retransmission to 2:000000000001B669 scheduled for 379ms from now [State:Active II:500 AI:300 AT:4000]
+I (15153) chip[EM]: >>> [E:30803r S:41108 M:255337418 (Ack:155213671)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (15163) chip[IM]: Received status response, status is 0x00
+I (15203) chip[EM]: <<< [E:30803r S:41108 M:155213672 (Ack:255337418)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1200)
+I (15213) chip[EM]: ??1 [E:30803r S:41108 M:155213672] (S) Msg Retransmission to 2:000000000001B669 scheduled for 405ms from now [State:Active II:500 AI:300 AT:4000]
+I (15233) chip[EM]: >>> [E:30803r S:41108 M:255337419 (Ack:155213672)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (15243) chip[IM]: Received status response, status is 0x00
+I (15283) chip[EM]: <<< [E:30803r S:41108 M:155213673 (Ack:255337419)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1198)
+I (15303) chip[EM]: ??1 [E:30803r S:41108 M:155213673] (S) Msg Retransmission to 2:000000000001B669 scheduled for 379ms from now [State:Active II:500 AI:300 AT:4000]
+I (15313) chip[EM]: >>> [E:30803r S:41108 M:255337420 (Ack:155213673)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (15323) chip[IM]: Received status response, status is 0x00
+I (15363) chip[EM]: <<< [E:30803r S:41108 M:155213674 (Ack:255337420)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1203)
+I (15383) chip[EM]: ??1 [E:30803r S:41108 M:155213674] (S) Msg Retransmission to 2:000000000001B669 scheduled for 402ms from now [State:Active II:500 AI:300 AT:4000]
+I (15393) chip[EM]: >>> [E:30803r S:41108 M:255337421 (Ack:155213674)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (15413) chip[IM]: Received status response, status is 0x00
+I (15443) chip[EM]: <<< [E:30803r S:41108 M:155213675 (Ack:255337421)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1183)
+I (15463) chip[EM]: ??1 [E:30803r S:41108 M:155213675] (S) Msg Retransmission to 2:000000000001B669 scheduled for 407ms from now [State:Active II:500 AI:300 AT:4000]
+I (15473) chip[EM]: >>> [E:30803r S:41108 M:255337422 (Ack:155213675)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (15493) chip[IM]: Received status response, status is 0x00
+I (15533) chip[EM]: <<< [E:30803r S:41108 M:155213676 (Ack:255337422)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1204)
+I (15543) chip[EM]: ??1 [E:30803r S:41108 M:155213676] (S) Msg Retransmission to 2:000000000001B669 scheduled for 342ms from now [State:Active II:500 AI:300 AT:4000]
+I (15563) chip[EM]: >>> [E:30803r S:41108 M:255337423 (Ack:155213676)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (15573) chip[IM]: Received status response, status is 0x00
+I (15613) chip[EM]: <<< [E:30803r S:41108 M:155213677 (Ack:255337423)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1209)
+I (15623) chip[EM]: ??1 [E:30803r S:41108 M:155213677] (S) Msg Retransmission to 2:000000000001B669 scheduled for 385ms from now [State:Active II:500 AI:300 AT:4000]
+I (15643) chip[EM]: >>> [E:30803r S:41108 M:255337424 (Ack:155213677)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (15653) chip[IM]: Received status response, status is 0x00
+I (15683) chip[EM]: <<< [E:30803r S:41108 M:155213678 (Ack:255337424)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1204)
+I (15703) chip[EM]: ??1 [E:30803r S:41108 M:155213678] (S) Msg Retransmission to 2:000000000001B669 scheduled for 382ms from now [State:Active II:500 AI:300 AT:4000]
+I (15713) chip[EM]: >>> [E:30803r S:41108 M:255337425 (Ack:155213678)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (15733) chip[IM]: Received status response, status is 0x00
+I (15773) chip[EM]: <<< [E:30803r S:41108 M:155213679 (Ack:255337425)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1188)
+I (15783) chip[EM]: ??1 [E:30803r S:41108 M:155213679] (S) Msg Retransmission to 2:000000000001B669 scheduled for 356ms from now [State:Active II:500 AI:300 AT:4000]
+I (15803) chip[EM]: >>> [E:30803r S:41108 M:255337426 (Ack:155213679)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (15813) chip[IM]: Received status response, status is 0x00
+I (15853) chip[EM]: <<< [E:30803r S:41108 M:155213680 (Ack:255337426)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1185)
+I (15863) chip[EM]: ??1 [E:30803r S:41108 M:155213680] (S) Msg Retransmission to 2:000000000001B669 scheduled for 381ms from now [State:Active II:500 AI:300 AT:4000]
+I (15873) chip[EM]: >>> [E:30803r S:41108 M:255337427 (Ack:155213680)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (15893) chip[IM]: Received status response, status is 0x00
+I (15933) chip[EM]: <<< [E:30803r S:41108 M:155213681 (Ack:255337427)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1199)
+I (15943) chip[EM]: ??1 [E:30803r S:41108 M:155213681] (S) Msg Retransmission to 2:000000000001B669 scheduled for 359ms from now [State:Active II:500 AI:300 AT:4000]
+I (15953) chip[EM]: >>> [E:30803r S:41108 M:255337428 (Ack:155213681)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (15973) chip[IM]: Received status response, status is 0x00
+I (16013) chip[EM]: <<< [E:30803r S:41108 M:155213682 (Ack:255337428)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1200)
+I (16023) chip[EM]: ??1 [E:30803r S:41108 M:155213682] (S) Msg Retransmission to 2:000000000001B669 scheduled for 342ms from now [State:Active II:500 AI:300 AT:4000]
+I (16033) chip[EM]: >>> [E:30803r S:41108 M:255337429 (Ack:155213682)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (16053) chip[IM]: Received status response, status is 0x00
+I (16093) chip[EM]: <<< [E:30803r S:41108 M:155213683 (Ack:255337429)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1198)
+I (16103) chip[EM]: ??1 [E:30803r S:41108 M:155213683] (S) Msg Retransmission to 2:000000000001B669 scheduled for 400ms from now [State:Active II:500 AI:300 AT:4000]
+I (16113) chip[EM]: >>> [E:30803r S:41108 M:255337430 (Ack:155213683)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (16133) chip[IM]: Received status response, status is 0x00
+I (16173) chip[EM]: <<< [E:30803r S:41108 M:155213684 (Ack:255337430)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1203)
+I (16183) chip[EM]: ??1 [E:30803r S:41108 M:155213684] (S) Msg Retransmission to 2:000000000001B669 scheduled for 386ms from now [State:Active II:500 AI:300 AT:4000]
+I (16203) chip[EM]: >>> [E:30803r S:41108 M:255337431 (Ack:155213684)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (16213) chip[IM]: Received status response, status is 0x00
+I (16253) chip[EM]: <<< [E:30803r S:41108 M:155213685 (Ack:255337431)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1183)
+I (16263) chip[EM]: ??1 [E:30803r S:41108 M:155213685] (S) Msg Retransmission to 2:000000000001B669 scheduled for 352ms from now [State:Active II:500 AI:300 AT:4000]
+I (16283) chip[EM]: >>> [E:30803r S:41108 M:255337432 (Ack:155213685)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (16293) chip[IM]: Received status response, status is 0x00
+I (16333) chip[EM]: <<< [E:30803r S:41108 M:155213686 (Ack:255337432)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1204)
+I (16343) chip[EM]: ??1 [E:30803r S:41108 M:155213686] (S) Msg Retransmission to 2:000000000001B669 scheduled for 353ms from now [State:Active II:500 AI:300 AT:4000]
+I (16363) chip[EM]: >>> [E:30803r S:41108 M:255337433 (Ack:155213686)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (16373) chip[IM]: Received status response, status is 0x00
+I (16413) chip[EM]: <<< [E:30803r S:41108 M:155213687 (Ack:255337433)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1209)
+I (16423) chip[EM]: ??1 [E:30803r S:41108 M:155213687] (S) Msg Retransmission to 2:000000000001B669 scheduled for 332ms from now [State:Active II:500 AI:300 AT:4000]
+I (16443) chip[EM]: >>> [E:30803r S:41108 M:255337434 (Ack:155213687)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (16453) chip[IM]: Received status response, status is 0x00
+I (16483) chip[EM]: <<< [E:30803r S:41108 M:155213688 (Ack:255337434)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1204)
+I (16503) chip[EM]: ??1 [E:30803r S:41108 M:155213688] (S) Msg Retransmission to 2:000000000001B669 scheduled for 409ms from now [State:Active II:500 AI:300 AT:4000]
+I (16513) chip[EM]: >>> [E:30803r S:41108 M:255337435 (Ack:155213688)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (16533) chip[IM]: Received status response, status is 0x00
+I (16573) chip[EM]: <<< [E:30803r S:41108 M:155213689 (Ack:255337435)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1188)
+I (16583) chip[EM]: ??1 [E:30803r S:41108 M:155213689] (S) Msg Retransmission to 2:000000000001B669 scheduled for 349ms from now [State:Active II:500 AI:300 AT:4000]
+I (16593) chip[EM]: >>> [E:30803r S:41108 M:255337436 (Ack:155213689)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (16613) chip[IM]: Received status response, status is 0x00
+I (16643) chip[EM]: <<< [E:30803r S:41108 M:155213690 (Ack:255337436)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1185)
+I (16663) chip[EM]: ??1 [E:30803r S:41108 M:155213690] (S) Msg Retransmission to 2:000000000001B669 scheduled for 339ms from now [State:Active II:500 AI:300 AT:4000]
+I (16673) chip[EM]: >>> [E:30803r S:41108 M:255337437 (Ack:155213690)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (16683) chip[IM]: Received status response, status is 0x00
+I (16723) chip[EM]: <<< [E:30803r S:41108 M:155213691 (Ack:255337437)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1199)
+I (16743) chip[EM]: ??1 [E:30803r S:41108 M:155213691] (S) Msg Retransmission to 2:000000000001B669 scheduled for 357ms from now [State:Active II:500 AI:300 AT:4000]
+I (16753) chip[EM]: >>> [E:30803r S:41108 M:255337438 (Ack:155213691)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (16763) chip[IM]: Received status response, status is 0x00
+I (16803) chip[EM]: <<< [E:30803r S:41108 M:155213692 (Ack:255337438)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1200)
+I (16823) chip[EM]: ??1 [E:30803r S:41108 M:155213692] (S) Msg Retransmission to 2:000000000001B669 scheduled for 411ms from now [State:Active II:500 AI:300 AT:4000]
+I (16833) chip[EM]: >>> [E:30803r S:41108 M:255337439 (Ack:155213692)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (16843) chip[IM]: Received status response, status is 0x00
+I (16883) chip[EM]: <<< [E:30803r S:41108 M:155213693 (Ack:255337439)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1198)
+I (16903) chip[EM]: ??1 [E:30803r S:41108 M:155213693] (S) Msg Retransmission to 2:000000000001B669 scheduled for 372ms from now [State:Active II:500 AI:300 AT:4000]
+I (16913) chip[EM]: >>> [E:30803r S:41108 M:255337440 (Ack:155213693)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (16923) chip[IM]: Received status response, status is 0x00
+I (16963) chip[EM]: <<< [E:30803r S:41108 M:155213694 (Ack:255337440)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1203)
+I (16983) chip[EM]: ??1 [E:30803r S:41108 M:155213694] (S) Msg Retransmission to 2:000000000001B669 scheduled for 355ms from now [State:Active II:500 AI:300 AT:4000]
+I (16993) chip[EM]: >>> [E:30803r S:41108 M:255337441 (Ack:155213694)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (17003) chip[IM]: Received status response, status is 0x00
+I (17043) chip[EM]: <<< [E:30803r S:41108 M:155213695 (Ack:255337441)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1183)
+I (17053) chip[EM]: ??1 [E:30803r S:41108 M:155213695] (S) Msg Retransmission to 2:000000000001B669 scheduled for 344ms from now [State:Active II:500 AI:300 AT:4000]
+I (17073) chip[EM]: >>> [E:30803r S:41108 M:255337442 (Ack:155213695)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (17083) chip[IM]: Received status response, status is 0x00
+I (17123) chip[EM]: <<< [E:30803r S:41108 M:155213696 (Ack:255337442)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1204)
+I (17143) chip[EM]: ??1 [E:30803r S:41108 M:155213696] (S) Msg Retransmission to 2:000000000001B669 scheduled for 357ms from now [State:Active II:500 AI:300 AT:4000]
+I (17153) chip[EM]: >>> [E:30803r S:41108 M:255337443 (Ack:155213696)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (17163) chip[IM]: Received status response, status is 0x00
+I (17203) chip[EM]: <<< [E:30803r S:41108 M:155213697 (Ack:255337443)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1209)
+I (17213) chip[EM]: ??1 [E:30803r S:41108 M:155213697] (S) Msg Retransmission to 2:000000000001B669 scheduled for 378ms from now [State:Active II:500 AI:300 AT:4000]
+I (17233) chip[EM]: >>> [E:30803r S:41108 M:255337444 (Ack:155213697)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (17243) chip[IM]: Received status response, status is 0x00
+I (17273) chip[EM]: <<< [E:30803r S:41108 M:155213698 (Ack:255337444)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1204)
+I (17293) chip[EM]: ??1 [E:30803r S:41108 M:155213698] (S) Msg Retransmission to 2:000000000001B669 scheduled for 384ms from now [State:Active II:500 AI:300 AT:4000]
+I (17303) chip[EM]: >>> [E:30803r S:41108 M:255337445 (Ack:155213698)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (17323) chip[IM]: Received status response, status is 0x00
+I (17363) chip[EM]: <<< [E:30803r S:41108 M:155213699 (Ack:255337445)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1188)
+I (17373) chip[EM]: ??1 [E:30803r S:41108 M:155213699] (S) Msg Retransmission to 2:000000000001B669 scheduled for 397ms from now [State:Active II:500 AI:300 AT:4000]
+I (17383) chip[EM]: >>> [E:30803r S:41108 M:255337446 (Ack:155213699)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (17403) chip[IM]: Received status response, status is 0x00
+I (17433) chip[EM]: <<< [E:30803r S:41108 M:155213700 (Ack:255337446)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1185)
+I (17453) chip[EM]: ??1 [E:30803r S:41108 M:155213700] (S) Msg Retransmission to 2:000000000001B669 scheduled for 363ms from now [State:Active II:500 AI:300 AT:4000]
+I (17463) chip[EM]: >>> [E:30803r S:41108 M:255337447 (Ack:155213700)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (17473) chip[IM]: Received status response, status is 0x00
+I (17513) chip[EM]: <<< [E:30803r S:41108 M:155213701 (Ack:255337447)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1199)
+I (17533) chip[EM]: ??1 [E:30803r S:41108 M:155213701] (S) Msg Retransmission to 2:000000000001B669 scheduled for 363ms from now [State:Active II:500 AI:300 AT:4000]
+I (17543) chip[EM]: >>> [E:30803r S:41108 M:255337448 (Ack:155213701)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (17553) chip[IM]: Received status response, status is 0x00
+I (17593) chip[EM]: <<< [E:30803r S:41108 M:155213702 (Ack:255337448)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1200)
+I (17603) chip[EM]: ??1 [E:30803r S:41108 M:155213702] (S) Msg Retransmission to 2:000000000001B669 scheduled for 363ms from now [State:Active II:500 AI:300 AT:4000]
+I (17623) chip[EM]: >>> [E:30803r S:41108 M:255337449 (Ack:155213702)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (17633) chip[IM]: Received status response, status is 0x00
+I (17673) chip[EM]: <<< [E:30803r S:41108 M:155213703 (Ack:255337449)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1198)
+I (17683) chip[EM]: ??1 [E:30803r S:41108 M:155213703] (S) Msg Retransmission to 2:000000000001B669 scheduled for 367ms from now [State:Active II:500 AI:300 AT:4000]
+I (17703) chip[EM]: >>> [E:30803r S:41108 M:255337450 (Ack:155213703)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (17713) chip[IM]: Received status response, status is 0x00
+I (17753) chip[EM]: <<< [E:30803r S:41108 M:155213704 (Ack:255337450)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1203)
+I (17763) chip[EM]: ??1 [E:30803r S:41108 M:155213704] (S) Msg Retransmission to 2:000000000001B669 scheduled for 362ms from now [State:Active II:500 AI:300 AT:4000]
+I (17783) chip[EM]: >>> [E:30803r S:41108 M:255337451 (Ack:155213704)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (17793) chip[IM]: Received status response, status is 0x00
+I (17823) chip[EM]: <<< [E:30803r S:41108 M:155213705 (Ack:255337451)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1183)
+I (17843) chip[EM]: ??1 [E:30803r S:41108 M:155213705] (S) Msg Retransmission to 2:000000000001B669 scheduled for 348ms from now [State:Active II:500 AI:300 AT:4000]
+I (17853) chip[EM]: >>> [E:30803r S:41108 M:255337452 (Ack:155213705)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (17863) chip[IM]: Received status response, status is 0x00
+I (17903) chip[EM]: <<< [E:30803r S:41108 M:155213706 (Ack:255337452)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:1199)
+I (17923) chip[EM]: ??1 [E:30803r S:41108 M:155213706] (S) Msg Retransmission to 2:000000000001B669 scheduled for 357ms from now [State:Active II:500 AI:300 AT:4000]
+I (17933) chip[EM]: >>> [E:30803r S:41108 M:255337453 (Ack:155213706)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (17943) chip[IM]: Received status response, status is 0x00
+I (17953) chip[EM]: <<< [E:30803r S:41108 M:155213707 (Ack:255337453)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:84)
+I (17973) chip[EM]: ??1 [E:30803r S:41108 M:155213707] (S) Msg Retransmission to 2:000000000001B669 scheduled for 343ms from now [State:Active II:500 AI:300 AT:4000]
+I (17993) chip[EM]: >>> [E:30803r S:41108 M:255337454 (Ack:155213707)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (18003) chip[IM]: Received status response, status is 0x00
+I (18003) chip[EM]: <<< [E:30803r S:41108 M:155213708 (Ack:255337454)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:04 (IM:SubscribeResponse) (B:48)
+I (18023) chip[EM]: ??1 [E:30803r S:41108 M:155213708] (S) Msg Retransmission to 2:000000000001B669 scheduled for 409ms from now [State:Active II:500 AI:300 AT:4000]
+I (18033) chip[DMG]: Registered a ReadHandler that will schedule a report between system Timestamp: 0x000000000000464C and system Timestamp 0x0000000000012CC4.
+I (18053) chip[EM]: >>> [E:30803r S:41108 M:255337455 (Ack:155213708)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)
+I (19173) chip[EM]: <<< [E:1075i S:41108 M:155213709] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0001:05 (IM:ReportData) (B:70)
+I (19183) chip[EM]: ??1 [E:1075i S:41108 M:155213709] (S) Msg Retransmission to 2:000000000001B669 scheduled for 381ms from now [State:Active II:500 AI:300 AT:4000]
+I (19213) chip[EM]: >>> [E:1075i S:41108 M:255337456 (Ack:155213709)] (S) Msg RX from 2:000000000001B669 [C4F9] to 0000000000000006 --- Type 0001:01 (IM:StatusResponse) (B:42)
+I (19223) chip[IM]: Received status response, status is 0x00
+I (19223) chip[EM]: <<< [E:1075i S:41108 M:155213710 (Ack:255337456)] (S) Msg TX from 0000000000000006 to 2:000000000001B669 [C4F9] [UDP:192.168.188.148:38391] --- Type 0000:10 (SecureChannel:StandaloneAck) (B:34)

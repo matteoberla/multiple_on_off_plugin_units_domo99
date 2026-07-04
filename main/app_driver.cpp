@@ -233,6 +233,70 @@ esp_err_t app_driver_serial_init(void) {
   return ESP_OK;
 }
 
+// ---------------------------------------------------------------------------
+// Helper: parse and apply a single "on,XX" or "of,XX" token to Matter state
+// Returns true if a valid command was found and processed.
+// ---------------------------------------------------------------------------
+static bool parse_and_apply_state(const char *token) {
+  const char *p = NULL;
+  bool new_state = false;
+  bool found = false;
+  bool is_monostable_cmd = false;
+
+  if ((p = strstr(token, "on,")) != NULL) {
+    new_state = true;
+    found = true;
+    is_monostable_cmd = false;
+  } else if ((p = strstr(token, "of,")) != NULL) {
+    new_state = false;
+    found = true;
+    is_monostable_cmd = false;
+  } else if ((p = strstr(token, "za,")) != NULL) {
+    new_state = true;
+    found = true;
+    is_monostable_cmd = true;
+  } else if ((p = strstr(token, "zs,")) != NULL) {
+    new_state = false;
+    found = true;
+    is_monostable_cmd = true;
+  }
+
+  if (!found) return false;
+
+  int raw_idx = atoi(p + 3);
+  int idx = is_monostable_cmd ? (raw_idx + NUM_BISTABLE_PLUGS) : raw_idx;
+
+  ESP_LOGI(TAG, "parse_and_apply_state: Raw Index %d, Final Index %d, State: %s",
+           raw_idx, idx, new_state ? "ON" : "OFF");
+
+  if (idx >= 1 && idx <= TOTAL_PLUG_COUNT) {
+    uint16_t ep_id = plugin_unit_list[idx].endpoint_id;
+    if (ep_id != 0xFFFF) {
+      if (plug_states[idx] != new_state) {
+        plug_states[idx] = new_state;
+        esp_matter_attr_val_t val = esp_matter_bool(new_state);
+        ESP_LOGI(TAG, "parse_and_apply_state: Updating Attribute EP %d to %s",
+                 ep_id, new_state ? "ON" : "OFF");
+        esp_matter::lock::ScopedChipStackLock lock(portMAX_DELAY);
+        esp_err_t err = attribute::update(
+            ep_id, OnOff::Id, OnOff::Attributes::OnOff::Id, &val);
+        if (err != ESP_OK) {
+          ESP_LOGE(TAG, "parse_and_apply_state: Failed to update EP %d, err: %d",
+                   ep_id, err);
+        }
+      } else {
+        ESP_LOGI(TAG, "parse_and_apply_state: Index %d already %s, skipping",
+                 idx, new_state ? "ON" : "OFF");
+      }
+    } else {
+      ESP_LOGW(TAG, "parse_and_apply_state: Index %d has no endpoint ID", idx);
+    }
+  } else {
+    ESP_LOGW(TAG, "parse_and_apply_state: Invalid index %d", idx);
+  }
+  return true;
+}
+
 // Improved RX task with buffered reader ending on CR (0x0d) or LF (0x0a)
 static void serial_rx_task(void *arg) {
   uint8_t rx_byte;
@@ -251,67 +315,15 @@ static void serial_rx_task(void *arg) {
           
           ESP_LOGI(TAG, "Serial RX Complete Command (%d bytes): [%s]", rx_index, rx_buffer);
 
-          char *p = NULL;
-          bool new_state = false;
-          bool found = false;
-          bool is_monostable_cmd = false;
-
-          if ((p = strstr(rx_buffer, "on,")) != NULL) {
-            new_state = true;
-            found = true;
-            is_monostable_cmd = false;
-          } else if ((p = strstr(rx_buffer, "of,")) != NULL) {
-            new_state = false;
-            found = true;
-            is_monostable_cmd = false;
-          } else if ((p = strstr(rx_buffer, "za,")) != NULL) {
-            new_state = true;
-            found = true;
-            is_monostable_cmd = true;
-          } else if ((p = strstr(rx_buffer, "zs,")) != NULL) {
-            new_state = false;
-            found = true;
-            is_monostable_cmd = true;
-          }
-
-          if (found) {
-            int raw_idx = atoi(p + 3);
-            int idx = is_monostable_cmd ? (raw_idx + NUM_BISTABLE_PLUGS) : raw_idx;
-
-            ESP_LOGI(TAG, "Serial RX Task: Parsed Raw Index %d, Final Index %d, New State: %s", 
-                     raw_idx, idx, new_state ? "ON" : "OFF");
-
-            if (idx >= 1 && idx <= TOTAL_PLUG_COUNT) {
-              uint16_t ep_id = plugin_unit_list[idx].endpoint_id;
-              if (ep_id != 0xFFFF) {
-                if (plug_states[idx] != new_state) {
-                  plug_states[idx] = new_state;
-                  esp_matter_attr_val_t val = esp_matter_bool(new_state);
-                  ESP_LOGI(TAG,
-                           "Serial RX Task: Updating Attribute Endpoint %d to %s",
-                           ep_id, new_state ? "ON" : "OFF");
-
-                  esp_matter::lock::ScopedChipStackLock lock(portMAX_DELAY);
-                  esp_err_t err = attribute::update(
-                      ep_id, OnOff::Id, OnOff::Attributes::OnOff::Id, &val);
-                  if (err != ESP_OK) {
-                    ESP_LOGE(TAG,
-                             "Failed to update Matter attribute for EP %d, err: %d",
-                             ep_id, err);
-                  }
-                } else {
-                  ESP_LOGI(TAG,
-                           "Serial RX Task: Index %d already in state %s, skipping",
-                           idx, new_state ? "ON" : "OFF");
-                }
-              } else {
-                ESP_LOGW(TAG,
-                         "Serial RX Task: Index %d has no endpoint ID assigned",
-                         idx);
-              }
-            } else {
-              ESP_LOGW(TAG, "Serial RX Task: Invalid index %d", idx);
-            }
+          // La risposta a acc,00@ arriva come "on,01|on,05|on,06" (separata da '|').
+          // Un comando normale arriva come singolo token "on,XX" o "of,XX".
+          // In entrambi i casi il terminatore è 0x0d: tokenizziamo su '|' e
+          // processiamo ogni token con l'helper parse_and_apply_state().
+          char *saveptr = NULL;
+          char *token = strtok_r(rx_buffer, "|", &saveptr);
+          while (token != NULL) {
+            parse_and_apply_state(token);
+            token = strtok_r(NULL, "|", &saveptr);
           }
           rx_index = 0; // Reset buffer index after processing
         }
@@ -330,6 +342,26 @@ static void serial_rx_task(void *arg) {
 
 esp_err_t app_driver_serial_start_rx_task(void) {
   xTaskCreate(serial_rx_task, "serial_rx", 4096, NULL, 5, NULL);
+  return ESP_OK;
+}
+
+/**
+ * @brief Invia il comando acc,00@ al dispositivo seriale.
+ *
+ * Questo comando speciale chiede al dispositivo di rispondere con tutti gli
+ * stati ON attualmente attivi, in formato "on,01|on,05|on,06\r".
+ * Va chiamato dopo che il sistema è completamente inizializzato (Matter avviato
+ * e RX task in esecuzione) in modo che la risposta venga correttamente
+ * processata dal serial_rx_task.
+ */
+esp_err_t app_driver_serial_send_query_all(void) {
+  const char *cmd = "acc,00@";
+  int written = uart_write_bytes(UART_PORT, cmd, strlen(cmd));
+  if (written < 0) {
+    ESP_LOGE(TAG, "app_driver_serial_send_query_all: uart_write_bytes failed");
+    return ESP_FAIL;
+  }
+  ESP_LOGI(TAG, "Serial TX Query-All: %s (%d bytes)", cmd, written);
   return ESP_OK;
 }
 

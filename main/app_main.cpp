@@ -368,6 +368,12 @@ extern "C" void app_main() {
   /* Start serial RX task */
   app_driver_serial_start_rx_task();
 
+  /* Invia acc,00@ per sincronizzare lo stato iniziale di tutti i canali.
+   * Un piccolo delay assicura che l'RX task sia già schedulato e pronto
+   * a ricevere la risposta multi-stato "on,01|on,05|...\r" dal dispositivo. */
+  vTaskDelay(pdMS_TO_TICKS(100));
+  app_driver_serial_send_query_all();
+
 #if CONFIG_ENABLE_CHIP_SHELL
   esp_matter::console::diagnostics_register_commands();
   esp_matter::console::wifi_register_commands();

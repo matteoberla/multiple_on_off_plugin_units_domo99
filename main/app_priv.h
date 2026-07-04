@@ -81,6 +81,11 @@ void app_driver_led_set_state(app_led_state_t state);
 // Serial functions
 esp_err_t app_driver_serial_init(void);
 esp_err_t app_driver_serial_start_rx_task(void);
+/**
+ * @brief Invia il comando acc,00@ per richiedere tutti gli stati ON attivi.
+ * Deve essere chiamata dopo l'avvio di Matter e del serial RX task.
+ */
+esp_err_t app_driver_serial_send_query_all(void);
 
 #if CHIP_DEVICE_CONFIG_ENABLE_THREAD
 #define ESP_OPENTHREAD_DEFAULT_RADIO_CONFIG()                                  \
