@@ -79,19 +79,19 @@ reflash_fctry_e_nvs() {
 # OPZIONE E — Genera immagine unica (merged bin) da flashare a 0x0
 #   Contiene: bootloader, partition table, ota_data, firmware, fctry.
 #   NVS resta a 0xFF → il device parte in modalità commissioning.
-#   Output: provisioning_assets/domo99_full.bin
-#   Flash:  esptool.py --chip esp32s3 write_flash --erase-all 0x0 domo99_full.bin
+#   Output: provisioning_assets/domo99_matter.bin
+#   Flash:  esptool.py --chip esp32s3 write_flash --erase-all 0x0 domo99_matter.bin
 # -----------------------------------------------------------------------------
 genera_merged() {
   echo "=== [E] Generazione immagine unica ==="
-  esptool.py --chip esp32s3 merge_bin -o provisioning_assets/domo99_full.bin \
+  esptool.py --chip esp32s3 merge_bin -o provisioning_assets/domo99_matter.bin \
     $FLASH_ARGS \
     0x0      build/bootloader/bootloader.bin \
     0xc000   build/partition_table/partition-table.bin \
     0x51000  build/ota_data_initial.bin \
     0x60000  build/multiple_on_off_plugin_units.bin \
     0x3C0000 provisioning_assets/fff1_8000_domo99_partition.bin
-  ls -l provisioning_assets/domo99_full.bin
+  ls -l provisioning_assets/domo99_matter.bin
 }
 
 # -----------------------------------------------------------------------------
