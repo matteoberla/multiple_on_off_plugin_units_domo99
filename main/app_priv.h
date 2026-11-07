@@ -87,6 +87,16 @@ esp_err_t app_driver_serial_start_rx_task(void);
  */
 esp_err_t app_driver_serial_send_query_all(void);
 
+/** Stato di un canale confermato dalla seriale (on,XX / of,XX / za,XX / zs,XX).
+ *  idx: 1..TOTAL_PLUG_COUNT (i monostabili partono da NUM_BISTABLE_PLUGS+1). */
+bool app_driver_get_confirmed_state(int idx);
+
+/** Invia un comando da web: type 'A' -> acc,NN@ ; type 'Z' -> zcc,NN@ */
+esp_err_t app_driver_send_web_command(char type, int num);
+
+/** Avvia il web server (no-op se CONFIG_ENABLE_WEBSERVER=n o già avviato). */
+void app_webserver_start(void);
+
 #if CHIP_DEVICE_CONFIG_ENABLE_THREAD
 #define ESP_OPENTHREAD_DEFAULT_RADIO_CONFIG()                                  \
   {                                                                            \

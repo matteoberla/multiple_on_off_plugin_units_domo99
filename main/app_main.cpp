@@ -69,6 +69,8 @@ static void app_event_cb(const ChipDeviceEvent *event, intptr_t arg) {
     // Con IP statico (DHCP reservation) l'IP non cambia → DnssdServer non riparte
     // → HA non riesce a riscoprire il device dopo il suo riavvio.
     chip::app::DnssdServer::Instance().StartServer();
+    // Web server (no-op se disabilitato o già avviato): serve l'IP, quindi parte qui.
+    app_webserver_start();
     // Aggiorna il LED: abbiamo un IP → siamo connessi (o in commissioning se non abbiamo fabric)
     if (chip::Server::GetInstance().GetFabricTable().FabricCount() > 0) {
       app_driver_led_set_state(APP_LED_CONNECTED);

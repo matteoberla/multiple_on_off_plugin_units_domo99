@@ -35,4 +35,13 @@ menu "Plugin manager"
         help
            GPIO number used for UART1 RX (Default 5)
 
+    config ENABLE_WEBSERVER
+        bool "Enable HTTP web server (/AXX, /ZXX commands and status page)"
+        default y
+        help
+            Starts an HTTP server on port 80 once the device has an IP address.
+            GET /AXX (A01..) sends acc,XX@ ; GET /ZXX sends zcc,XX@ ;
+            GET / returns the list of LEDxxON/OFF states (confirmed by serial).
+            No authentication. Disable to remove the whole feature from the build.
+
 endmenu

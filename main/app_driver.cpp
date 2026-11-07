@@ -181,6 +181,11 @@ void app_driver_led_set_state(app_led_state_t state)
 
 // State array tracking OnOff status locally for TOTAL_PLUG_COUNT + 1 plugs
 static bool plug_states[TOTAL_PLUG_COUNT + 1] = {false};
+// Stato confermato dalla seriale (usato dalla pagina web). Diverso da
+// plug_states, che viene aggiornato anche al momento dell'invio del comando.
+static volatile bool confirmed_states[TOTAL_PLUG_COUNT + 1] = {false};
+
+
 
 // UART used for serial commands - using UART1 to separate from console logs
 #define UART_PORT UART_NUM_1
@@ -195,6 +200,24 @@ static bool plug_states[TOTAL_PLUG_COUNT + 1] = {false};
 
 #define UART_TX_PIN CONFIG_SERIAL_UART_TX_PIN
 #define UART_RX_PIN CONFIG_SERIAL_UART_RX_PIN
+
+bool app_driver_get_confirmed_state(int idx) {
+  return (idx >= 1 && idx <= TOTAL_PLUG_COUNT) ? confirmed_states[idx] : false;
+}
+
+esp_err_t app_driver_send_web_command(char type, int num) {
+  char cmd[16];
+  if (type == 'A' && num >= 1 && num <= NUM_BISTABLE_PLUGS) {
+    snprintf(cmd, sizeof(cmd), "acc,%02d@", num);
+  } else if (type == 'Z' && num >= 1 && num <= NUM_MONOSTABLE_PLUGS) {
+    snprintf(cmd, sizeof(cmd), "zcc,%02d@", num);
+  } else {
+    return ESP_ERR_INVALID_ARG;
+  }
+  int w = uart_write_bytes(UART_PORT, cmd, strlen(cmd));
+  ESP_LOGI(TAG, "Web command -> Serial TX: %s", cmd);
+  return w < 0 ? ESP_FAIL : ESP_OK;
+}
 
 esp_err_t app_driver_serial_init(void) {
   uart_config_t uart_config = {
@@ -270,6 +293,7 @@ static bool parse_and_apply_state(const char *token) {
            raw_idx, idx, new_state ? "ON" : "OFF");
 
   if (idx >= 1 && idx <= TOTAL_PLUG_COUNT) {
+    confirmed_states[idx] = new_state;
     uint16_t ep_id = plugin_unit_list[idx].endpoint_id;
     if (ep_id != 0xFFFF) {
       if (plug_states[idx] != new_state) {
